@@ -1,4 +1,5 @@
 import { fetch, write } from "bun";
+import { writeStringToFile } from "../io";
 
 interface WriteResponseToFileArgs {
   url: string | URL;
@@ -27,6 +28,12 @@ export const writeResponseToFile = async ({
     headers,
     method,
   });
-  await write(filePath, result);
-
+  console.log({ result });
+  const resultJson = await result.json();
+  const resultJsonString = JSON.stringify(resultJson);
+  const bytes = await writeStringToFile({
+    data: resultJsonString,
+    filePath,
+  });
+  return bytes;
 };

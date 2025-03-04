@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "paths": {
+      "@lib/*": ["./lib/*"],
+      "@utils/*": ["./utils/*"],
+      "@schemas/*": ["./schemas/*"]
+    },
     // ! Resolve JSON as js objects
     "resolveJsonModule": true,
     // Enable latest features
