@@ -51,22 +51,11 @@ async function quicktypeJSONSchema(
   });
 }
 
-async function main() {
-  const jsonString = "[]";
-  const jsonSchemaString = "[]";
-  const { lines: swiftPerson } = await quicktypeJSON(
-    "swift",
-    "Person",
-    jsonString
-  );
-  console.log(swiftPerson.join("\n"));
-
-  const { lines: pythonPerson } = await quicktypeJSONSchema(
-    "python",
-    "Person",
-    jsonSchemaString
-  );
-  console.log(pythonPerson.join("\n"));
+export async function getModelDefinitionString(
+  modleName: string,
+  jsonString: string,
+  language: TargetLanguage | string = "typescript"
+) {
+  const { lines: model } = await quicktypeJSON(language, modleName, jsonString);
+  return model.join("\n");
 }
-
-main();
