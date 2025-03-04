@@ -1,0 +1,14 @@
+{
+  "name": "portal-api-schemas",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "quicktype-core": "^23.0.171"
+  }
+}
