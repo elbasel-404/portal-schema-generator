@@ -1,9 +1,6 @@
 {
-  "name": "portal-api-schemas",
+  "name": "portal-api-gen",
   "version": "1.0.0",
-  "description": "Schemas for the portal API",
-  "module": "index.ts",
-  "type": "module",
   "scripts": {
     "generate": "bun ./scripts/generate.ts"
   },
