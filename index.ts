@@ -1,1 +1,1 @@
-import "./export/index";
+import "./scripts/index";
