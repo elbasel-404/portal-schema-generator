@@ -1,2 +1,2 @@
-export { getModelDefinitionString } from "./getModelDefinitionString";
+export { getModelInterface } from "./getModelInterface";
 export { getModelZodSchema } from "./getModelZodSchema";

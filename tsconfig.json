@@ -3,7 +3,8 @@
     "paths": {
       "@lib/*": ["./lib/*"],
       "@utils/*": ["./utils/*"],
-      "@schemas/*": ["./schemas/*"]
+      "@schemas/*": ["./schemas/*"],
+      "@models/*": ["./models/*"]
     },
     // ! Resolve JSON as js objects
     "resolveJsonModule": true,
