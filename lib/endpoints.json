@@ -1,0 +1,14 @@
+[
+  {
+    "name": "holiday",
+    "url": "hr/holidays/request",
+    "method": "POST",
+    "description": "Get holiday requests",
+    "listRequestBody": {
+      "employee_id": 1711
+    },
+    "detailsRequestBody": {
+      "id": 16765
+    }
+  }
+]

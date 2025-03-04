@@ -9,6 +9,7 @@
     "typescript": "^5"
   },
   "dependencies": {
-    "quicktype-core": "^23.0.171"
+    "quicktype-core": "^23.0.171",
+    "zod": "^3.24.2"
   }
 }

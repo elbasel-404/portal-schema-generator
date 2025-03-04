@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    // ! Resolve JSON as js objects
+    "resolveJsonModule": true,
     // Enable latest features
     "lib": ["ESNext", "DOM"],
     "target": "ESNext",
