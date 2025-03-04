@@ -1,7 +1,7 @@
 import * as z from "zod";
 
 
-export const HolidaySchemaElementSchema = z.object({
+export const HolidayElementSchema = z.object({
     "id": z.number(),
     "payslip_status": z.boolean(),
     "report_note": z.boolean(),
@@ -111,4 +111,4 @@ export const HolidaySchemaElementSchema = z.object({
     "display_name": z.string(),
     "__last_update": z.coerce.date(),
 });
-export type HolidaySchemaElement = z.infer<typeof HolidaySchemaElementSchema>;
+export type HolidayElement = z.infer<typeof HolidayElementSchema>;
