@@ -1,9 +1,9 @@
 {
   "name": "portal-api-gen",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "type": "module",
-  "module": "./models/index.ts",
-  "main": "./models/index.ts",
+  "module": "./out/index.js",
+  "main": "./out/index.js",
   "scripts": {
     "generate": "bun ./scripts/generate.ts"
   },
