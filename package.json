@@ -2,6 +2,9 @@
   "name": "portal-api-schemas",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "generate": "bun ./scripts/generate.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },

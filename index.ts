@@ -1,1 +1,4 @@
-import "./scripts/index";
+export {
+  type HolidayElement,
+  HolidayElementSchema,
+} from "@models/holiday/schema";
