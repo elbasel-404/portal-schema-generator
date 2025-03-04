@@ -1,5 +1,7 @@
 {
   "name": "portal-api-schemas",
+  "version": "1.0.0",
+  "description": "Schemas for the portal API",
   "module": "index.ts",
   "type": "module",
   "scripts": {
