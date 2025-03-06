@@ -1,9 +1,8 @@
 {
   "name": "portal-api-gen",
-  "version": "1.0.7",
+  "version": "1.0.8.9",
   "type": "module",
-  "module": "./out/index.js",
-  "main": "./out/index.js",
+  "module": "./models/index.ts",
   "scripts": {
     "generate": "bun ./scripts/generate.ts"
   },
@@ -16,5 +15,6 @@
   "dependencies": {
     "quicktype-core": "^23.0.171",
     "zod": "^3.24.2"
-  }
+  },
+  "packageManager": "pnpm@10.5.2+sha512.da9dc28cd3ff40d0592188235ab25d3202add8a207afbedc682220e4a0029ffbff4562102b9e6e46b4e3f9e8bd53e6d05de48544b0c57d4b0179e22c76d1199b"
 }
