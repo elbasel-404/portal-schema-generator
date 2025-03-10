@@ -3,6 +3,10 @@ import { getFetchHeaders, getFetchUrl } from "@utils/http";
 import { writeStringToFile } from "@utils/io";
 import { getModelInterface, getModelZodSchema } from "@utils/model";
 
+const SCHEMAS_DIR = "../schemas";
+const TYPES_DIR = "../types";
+const JSON_DIR = "../json";
+
 import endpoints from "@lib/endpoints.json";
 
 const fetchHeaders = getFetchHeaders();
@@ -17,13 +21,7 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
   const responseJson = await response.json();
   const responseJsonString = JSON.stringify(responseJson, null, 2);
 
-  // console.log({
-  //   name,
-  //   responseJson,
-  // });
-
-  // const responseJsonFilePath = `./models/${name}/json/raw.json`;
-  const responseJsonFilePath = `./json/${name}/raw.json`;
+  const responseJsonFilePath = `./${JSON_DIR}/${name}/raw.json`;
   await writeStringToFile({
     filePath: responseJsonFilePath,
     data: responseJsonString,
@@ -43,15 +41,14 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
   // });
 
   const dataJsonString = JSON.stringify(data, null, 2);
-  // const dataJsonFilePath = `./models/${name}/json/data.json`;
-  const dataJsonFilePath = `./json/${name}/data.json`;
+  const dataJsonFilePath = `./${JSON_DIR}/${name}/data.json`;
   await writeStringToFile({
     filePath: dataJsonFilePath,
     data: dataJsonString,
   });
 
   const responseDataZodSchema = await getModelZodSchema(name, dataJsonString);
-  const responseDataZodSchemaFilePath = `./models/${name}/schema.ts`;
+  const responseDataZodSchemaFilePath = `./${SCHEMAS_DIR}/${name}/schema.ts`;
   await writeStringToFile({
     filePath: responseDataZodSchemaFilePath,
     data: responseDataZodSchema,
@@ -61,7 +58,7 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
     modelName: name,
     jsonString: dataJsonString,
   });
-  const responseDataInterfaceFilePath = `./models/${name}/interface.ts`;
+  const responseDataInterfaceFilePath = `./${TYPES_DIR}/${name}/interface.ts`;
   await writeStringToFile({
     filePath: responseDataInterfaceFilePath,
     data: responseDataInterface,
