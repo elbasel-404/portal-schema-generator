@@ -10,5 +10,4 @@ declare module "bun" {
     BUN_CONFIG_NO_CLEAR_TERMINAL_ON_EXIT: boolean;
     BUN_CONFIG_NO_CLEAR_TERMINAL_ON_ERROR: boolean;
     BUN_CONFIG_VERBOSE_FETCH: boolean;
-  }
 }
