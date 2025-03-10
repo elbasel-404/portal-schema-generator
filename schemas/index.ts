@@ -1,1 +1,1 @@
-console.log("Hello via Bun!");
+export { type HolidayElement, HolidayElementSchema } from './holiday/schema'
