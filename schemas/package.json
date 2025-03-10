@@ -1,5 +1,6 @@
 {
-  "name": "schemas",
+  "name": "api-schemas",
+  "version": "1.0.0",
   "private": true,
   "module": "index.ts",
   "type": "module",
