@@ -22,7 +22,8 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
   //   responseJson,
   // });
 
-  const responseJsonFilePath = `./models/${name}/json/raw.json`;
+  // const responseJsonFilePath = `./models/${name}/json/raw.json`;
+  const responseJsonFilePath = `./json/${name}/raw.json`;
   await writeStringToFile({
     filePath: responseJsonFilePath,
     data: responseJsonString,
@@ -42,7 +43,8 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
   // });
 
   const dataJsonString = JSON.stringify(data, null, 2);
-  const dataJsonFilePath = `./models/${name}/json/data.json`;
+  // const dataJsonFilePath = `./models/${name}/json/data.json`;
+  const dataJsonFilePath = `./json/${name}/data.json`;
   await writeStringToFile({
     filePath: dataJsonFilePath,
     data: dataJsonString,
