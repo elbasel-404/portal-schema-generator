@@ -3,9 +3,9 @@ import { getFetchHeaders, getFetchUrl } from "@utils/http";
 import { writeStringToFile } from "@utils/io";
 import { getModelInterface, getModelZodSchema } from "@utils/model";
 
-const SCHEMAS_DIR = "../schemas";
-const TYPES_DIR = "../types";
-const JSON_DIR = "../json";
+const SCHEMAS_DIR = "./schemas";
+const TYPES_DIR = "./types";
+const JSON_DIR = "./json";
 
 import endpoints from "@lib/endpoints.json";
 
