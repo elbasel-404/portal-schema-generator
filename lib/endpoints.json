@@ -10,5 +10,53 @@
     "detailsRequestBody": {
       "id": 16765
     }
+  },
+  {
+    "name": "remote-work",
+    "url": "hr/distance/work/",
+    "method": "POST",
+    "description": "Get remote work requests",
+    "listRequestBody": {
+      "employee_id": 1711
+    },
+    "detailsRequestBody": {
+      "id": 7899
+    }
+  },
+  {
+    "name": "permission",
+    "url": "hr/authorization",
+    "method": "POST",
+    "description": "Get permissions requests",
+    "listRequestBody": {
+      "employee_id": 1722
+    },
+    "detailsRequestBody": {
+      "id": 16442
+    }
+  },
+  {
+    "name": "medical-insurance",
+    "url": "hr/medical/insurance/read",
+    "method": "POST",
+    "description": "Get medical insurance requests",
+    "listRequestBody": {
+      "employee_id": 1722
+    },
+    "detailsRequestBody": {
+      "id": 456
+    }
+  },
+  {
+    "name": "salary-identification",
+    "url": "salary/identification/request/read",
+    "method": "POST",
+    "description": "Get salary identification requests",
+    "listRequestBody": {
+      "employee_id": 447
+    },
+    "detailsRequestBody": {
+      "id": 5166
+    }
   }
 ]
