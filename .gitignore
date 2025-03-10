@@ -3,7 +3,6 @@ node_modules
 
 # output
 dist
-*.tgz
 
 # code coverage
 coverage
