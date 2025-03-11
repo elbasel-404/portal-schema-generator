@@ -20,8 +20,8 @@ export interface MedicalInsurance {
     reason:                        boolean | string;
     active:                        boolean;
     individual_english_name:       string;
-    medical_insurance_type_id:     Array<MedicalInsuranceTypeIDEnum | number> | boolean;
-    medical_insurance_category_id: Array<MedicalInsuranceCategoryIDEnum | number> | boolean;
+    medical_insurance_type_id:     Array<MedicalInsuranceTypeIDEnum | number>;
+    medical_insurance_category_id: Array<MedicalInsuranceCategoryIDEnum | number>;
     insurance_amount:              number;
     coverage:                      boolean | CoverageEnum;
     date_from:                     boolean | Date;
@@ -257,8 +257,8 @@ const typeMap: any = {
         { json: "reason", js: "reason", typ: u(true, "") },
         { json: "active", js: "active", typ: true },
         { json: "individual_english_name", js: "individual_english_name", typ: "" },
-        { json: "medical_insurance_type_id", js: "medical_insurance_type_id", typ: u(a(u(r("MedicalInsuranceTypeIDEnum"), 0)), true) },
-        { json: "medical_insurance_category_id", js: "medical_insurance_category_id", typ: u(a(u(r("MedicalInsuranceCategoryIDEnum"), 0)), true) },
+        { json: "medical_insurance_type_id", js: "medical_insurance_type_id", typ: a(u(r("MedicalInsuranceTypeIDEnum"), 0)) },
+        { json: "medical_insurance_category_id", js: "medical_insurance_category_id", typ: a(u(r("MedicalInsuranceCategoryIDEnum"), 0)) },
         { json: "insurance_amount", js: "insurance_amount", typ: 0 },
         { json: "coverage", js: "coverage", typ: u(true, r("CoverageEnum")) },
         { json: "date_from", js: "date_from", typ: u(true, Date) },

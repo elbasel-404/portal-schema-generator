@@ -9,48 +9,40 @@
 
 export interface Holiday {
     id:                           number;
-    name:                         string;
-    state:                        string;
     payslip_status:               boolean;
     report_note:                  boolean;
     user_id:                      Array<number | string>;
-    date_from:                    Date;
-    date_to:                      Date;
-    holiday_status_id:            Array<number | string>;
-    employee_id:                  Array<number | string>;
     manager_id:                   Array<number | string>;
     notes:                        string;
     number_of_days_temp:          number;
     number_of_days:               number;
     meeting_id:                   boolean;
     type:                         string;
-    parent_id:                    boolean;
     linked_request_ids:           any[];
-    department_id:                Array<number | string>;
     category_id:                  boolean;
     holiday_type:                 string;
     first_approver_id:            boolean;
     second_approver_id:           boolean;
-    website_message_ids:          any[];
-    message_follower_ids:         number[];
-    message_ids:                  number[];
-    message_last_post:            boolean;
-    create_uid:                   Array<number | string>;
-    create_date:                  Date;
-    write_uid:                    Array<number | string>;
-    write_date:                   Date;
+    name:                         string;
     date:                         Date;
+    employee_id:                  Array<number | string>;
     substitute_employee_id:       Array<number | string>;
+    department_id:                Array<number | string>;
     job_id:                       Array<number | string>;
     grade_id:                     Array<number | string>;
     degree_id:                    Array<number | string>;
     raison:                       boolean | string;
+    date_from:                    Date;
+    date_to:                      Date;
     duration:                     number;
+    holiday_status_id:            Array<number | string>;
     with_advanced_salary:         boolean;
     salary_number:                number;
+    state:                        string;
     holiday_cancellation:         boolean;
     is_extension:                 boolean;
     extended_holiday_id:          boolean;
+    parent_id:                    boolean;
     extension_holidays_ids:       any[];
     extension_duration:           number;
     childbirth_date:              boolean;
@@ -83,18 +75,17 @@ export interface Holiday {
     res_model:                    string;
     is_from_mobile:               boolean;
     mobile_approvals_ids:         number[];
+    website_message_ids:          any[];
+    message_follower_ids:         number[];
+    message_ids:                  number[];
+    message_last_post:            boolean;
+    create_uid:                   Array<number | string>;
+    create_date:                  Date;
+    write_uid:                    Array<number | string>;
+    write_date:                   Date;
     x_sla_labels:                 string;
     double_validation:            boolean;
     can_reset:                    boolean;
-    message_is_follower:          boolean;
-    message_partner_ids:          number[];
-    message_channel_ids:          any[];
-    message_unread:               boolean;
-    message_unread_counter:       number;
-    message_needaction:           boolean;
-    message_needaction_counter:   number;
-    display_name:                 string;
-    __last_update:                Date;
     is_annual:                    boolean;
     spend_advanced_salary:        boolean;
     advanced_salary_period:       number;
@@ -116,6 +107,15 @@ export interface Holiday {
     computed_duration:            number;
     department_global_id:         Array<number | string>;
     sector_id:                    Array<number | string>;
+    message_is_follower:          boolean;
+    message_partner_ids:          number[];
+    message_channel_ids:          any[];
+    message_unread:               boolean;
+    message_unread_counter:       number;
+    message_needaction:           boolean;
+    message_needaction_counter:   number;
+    display_name:                 string;
+    __last_update:                Date;
 }
 
 // Converts JSON strings to/from your types
@@ -285,48 +285,40 @@ function r(name: string) {
 const typeMap: any = {
     "Holiday": o([
         { json: "id", js: "id", typ: 0 },
-        { json: "name", js: "name", typ: "" },
-        { json: "state", js: "state", typ: "" },
         { json: "payslip_status", js: "payslip_status", typ: true },
         { json: "report_note", js: "report_note", typ: true },
         { json: "user_id", js: "user_id", typ: a(u(0, "")) },
-        { json: "date_from", js: "date_from", typ: Date },
-        { json: "date_to", js: "date_to", typ: Date },
-        { json: "holiday_status_id", js: "holiday_status_id", typ: a(u(0, "")) },
-        { json: "employee_id", js: "employee_id", typ: a(u(0, "")) },
         { json: "manager_id", js: "manager_id", typ: a(u(0, "")) },
         { json: "notes", js: "notes", typ: "" },
         { json: "number_of_days_temp", js: "number_of_days_temp", typ: 0 },
         { json: "number_of_days", js: "number_of_days", typ: 0 },
         { json: "meeting_id", js: "meeting_id", typ: true },
         { json: "type", js: "type", typ: "" },
-        { json: "parent_id", js: "parent_id", typ: true },
         { json: "linked_request_ids", js: "linked_request_ids", typ: a("any") },
-        { json: "department_id", js: "department_id", typ: a(u(0, "")) },
         { json: "category_id", js: "category_id", typ: true },
         { json: "holiday_type", js: "holiday_type", typ: "" },
         { json: "first_approver_id", js: "first_approver_id", typ: true },
         { json: "second_approver_id", js: "second_approver_id", typ: true },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
-        { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
-        { json: "message_ids", js: "message_ids", typ: a(0) },
-        { json: "message_last_post", js: "message_last_post", typ: true },
-        { json: "create_uid", js: "create_uid", typ: a(u(0, "")) },
-        { json: "create_date", js: "create_date", typ: Date },
-        { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },
-        { json: "write_date", js: "write_date", typ: Date },
+        { json: "name", js: "name", typ: "" },
         { json: "date", js: "date", typ: Date },
+        { json: "employee_id", js: "employee_id", typ: a(u(0, "")) },
         { json: "substitute_employee_id", js: "substitute_employee_id", typ: a(u(0, "")) },
+        { json: "department_id", js: "department_id", typ: a(u(0, "")) },
         { json: "job_id", js: "job_id", typ: a(u(0, "")) },
         { json: "grade_id", js: "grade_id", typ: a(u(0, "")) },
         { json: "degree_id", js: "degree_id", typ: a(u(0, "")) },
         { json: "raison", js: "raison", typ: u(true, "") },
+        { json: "date_from", js: "date_from", typ: Date },
+        { json: "date_to", js: "date_to", typ: Date },
         { json: "duration", js: "duration", typ: 0 },
+        { json: "holiday_status_id", js: "holiday_status_id", typ: a(u(0, "")) },
         { json: "with_advanced_salary", js: "with_advanced_salary", typ: true },
         { json: "salary_number", js: "salary_number", typ: 0 },
+        { json: "state", js: "state", typ: "" },
         { json: "holiday_cancellation", js: "holiday_cancellation", typ: true },
         { json: "is_extension", js: "is_extension", typ: true },
         { json: "extended_holiday_id", js: "extended_holiday_id", typ: true },
+        { json: "parent_id", js: "parent_id", typ: true },
         { json: "extension_holidays_ids", js: "extension_holidays_ids", typ: a("any") },
         { json: "extension_duration", js: "extension_duration", typ: 0 },
         { json: "childbirth_date", js: "childbirth_date", typ: true },
@@ -359,18 +351,17 @@ const typeMap: any = {
         { json: "res_model", js: "res_model", typ: "" },
         { json: "is_from_mobile", js: "is_from_mobile", typ: true },
         { json: "mobile_approvals_ids", js: "mobile_approvals_ids", typ: a(0) },
+        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
+        { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
+        { json: "message_ids", js: "message_ids", typ: a(0) },
+        { json: "message_last_post", js: "message_last_post", typ: true },
+        { json: "create_uid", js: "create_uid", typ: a(u(0, "")) },
+        { json: "create_date", js: "create_date", typ: Date },
+        { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },
+        { json: "write_date", js: "write_date", typ: Date },
         { json: "x_sla_labels", js: "x_sla_labels", typ: "" },
         { json: "double_validation", js: "double_validation", typ: true },
         { json: "can_reset", js: "can_reset", typ: true },
-        { json: "message_is_follower", js: "message_is_follower", typ: true },
-        { json: "message_partner_ids", js: "message_partner_ids", typ: a(0) },
-        { json: "message_channel_ids", js: "message_channel_ids", typ: a("any") },
-        { json: "message_unread", js: "message_unread", typ: true },
-        { json: "message_unread_counter", js: "message_unread_counter", typ: 0 },
-        { json: "message_needaction", js: "message_needaction", typ: true },
-        { json: "message_needaction_counter", js: "message_needaction_counter", typ: 0 },
-        { json: "display_name", js: "display_name", typ: "" },
-        { json: "__last_update", js: "__last_update", typ: Date },
         { json: "is_annual", js: "is_annual", typ: true },
         { json: "spend_advanced_salary", js: "spend_advanced_salary", typ: true },
         { json: "advanced_salary_period", js: "advanced_salary_period", typ: 0 },
@@ -392,5 +383,14 @@ const typeMap: any = {
         { json: "computed_duration", js: "computed_duration", typ: 0 },
         { json: "department_global_id", js: "department_global_id", typ: a(u(0, "")) },
         { json: "sector_id", js: "sector_id", typ: a(u(0, "")) },
+        { json: "message_is_follower", js: "message_is_follower", typ: true },
+        { json: "message_partner_ids", js: "message_partner_ids", typ: a(0) },
+        { json: "message_channel_ids", js: "message_channel_ids", typ: a("any") },
+        { json: "message_unread", js: "message_unread", typ: true },
+        { json: "message_unread_counter", js: "message_unread_counter", typ: 0 },
+        { json: "message_needaction", js: "message_needaction", typ: true },
+        { json: "message_needaction_counter", js: "message_needaction_counter", typ: 0 },
+        { json: "display_name", js: "display_name", typ: "" },
+        { json: "__last_update", js: "__last_update", typ: Date },
     ], false),
 };
