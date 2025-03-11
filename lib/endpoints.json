@@ -2,6 +2,7 @@
   {
     "name": "holiday",
     "url": "hr/holidays/request",
+    "createUrl": "hr/holidays/request/create",
     "method": "POST",
     "description": "Get holiday requests",
     "listRequestBody": {
@@ -14,6 +15,7 @@
   {
     "name": "remote-work",
     "url": "hr/distance/work/",
+    "createUrl": "hr/distance/work/create",
     "method": "POST",
     "description": "Get remote work requests",
     "listRequestBody": {
@@ -26,6 +28,7 @@
   {
     "name": "permission",
     "url": "hr/authorization",
+    "createUrl": "hr/authorization/create",
     "method": "POST",
     "description": "Get permissions requests",
     "listRequestBody": {
@@ -38,6 +41,7 @@
   {
     "name": "medical-insurance",
     "url": "hr/medical/insurance/read",
+    "createUrl": "hr/medical/insurance/create",
     "method": "POST",
     "description": "Get medical insurance requests",
     "listRequestBody": {
@@ -50,6 +54,7 @@
   {
     "name": "salary-identification",
     "url": "salary/identification/request/read",
+    "createUrl": "salary/identification/request/create",
     "method": "POST",
     "description": "Get salary identification requests",
     "listRequestBody": {
