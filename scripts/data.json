@@ -1,0 +1,8 @@
+{
+  "employee_id": "21",
+  "holiday_status_id": "5",
+  "date_from": "2025-04-23",
+  "date_to": "2025-04-21",
+  "substitute_employee_id": "22",
+  "notes": "Test"
+}

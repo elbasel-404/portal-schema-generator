@@ -4,7 +4,8 @@
   "type": "module",
   "module": "./models/index.ts",
   "scripts": {
-    "generate": "bun ./scripts/generate.ts"
+    "generate": "bun ./scripts/generate.ts",
+    "generateCreate": "bun ./scripts/generateCreate.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"
