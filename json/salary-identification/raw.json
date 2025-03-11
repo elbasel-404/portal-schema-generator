@@ -33,8 +33,6 @@
         "acc_number": "",
         "download_link": "/web/content/160385?download=true&filename=Salary_Request_5166.pdf&access_token=5ed55a29-8913-45db-b643-7a8fba158909",
         "open_link": "/web/content/160385?filename=Salary_Request_5166.pdf&access_token=5ed55a29-8913-45db-b643-7a8fba158909",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           13676447
@@ -55,6 +53,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-24 13:37:23",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -62,14 +62,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -80,7 +72,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-24 13:37:23"
+        "__last_update": "2025-02-24 13:37:23",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5131,
@@ -110,8 +110,6 @@
         "acc_number": "",
         "download_link": "/web/content/160174?download=true&filename=Salary_Request_5131.pdf&access_token=e65f3664-f882-4e7b-822f-e914c2d7b190",
         "open_link": "/web/content/160174?filename=Salary_Request_5131.pdf&access_token=e65f3664-f882-4e7b-822f-e914c2d7b190",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           13614349
@@ -132,6 +130,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-17 12:03:27",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Saudi National Bank",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -139,14 +139,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -157,7 +149,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-17 12:03:27"
+        "__last_update": "2025-02-17 12:03:27",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5128,
@@ -187,8 +187,6 @@
         "acc_number": "",
         "download_link": "/web/content/160171?download=true&filename=Salary_Request_5128.pdf&access_token=64d733dc-8b2c-4c8b-92de-6c9aa7f24826",
         "open_link": "/web/content/160171?filename=Salary_Request_5128.pdf&access_token=64d733dc-8b2c-4c8b-92de-6c9aa7f24826",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           13614338
@@ -209,6 +207,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-17 11:47:58",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -216,14 +216,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -234,7 +226,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-17 11:47:58"
+        "__last_update": "2025-02-17 11:47:58",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5112,
@@ -264,8 +264,6 @@
         "acc_number": "",
         "download_link": "/web/content/160134?download=true&filename=Salary_Request_5112.pdf&access_token=d46cf661-797c-4ca3-bcfa-6698d585e18f",
         "open_link": "/web/content/160134?filename=Salary_Request_5112.pdf&access_token=d46cf661-797c-4ca3-bcfa-6698d585e18f",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           13604821
@@ -286,6 +284,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-16 13:30:43",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Saudi National Bank",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -293,14 +293,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -311,7 +303,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-16 13:30:43"
+        "__last_update": "2025-02-16 13:30:43",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5090,
@@ -341,8 +341,6 @@
         "acc_number": "",
         "download_link": "/web/content/159868?download=true&filename=Salary_Request_5090.pdf&access_token=2532d16e-edf9-4ca4-882e-0e9944d68b28",
         "open_link": "/web/content/159868?filename=Salary_Request_5090.pdf&access_token=2532d16e-edf9-4ca4-882e-0e9944d68b28",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           13103574
@@ -363,6 +361,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-11 08:59:54",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Alrajhi Bank",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -370,14 +370,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -388,7 +380,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-11 08:59:54"
+        "__last_update": "2025-02-11 08:59:54",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5087,
@@ -418,8 +418,6 @@
         "acc_number": "",
         "download_link": "/web/content/159854?download=true&filename=Salary_Request_5087.pdf&access_token=e970899f-76a8-45ea-b49b-a654b7992e64",
         "open_link": "/web/content/159854?filename=Salary_Request_5087.pdf&access_token=e970899f-76a8-45ea-b49b-a654b7992e64",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           13019739
@@ -440,6 +438,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-10 13:12:32",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "To Whom",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -447,14 +447,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -465,7 +457,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-10 13:12:32"
+        "__last_update": "2025-02-10 13:12:32",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5059,
@@ -492,8 +492,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           12640524
@@ -514,6 +512,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-06 11:56:10",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Alinma Bank",
         "template_name": "",
         "basic_salary": 10000,
@@ -521,14 +521,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -539,7 +531,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-06 11:56:10"
+        "__last_update": "2025-02-06 11:56:10",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5044,
@@ -566,8 +566,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           12544538
@@ -588,6 +586,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-05 13:05:10",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -595,14 +595,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -613,7 +605,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-05 13:05:10"
+        "__last_update": "2025-02-05 13:05:10",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5040,
@@ -640,8 +640,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           12247130
@@ -662,6 +660,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-04 12:55:30",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Alrajhi Bank",
         "template_name": "",
         "basic_salary": 10000,
@@ -669,14 +669,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -687,7 +679,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-04 12:55:30"
+        "__last_update": "2025-02-04 12:55:30",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5039,
@@ -714,8 +714,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           12247129
@@ -736,6 +734,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-04 12:55:22",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Alrajhi Bank",
         "template_name": "",
         "basic_salary": 10000,
@@ -743,14 +743,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -761,7 +753,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-04 12:55:22"
+        "__last_update": "2025-02-04 12:55:22",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5033,
@@ -791,8 +791,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           12197802
@@ -813,6 +811,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-02-03 12:36:04",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -820,14 +820,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -838,7 +830,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-03 12:36:04"
+        "__last_update": "2025-02-03 12:36:04",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5009,
@@ -865,8 +865,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11423170
@@ -886,6 +884,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-26 13:12:49",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -893,14 +893,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -911,7 +903,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-26 13:12:49"
+        "__last_update": "2025-01-26 13:12:49",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5008,
@@ -938,8 +938,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11422491
@@ -959,6 +957,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-26 13:06:15",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -966,14 +966,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -984,7 +976,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-26 13:06:15"
+        "__last_update": "2025-01-26 13:06:15",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5007,
@@ -1011,8 +1011,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11410640
@@ -1032,6 +1030,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-26 09:54:44",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1039,14 +1039,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1057,7 +1049,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-26 09:54:44"
+        "__last_update": "2025-01-26 09:54:44",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5006,
@@ -1084,8 +1084,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11386961
@@ -1105,6 +1103,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-25 17:54:53",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1112,14 +1112,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1130,7 +1122,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-25 17:54:53"
+        "__last_update": "2025-01-25 17:54:53",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5005,
@@ -1157,8 +1157,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11386957
@@ -1178,6 +1176,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-25 17:53:06",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1185,14 +1185,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1203,7 +1195,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-25 17:53:06"
+        "__last_update": "2025-01-25 17:53:06",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5004,
@@ -1230,8 +1230,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11386953
@@ -1251,6 +1249,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-25 17:50:39",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1258,14 +1258,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1276,7 +1268,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-25 17:50:39"
+        "__last_update": "2025-01-25 17:50:39",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5003,
@@ -1303,8 +1303,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11348282
@@ -1325,6 +1323,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-23 10:58:07",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1332,14 +1332,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1350,7 +1342,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-23 10:58:07"
+        "__last_update": "2025-01-23 10:58:07",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5002,
@@ -1377,8 +1377,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11198134
@@ -1398,6 +1396,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-22 13:06:06",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Alrajhi Bank",
         "template_name": "",
         "basic_salary": 10000,
@@ -1405,14 +1405,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1423,7 +1415,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-22 13:06:06"
+        "__last_update": "2025-01-22 13:06:06",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 5001,
@@ -1450,8 +1450,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           11021839
@@ -1471,6 +1469,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-21 12:49:27",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1478,14 +1478,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1496,7 +1488,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-21 12:49:27"
+        "__last_update": "2025-01-21 12:49:27",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4966,
@@ -1523,8 +1523,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           9517940
@@ -1544,6 +1542,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-07 09:47:20",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1551,14 +1551,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1569,7 +1561,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-07 09:47:20"
+        "__last_update": "2025-01-07 09:47:20",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4961,
@@ -1596,8 +1596,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           9449759
@@ -1617,6 +1615,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-06 09:25:27",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1624,14 +1624,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1642,7 +1634,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-06 09:25:27"
+        "__last_update": "2025-01-06 09:25:27",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4960,
@@ -1669,8 +1669,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           9449758
@@ -1690,6 +1688,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-06 09:25:24",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1697,14 +1697,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1715,7 +1707,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-06 09:25:24"
+        "__last_update": "2025-01-06 09:25:24",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4959,
@@ -1742,8 +1742,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           9438246
@@ -1763,6 +1761,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-06 09:08:11",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1770,14 +1770,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1788,7 +1780,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-06 09:08:11"
+        "__last_update": "2025-01-06 09:08:11",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4958,
@@ -1815,8 +1815,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           9334487
@@ -1836,6 +1834,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2025-01-05 19:31:41",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -1843,14 +1843,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1861,7 +1853,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-05 19:31:41"
+        "__last_update": "2025-01-05 19:31:41",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4811,
@@ -1891,8 +1891,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           485009
@@ -1914,6 +1912,8 @@
           "Khaled Alamri"
         ],
         "write_date": "2024-12-25 09:22:49",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Alinma Bank",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -1921,14 +1921,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": true,
         "message_partner_ids": [
           3
@@ -1939,7 +1931,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2024-12-25 09:22:49"
+        "__last_update": "2024-12-25 09:22:49",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4745,
@@ -1969,8 +1969,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           261545
@@ -1992,6 +1990,8 @@
           "hqushaymit.uat"
         ],
         "write_date": "2024-04-02 10:42:10",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "Saudi National Bank",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -1999,14 +1999,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2017,7 +2009,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2024-04-02 10:42:10"
+        "__last_update": "2024-04-02 10:42:10",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4744,
@@ -2047,8 +2047,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           261540
@@ -2070,6 +2068,8 @@
           "hqushaymit.uat"
         ],
         "write_date": "2024-04-02 10:26:36",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
         "basic_salary": 10000,
@@ -2077,14 +2077,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2095,7 +2087,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2024-04-02 10:26:36"
+        "__last_update": "2024-04-02 10:26:36",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 4657,
@@ -2119,8 +2119,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           243366
@@ -2142,6 +2140,8 @@
           "aashehri.uat"
         ],
         "write_date": "2023-11-07 22:11:23",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2149,14 +2149,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2167,7 +2159,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2023-11-07 22:11:23"
+        "__last_update": "2023-11-07 22:11:23",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 3598,
@@ -2191,8 +2191,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           155762
@@ -2214,6 +2212,8 @@
           "aashehri.uat"
         ],
         "write_date": "2023-03-14 23:39:49",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2221,14 +2221,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2239,7 +2231,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2023-03-14 23:39:49"
+        "__last_update": "2023-03-14 23:39:49",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 2074,
@@ -2263,8 +2263,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           69493
@@ -2286,6 +2284,8 @@
           "aashehri.uat"
         ],
         "write_date": "2022-04-18 17:40:02",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2293,14 +2293,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2311,7 +2303,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2022-04-18 17:40:02"
+        "__last_update": "2022-04-18 17:40:02",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 2073,
@@ -2335,8 +2335,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           69492
@@ -2358,6 +2356,8 @@
           "Abeer F. Albaker"
         ],
         "write_date": "2021-02-07 09:11:56",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2365,14 +2365,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2383,7 +2375,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2021-02-07 09:11:56"
+        "__last_update": "2021-02-07 09:11:56",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 2072,
@@ -2407,8 +2407,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           69491
@@ -2430,6 +2428,8 @@
           "Abeer F. Albaker"
         ],
         "write_date": "2021-02-07 09:11:50",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2437,14 +2437,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2455,7 +2447,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2021-02-07 09:11:50"
+        "__last_update": "2021-02-07 09:11:50",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 1996,
@@ -2479,8 +2479,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           67198
@@ -2502,6 +2500,8 @@
           "Albaraa A. Abo Aqeel"
         ],
         "write_date": "2021-01-07 10:14:41",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2509,14 +2509,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2527,7 +2519,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2021-01-07 10:14:41"
+        "__last_update": "2021-01-07 10:14:41",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 1995,
@@ -2551,8 +2551,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           67197
@@ -2574,6 +2572,8 @@
           "Albaraa A. Abo Aqeel"
         ],
         "write_date": "2021-01-07 10:14:45",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2581,14 +2581,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2599,7 +2591,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2021-01-07 10:14:45"
+        "__last_update": "2021-01-07 10:14:45",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 1741,
@@ -2623,8 +2623,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           56755
@@ -2646,6 +2644,8 @@
           "aashehri.uat"
         ],
         "write_date": "2022-09-17 18:27:29",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2653,14 +2653,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2671,7 +2663,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2022-09-17 18:27:29"
+        "__last_update": "2022-09-17 18:27:29",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 1740,
@@ -2695,8 +2695,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           56754
@@ -2718,6 +2716,8 @@
           "Abeer F. Albaker"
         ],
         "write_date": "2020-08-30 12:04:35",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2725,14 +2725,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2743,7 +2735,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2020-08-30 12:04:35"
+        "__last_update": "2020-08-30 12:04:35",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 1492,
@@ -2767,8 +2767,6 @@
         "acc_number": "",
         "download_link": "",
         "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
         "message_follower_ids": [
           48372
@@ -2790,6 +2788,8 @@
           "Abeer F. Albaker"
         ],
         "write_date": "2020-03-03 13:37:02",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
         "eng_destination": "",
         "template_name": "",
         "basic_salary": 10000,
@@ -2797,14 +2797,6 @@
         "allowance_transportation": 1000,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           1003
@@ -2815,7 +2807,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2020-03-03 13:37:02"
+        "__last_update": "2020-03-03 13:37:02",
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       }
     ]
   }

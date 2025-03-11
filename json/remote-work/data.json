@@ -37,9 +37,6 @@
     "is_reviewed_approved": false,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p><p>4- يشترط كتابة المهام المطلوبة للموافقة على العمل عن بعد</p><p> </p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       12726253
@@ -60,16 +57,11 @@
       "asaedi"
     ],
     "write_date": "2025-02-06 20:05:07",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3955
@@ -80,7 +72,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "07900",
-    "__last_update": "2025-02-06 20:05:07"
+    "__last_update": "2025-02-06 20:05:07",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 7898,
@@ -120,9 +120,6 @@
     "is_reviewed_approved": false,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p><p>4- يشترط كتابة المهام المطلوبة للموافقة على العمل عن بعد</p><p> </p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       12725201
@@ -143,16 +140,11 @@
       "asaedi"
     ],
     "write_date": "2025-02-06 19:03:03",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3955
@@ -163,7 +155,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "07899",
-    "__last_update": "2025-02-06 19:03:03"
+    "__last_update": "2025-02-06 19:03:03",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 7895,
@@ -203,9 +203,6 @@
     "is_reviewed_approved": false,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p><p>4- يشترط كتابة المهام المطلوبة للموافقة على العمل عن بعد</p><p> </p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       12608538
@@ -226,16 +223,11 @@
       "asaedi"
     ],
     "write_date": "2025-02-06 11:27:02",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3955
@@ -246,7 +238,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "07896",
-    "__last_update": "2025-02-06 11:27:02"
+    "__last_update": "2025-02-06 11:27:02",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 7613,
@@ -286,9 +286,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       251776
@@ -311,16 +308,11 @@
       "nnabulsi.uat"
     ],
     "write_date": "2023-11-12 05:57:32",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -331,7 +323,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "07613",
-    "__last_update": "2023-11-12 05:57:32"
+    "__last_update": "2023-11-12 05:57:32",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 7612,
@@ -371,9 +371,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       251774
@@ -396,16 +393,11 @@
       "nnabulsi.uat"
     ],
     "write_date": "2023-11-12 05:57:37",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -416,7 +408,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "07612",
-    "__last_update": "2023-11-12 05:57:37"
+    "__last_update": "2023-11-12 05:57:37",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 7440,
@@ -456,9 +456,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       248028
@@ -481,16 +478,11 @@
       "nnabulsi.uat"
     ],
     "write_date": "2023-10-25 09:42:31",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -501,7 +493,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "07440",
-    "__last_update": "2023-10-25 09:42:31"
+    "__last_update": "2023-10-25 09:42:31",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 7164,
@@ -541,9 +541,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       241003
@@ -566,16 +563,11 @@
       "nnabulsi.uat"
     ],
     "write_date": "2023-09-21 07:18:41",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -586,7 +578,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "07164",
-    "__last_update": "2023-09-21 07:18:41"
+    "__last_update": "2023-09-21 07:18:41",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 7075,
@@ -626,9 +626,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       238497
@@ -651,16 +648,11 @@
       "nnabulsi.uat"
     ],
     "write_date": "2023-09-10 05:44:52",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -671,7 +663,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "07075",
-    "__last_update": "2023-09-10 05:44:52"
+    "__last_update": "2023-09-10 05:44:52",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 6828,
@@ -711,9 +711,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       233290
@@ -736,16 +733,11 @@
       "nnabulsi.uat"
     ],
     "write_date": "2023-08-10 11:47:57",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -756,7 +748,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "06828",
-    "__last_update": "2023-08-10 11:47:57"
+    "__last_update": "2023-08-10 11:47:57",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 6516,
@@ -796,9 +796,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
       225566
@@ -821,16 +818,11 @@
       "wdowayan.uat"
     ],
     "write_date": "2023-07-04 07:47:13",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -841,7 +833,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "06516",
-    "__last_update": "2023-07-04 07:47:13"
+    "__last_update": "2023-07-04 07:47:13",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 6138,
@@ -881,12 +881,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [
-      6285,
-      6286
-    ],
     "website_message_ids": [],
     "message_follower_ids": [
       212693
@@ -909,16 +903,14 @@
       "nnabulsi.uat"
     ],
     "write_date": "2023-05-10 12:33:40",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [
+      6285,
+      6286
+    ],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -929,7 +921,15 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "06138",
-    "__last_update": "2023-05-10 12:33:40"
+    "__last_update": "2023-05-10 12:33:40",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   },
   {
     "id": 6137,
@@ -969,11 +969,6 @@
     "is_reviewed_approved": true,
     "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
-    "res_model": "hr.distance.work",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [
-      6284
-    ],
     "website_message_ids": [],
     "message_follower_ids": [
       212684
@@ -996,16 +991,13 @@
       "nnabulsi.uat"
     ],
     "write_date": "2023-05-10 12:33:45",
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [
+      6284
+    ],
     "is_direct_manager": false,
     "current_stock": 16,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
     "message_is_follower": false,
     "message_partner_ids": [
       3945
@@ -1016,6 +1008,14 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "06137",
-    "__last_update": "2023-05-10 12:33:45"
+    "__last_update": "2023-05-10 12:33:45",
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ]
   }
 ]

@@ -1,0 +1,42 @@
+[
+  {
+    "state": [
+      "new",
+      "طلب"
+    ],
+    "status": "completed",
+    "icon": "person",
+    "created_date": "2025-02-19 10:44:42",
+    "id": 2368304,
+    "employee_name": "عساف  بن رشود الصاعدي"
+  },
+  {
+    "state": [
+      "dm",
+      "المدير المباشر"
+    ],
+    "status": "completed",
+    "icon": "person",
+    "created_date": "2025-02-19 10:44:42",
+    "id": 2368304,
+    "employee_name": "عساف  بن رشود الصاعدي"
+  },
+  {
+    "state": [
+      "hrm",
+      "عمليات الموارد البشرية"
+    ],
+    "status": "in-progress",
+    "icon": "person",
+    "created_date": "2025-02-19 10:44:42",
+    "id": 2368304
+  },
+  {
+    "state": [
+      "done",
+      "اعتمد"
+    ],
+    "status": "pending",
+    "icon": "personConfirmed"
+  }
+]
