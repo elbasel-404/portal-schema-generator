@@ -58,5 +58,15 @@
     "detailsRequestBody": {
       "id": 5166
     }
+  },
+  {
+    "name": "request-details-workflow",
+    "url": "last_update",
+    "method": "POST",
+    "description": "Get details workflow requests",
+    "listRequestBody": {
+      "res_model": "hr.authorization",
+      "res_id": 16439
+    }
   }
 ]
