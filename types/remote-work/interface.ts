@@ -27,9 +27,6 @@ export interface RemoteWork {
     is_reviewed_approved:       boolean;
     note:                       string;
     is_token_updated:           boolean;
-    res_model:                  ResModel;
-    is_from_mobile:             boolean;
-    mobile_approvals_ids:       number[];
     website_message_ids:        any[];
     message_follower_ids:       number[];
     message_ids:                number[];
@@ -38,10 +35,11 @@ export interface RemoteWork {
     create_date:                Date;
     write_uid:                  Array<WriteUidEnum | number>;
     write_date:                 Date;
+    res_model:                  ResModel;
+    is_from_mobile:             boolean;
+    mobile_approvals_ids:       number[];
     is_direct_manager:          boolean;
     current_stock:              number;
-    department_global_id:       Array<DepartmentGlobalIDEnum | number>;
-    sector_id:                  Array<SectorIDEnum | number>;
     message_is_follower:        boolean;
     message_partner_ids:        number[];
     message_channel_ids:        any[];
@@ -51,6 +49,8 @@ export interface RemoteWork {
     message_needaction_counter: number;
     display_name:               string;
     __last_update:              Date;
+    department_global_id:       Array<DepartmentGlobalIDEnum | number>;
+    sector_id:                  Array<SectorIDEnum | number>;
 }
 
 export enum CreateUidEnum {
@@ -282,9 +282,6 @@ const typeMap: any = {
         { json: "is_reviewed_approved", js: "is_reviewed_approved", typ: true },
         { json: "note", js: "note", typ: "" },
         { json: "is_token_updated", js: "is_token_updated", typ: true },
-        { json: "res_model", js: "res_model", typ: r("ResModel") },
-        { json: "is_from_mobile", js: "is_from_mobile", typ: true },
-        { json: "mobile_approvals_ids", js: "mobile_approvals_ids", typ: a(0) },
         { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
         { json: "message_ids", js: "message_ids", typ: a(0) },
@@ -293,10 +290,11 @@ const typeMap: any = {
         { json: "create_date", js: "create_date", typ: Date },
         { json: "write_uid", js: "write_uid", typ: a(u(r("WriteUidEnum"), 0)) },
         { json: "write_date", js: "write_date", typ: Date },
+        { json: "res_model", js: "res_model", typ: r("ResModel") },
+        { json: "is_from_mobile", js: "is_from_mobile", typ: true },
+        { json: "mobile_approvals_ids", js: "mobile_approvals_ids", typ: a(0) },
         { json: "is_direct_manager", js: "is_direct_manager", typ: true },
         { json: "current_stock", js: "current_stock", typ: 0 },
-        { json: "department_global_id", js: "department_global_id", typ: a(u(r("DepartmentGlobalIDEnum"), 0)) },
-        { json: "sector_id", js: "sector_id", typ: a(u(r("SectorIDEnum"), 0)) },
         { json: "message_is_follower", js: "message_is_follower", typ: true },
         { json: "message_partner_ids", js: "message_partner_ids", typ: a(0) },
         { json: "message_channel_ids", js: "message_channel_ids", typ: a("any") },
@@ -306,6 +304,8 @@ const typeMap: any = {
         { json: "message_needaction_counter", js: "message_needaction_counter", typ: 0 },
         { json: "display_name", js: "display_name", typ: "" },
         { json: "__last_update", js: "__last_update", typ: Date },
+        { json: "department_global_id", js: "department_global_id", typ: a(u(r("DepartmentGlobalIDEnum"), 0)) },
+        { json: "sector_id", js: "sector_id", typ: a(u(r("SectorIDEnum"), 0)) },
     ], false),
     "CreateUidEnum": [
         "asaedi",
