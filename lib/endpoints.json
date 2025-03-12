@@ -73,5 +73,14 @@
       "res_model": "hr.authorization",
       "res_id": 16439
     }
+  },
+  {
+    "name": "request-create-workflow",
+    "url": "request_workflow",
+    "method": "POST",
+    "description": "Get details workflow requests",
+    "listRequestBody": {
+      "model": "hr.authorization"
+    }
   }
 ]

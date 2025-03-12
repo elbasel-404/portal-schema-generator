@@ -1,0 +1,22 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "statusCode": 200,
+    "status": "success",
+    "data": [
+      {
+        "state": "طلب"
+      },
+      {
+        "state": "المدير المباشر"
+      },
+      {
+        "state": "عمليات الموارد البشرية"
+      },
+      {
+        "state": "اعتمد"
+      }
+    ]
+  }
+}
