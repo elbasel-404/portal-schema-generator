@@ -5,7 +5,7 @@
   "module": "./models/index.ts",
   "scripts": {
     "generate": "bun ./scripts/generate.ts",
-    "generateCreate": "bun ./scripts/generateCreate.ts"
+    "generateCreate": "bun ./scripts/generate.create.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

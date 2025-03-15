@@ -10,6 +10,14 @@
     },
     "detailsRequestBody": {
       "id": 16765
+    },
+    "createRequestBody": {
+      "employee_id": "21",
+      "holiday_status_id": "5",
+      "date_from": "2025-05-01",
+      "date_to": "2025-05-01",
+      "substitute_employee_id": "10",
+      "notes": "test from api"
     }
   },
   {
@@ -23,7 +31,8 @@
     },
     "detailsRequestBody": {
       "id": 7899
-    }
+    },
+    "createRequestBody": null
   },
   {
     "name": "permission",
@@ -36,7 +45,8 @@
     },
     "detailsRequestBody": {
       "id": 16442
-    }
+    },
+    "createRequestBody": null
   },
   {
     "name": "medical-insurance",
@@ -49,7 +59,8 @@
     },
     "detailsRequestBody": {
       "id": 456
-    }
+    },
+    "createRequestBody": null
   },
   {
     "name": "salary-identification",
@@ -62,25 +73,30 @@
     },
     "detailsRequestBody": {
       "id": 5166
-    }
+    },
+    "createRequestBody": null
   },
   {
     "name": "request-details-workflow",
     "url": "last_update",
+    "createUrl": null,
     "method": "POST",
     "description": "Get details workflow requests",
     "listRequestBody": {
       "res_model": "hr.authorization",
       "res_id": 16439
-    }
+    },
+    "createRequestBody": null
   },
   {
     "name": "request-create-workflow",
+    "createUrl": null,
     "url": "request_workflow",
     "method": "POST",
     "description": "Get details workflow requests",
     "listRequestBody": {
       "model": "hr.authorization"
-    }
+    },
+    "createRequestBody": null
   }
 ]
