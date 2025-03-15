@@ -1,17 +1,1 @@
-{
-  "jsonrpc": "2.0",
-  "id": null,
-  "error": {
-    "code": 200,
-    "message": "Odoo Server Error",
-    "data": {
-      "name": "builtins.TypeError",
-      "debug": "Traceback (most recent call last):\n  File \"/data/odoo/odoo/odoo/http.py\", line 653, in _handle_exception\n    return super(JsonRequest, self)._handle_exception(exception)\n  File \"/data/odoo/odoo/odoo/http.py\", line 312, in _handle_exception\n    raise pycompat.reraise(type(exception), exception, sys.exc_info()[2])\n  File \"/data/odoo/odoo/odoo/tools/pycompat.py\", line 87, in reraise\n    raise value\n  File \"/data/odoo/odoo/odoo/http.py\", line 695, in dispatch\n    result = self._call_function(**self.params)\n  File \"/data/odoo/odoo/odoo/http.py\", line 344, in _call_function\n    return checked_call(self.db, *args, **kwargs)\n  File \"/data/odoo/odoo/odoo/service/model.py\", line 97, in wrapper\n    return f(dbname, *args, **kwargs)\n  File \"/data/odoo/odoo/odoo/http.py\", line 337, in checked_call\n    result = self.endpoint(*a, **kw)\n  File \"/data/odoo/odoo/odoo/http.py\", line 939, in __call__\n    return self.method(*args, **kw)\n  File \"/data/odoo/odoo/odoo/http.py\", line 517, in response_wrap\n    response = f(*args, **kw)\n  File \"/data/odoo/new-monshaat/erp_monshaat/hr_medical_insurance/controllers/new_api.py\", line 345, in medical_insurance_read\n    domain = _apply_filters_v2(data, MODEL_NAME)\n  File \"/data/odoo/new-monshaat/erp_monshaat/hr_medical_insurance/controllers/new_api.py\", line 130, in _apply_filters_v2\n    raise reject_response(f\"Invalid field: {key} is not a recognized field in the model.\")\nTypeError: exceptions must derive from BaseException\n",
-      "message": "exceptions must derive from BaseException",
-      "arguments": [
-        "exceptions must derive from BaseException"
-      ],
-      "exception_type": "internal_error"
-    }
-  }
-}
+null

@@ -14,6 +14,11 @@ export const readJsonFile = async ({ filePath }: ReadJsonFileArgs) => {
     );
   }
   const jsonFile = file(filePath);
-  const jsonData = await jsonFile.json();
-  return jsonData;
+
+  try {
+    const jsonData = await jsonFile.json();
+    return jsonData;
+  } catch (error) {
+    return null;
+  }
 };

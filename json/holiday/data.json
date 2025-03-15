@@ -3,14 +3,8 @@
     "id": 16818,
     "payslip_status": false,
     "report_note": false,
-    "user_id": [
-      1328,
-      "mbakr.uat"
-    ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
+    "user_id": [1328, "mbakr.uat"],
+    "manager_id": [1526, "[1688] ايمن بن معتوق السفياني"],
     "notes": "test from api",
     "number_of_days_temp": 0,
     "number_of_days": 0,
@@ -23,38 +17,20 @@
     "second_approver_id": false,
     "name": "15021",
     "date": "2025-02-02",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      10,
-      "[1010] فايز بن محمد الفايز"
-    ],
+    "employee_id": [1711, "[1750] محمود  بن ناصر  البكر"],
+    "substitute_employee_id": [10, "[1010] فايز بن محمد الفايز"],
     "department_id": [
       441,
       "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
     ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
+    "job_id": [1785, "قائد فريق إدارة الخدمات الرقمية"],
+    "grade_id": [32, "قائد فريق"],
+    "degree_id": [38, "12"],
     "raison": "other",
     "date_from": "2030-08-04",
     "date_to": "2030-08-04",
     "duration": 1,
-    "holiday_status_id": [
-      18,
-      "إجازة وفاة"
-    ],
+    "holiday_status_id": [18, "إجازة وفاة"],
     "with_advanced_salary": false,
     "salary_number": 0,
     "state": "hrm",
@@ -81,9 +57,7 @@
     "token_compensation_stock": 0,
     "payed_salary_advance": false,
     "done_date": "false",
-    "attachment_ids": [
-      158998
-    ],
+    "attachment_ids": [158998],
     "date_holidays_to": false,
     "refuse_reason": "false",
     "active": true,
@@ -98,27 +72,13 @@
     "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
-      12122581,
-      12122582,
-      12122589,
-      12122590,
-      12122591,
-      12122592
+      12122581, 12122582, 12122589, 12122590, 12122591, 12122592
     ],
-    "message_ids": [
-      167874042,
-      167874035
-    ],
+    "message_ids": [167874042, 167874035],
     "message_last_post": false,
-    "create_uid": [
-      1336,
-      "asaedi"
-    ],
+    "create_uid": [1336, "asaedi"],
     "create_date": "2025-02-02 12:10:37",
-    "write_uid": [
-      1336,
-      "asaedi"
-    ],
+    "write_uid": [1336, "asaedi"],
     "write_date": "2025-02-02 12:10:37",
     "x_sla_labels": "",
     "double_validation": false,
@@ -142,23 +102,10 @@
     "display_button_send": false,
     "substitute_employee_required": false,
     "computed_duration": 1,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
+    "department_global_id": [32, "خدمات المنشآت / التقنية والحلول الرقمية"],
+    "sector_id": [12, "خدمات المنشآت"],
     "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
+    "message_partner_ids": [3945, 1951, 1037, 826, 3667, 3758],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
@@ -171,14 +118,8 @@
     "id": 16757,
     "payslip_status": false,
     "report_note": false,
-    "user_id": [
-      1328,
-      "mbakr.uat"
-    ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
+    "user_id": [1328, "mbakr.uat"],
+    "manager_id": [1526, "[1688] ايمن بن معتوق السفياني"],
     "notes": "test from api",
     "number_of_days_temp": 0,
     "number_of_days": 0,
@@ -191,38 +132,20 @@
     "second_approver_id": false,
     "name": "14960",
     "date": "2025-01-21",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      10,
-      "[1010] فايز بن محمد الفايز"
-    ],
+    "employee_id": [1711, "[1750] محمود  بن ناصر  البكر"],
+    "substitute_employee_id": [10, "[1010] فايز بن محمد الفايز"],
     "department_id": [
       441,
       "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
     ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
+    "job_id": [1785, "قائد فريق إدارة الخدمات الرقمية"],
+    "grade_id": [32, "قائد فريق"],
+    "degree_id": [38, "12"],
     "raison": "other",
     "date_from": "2028-07-11",
     "date_to": "2028-07-12",
     "duration": 2,
-    "holiday_status_id": [
-      18,
-      "إجازة وفاة"
-    ],
+    "holiday_status_id": [18, "إجازة وفاة"],
     "with_advanced_salary": false,
     "salary_number": 0,
     "state": "done",
@@ -249,9 +172,7 @@
     "token_compensation_stock": 0,
     "payed_salary_advance": false,
     "done_date": "2025-01-21 09:56:47",
-    "attachment_ids": [
-      158483
-    ],
+    "attachment_ids": [158483],
     "date_holidays_to": false,
     "refuse_reason": "false",
     "active": true,
@@ -266,28 +187,13 @@
     "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
-      10962982,
-      10962984,
-      10962985,
-      10962986,
-      10962987,
-      10962988
+      10962982, 10962984, 10962985, 10962986, 10962987, 10962988
     ],
-    "message_ids": [
-      166562813,
-      166562796,
-      166562793
-    ],
+    "message_ids": [166562813, 166562796, 166562793],
     "message_last_post": false,
-    "create_uid": [
-      1336,
-      "asaedi"
-    ],
+    "create_uid": [1336, "asaedi"],
     "create_date": "2025-01-21 09:56:16",
-    "write_uid": [
-      1336,
-      "asaedi"
-    ],
+    "write_uid": [1336, "asaedi"],
     "write_date": "2025-01-21 09:56:46",
     "x_sla_labels": "",
     "double_validation": false,
@@ -311,23 +217,10 @@
     "display_button_send": false,
     "substitute_employee_required": false,
     "computed_duration": 2,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
+    "department_global_id": [32, "خدمات المنشآت / التقنية والحلول الرقمية"],
+    "sector_id": [12, "خدمات المنشآت"],
     "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
+    "message_partner_ids": [3945, 1951, 1037, 826, 3667, 3758],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
@@ -340,14 +233,8 @@
     "id": 16756,
     "payslip_status": false,
     "report_note": false,
-    "user_id": [
-      1328,
-      "mbakr.uat"
-    ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
+    "user_id": [1328, "mbakr.uat"],
+    "manager_id": [1526, "[1688] ايمن بن معتوق السفياني"],
     "notes": "test from api",
     "number_of_days_temp": 0,
     "number_of_days": 0,
@@ -360,38 +247,20 @@
     "second_approver_id": false,
     "name": "14959",
     "date": "2025-01-21",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      10,
-      "[1010] فايز بن محمد الفايز"
-    ],
+    "employee_id": [1711, "[1750] محمود  بن ناصر  البكر"],
+    "substitute_employee_id": [10, "[1010] فايز بن محمد الفايز"],
     "department_id": [
       441,
       "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
     ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
+    "job_id": [1785, "قائد فريق إدارة الخدمات الرقمية"],
+    "grade_id": [32, "قائد فريق"],
+    "degree_id": [38, "12"],
     "raison": "other",
     "date_from": "2029-07-11",
     "date_to": "2029-07-12",
     "duration": 2,
-    "holiday_status_id": [
-      18,
-      "إجازة وفاة"
-    ],
+    "holiday_status_id": [18, "إجازة وفاة"],
     "with_advanced_salary": false,
     "salary_number": 0,
     "state": "done",
@@ -418,9 +287,7 @@
     "token_compensation_stock": 0,
     "payed_salary_advance": false,
     "done_date": "2025-01-21 09:50:01",
-    "attachment_ids": [
-      158482
-    ],
+    "attachment_ids": [158482],
     "date_holidays_to": false,
     "refuse_reason": "false",
     "active": true,
@@ -435,28 +302,13 @@
     "mobile_approvals_ids": [],
     "website_message_ids": [],
     "message_follower_ids": [
-      10945067,
-      10945068,
-      10945069,
-      10945071,
-      10945072,
-      10945073
+      10945067, 10945068, 10945069, 10945071, 10945072, 10945073
     ],
-    "message_ids": [
-      166562727,
-      166544878,
-      166544870
-    ],
+    "message_ids": [166562727, 166544878, 166544870],
     "message_last_post": false,
-    "create_uid": [
-      1336,
-      "asaedi"
-    ],
+    "create_uid": [1336, "asaedi"],
     "create_date": "2025-01-21 09:28:37",
-    "write_uid": [
-      1336,
-      "asaedi"
-    ],
+    "write_uid": [1336, "asaedi"],
     "write_date": "2025-01-21 09:50:00",
     "x_sla_labels": "",
     "double_validation": false,
@@ -480,23 +332,10 @@
     "display_button_send": false,
     "substitute_employee_required": false,
     "computed_duration": 2,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
+    "department_global_id": [32, "خدمات المنشآت / التقنية والحلول الرقمية"],
+    "sector_id": [12, "خدمات المنشآت"],
     "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
+    "message_partner_ids": [3945, 1951, 1037, 826, 3667, 3758],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
@@ -509,14 +348,8 @@
     "id": 16197,
     "payslip_status": false,
     "report_note": false,
-    "user_id": [
-      1328,
-      "mbakr.uat"
-    ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
+    "user_id": [1328, "mbakr.uat"],
+    "manager_id": [1526, "[1688] ايمن بن معتوق السفياني"],
     "notes": "false",
     "number_of_days_temp": 0,
     "number_of_days": 0,
@@ -529,38 +362,20 @@
     "second_approver_id": false,
     "name": "14645",
     "date": "2023-11-19",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      517,
-      "[1417] رائد بن حمد رشيد"
-    ],
+    "employee_id": [1711, "[1750] محمود  بن ناصر  البكر"],
+    "substitute_employee_id": [517, "[1417] رائد بن حمد رشيد"],
     "department_id": [
       441,
       "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
     ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
+    "job_id": [1785, "قائد فريق إدارة الخدمات الرقمية"],
+    "grade_id": [32, "قائد فريق"],
+    "degree_id": [38, "12"],
     "raison": false,
     "date_from": "2023-11-20",
     "date_to": "2023-11-20",
     "duration": 1,
-    "holiday_status_id": [
-      5,
-      "إجازة سنوية #test"
-    ],
+    "holiday_status_id": [5, "إجازة سنوية #test"],
     "with_advanced_salary": false,
     "salary_number": 0,
     "state": "done",
@@ -579,10 +394,7 @@
     "accompanied_child_age": 0,
     "study_subject": false,
     "city": false,
-    "country_ids": [
-      595,
-      "Bonaire, Sint Eustatius and Saba"
-    ],
+    "country_ids": [595, "Bonaire, Sint Eustatius and Saba"],
     "current_holiday_stock": 15.602739726027403,
     "sport_participation_topic": false,
     "birth_child_filename": false,
@@ -604,30 +416,12 @@
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
     "website_message_ids": [],
-    "message_follower_ids": [
-      259541,
-      259542,
-      259543,
-      259544,
-      259545,
-      259546
-    ],
-    "message_ids": [
-      154589125,
-      154589113,
-      154588725,
-      154588724
-    ],
+    "message_follower_ids": [259541, 259542, 259543, 259544, 259545, 259546],
+    "message_ids": [154589125, 154589113, 154588725, 154588724],
     "message_last_post": false,
-    "create_uid": [
-      1328,
-      "mbakr.uat"
-    ],
+    "create_uid": [1328, "mbakr.uat"],
     "create_date": "2023-11-19 20:24:05",
-    "write_uid": [
-      1484,
-      "rquwayfil.t.uat"
-    ],
+    "write_uid": [1484, "rquwayfil.t.uat"],
     "write_date": "2023-11-20 05:05:03",
     "x_sla_labels": "",
     "double_validation": false,
@@ -651,23 +445,10 @@
     "display_button_send": false,
     "substitute_employee_required": false,
     "computed_duration": 1,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
+    "department_global_id": [32, "خدمات المنشآت / التقنية والحلول الرقمية"],
+    "sector_id": [12, "خدمات المنشآت"],
     "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
+    "message_partner_ids": [3945, 1951, 1037, 826, 3667, 3758],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
@@ -680,14 +461,8 @@
     "id": 15576,
     "payslip_status": false,
     "report_note": false,
-    "user_id": [
-      1328,
-      "mbakr.uat"
-    ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
+    "user_id": [1328, "mbakr.uat"],
+    "manager_id": [1526, "[1688] ايمن بن معتوق السفياني"],
     "notes": "false",
     "number_of_days_temp": 0,
     "number_of_days": 0,
@@ -700,38 +475,20 @@
     "second_approver_id": false,
     "name": "14074",
     "date": "2023-09-26",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      517,
-      "[1417] رائد بن حمد رشيد"
-    ],
+    "employee_id": [1711, "[1750] محمود  بن ناصر  البكر"],
+    "substitute_employee_id": [517, "[1417] رائد بن حمد رشيد"],
     "department_id": [
       441,
       "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
     ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
+    "job_id": [1785, "قائد فريق إدارة الخدمات الرقمية"],
+    "grade_id": [32, "قائد فريق"],
+    "degree_id": [38, "12"],
     "raison": false,
     "date_from": "2023-09-28",
     "date_to": "2023-09-28",
     "duration": 1,
-    "holiday_status_id": [
-      5,
-      "إجازة سنوية #test"
-    ],
+    "holiday_status_id": [5, "إجازة سنوية #test"],
     "with_advanced_salary": false,
     "salary_number": 0,
     "state": "done",
@@ -750,10 +507,7 @@
     "accompanied_child_age": 0,
     "study_subject": false,
     "city": false,
-    "country_ids": [
-      595,
-      "Bonaire, Sint Eustatius and Saba"
-    ],
+    "country_ids": [595, "Bonaire, Sint Eustatius and Saba"],
     "current_holiday_stock": 11.276712328767127,
     "sport_participation_topic": false,
     "birth_child_filename": false,
@@ -775,30 +529,12 @@
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
     "website_message_ids": [],
-    "message_follower_ids": [
-      241674,
-      241675,
-      241676,
-      241677,
-      241678,
-      241679
-    ],
-    "message_ids": [
-      75940896,
-      75868943,
-      74718979,
-      74718902
-    ],
+    "message_follower_ids": [241674, 241675, 241676, 241677, 241678, 241679],
+    "message_ids": [75940896, 75868943, 74718979, 74718902],
     "message_last_post": false,
-    "create_uid": [
-      1328,
-      "mbakr.uat"
-    ],
+    "create_uid": [1328, "mbakr.uat"],
     "create_date": "2023-09-26 13:14:52",
-    "write_uid": [
-      1484,
-      "rquwayfil.t.uat"
-    ],
+    "write_uid": [1484, "rquwayfil.t.uat"],
     "write_date": "2023-09-27 05:19:12",
     "x_sla_labels": "",
     "double_validation": false,
@@ -822,23 +558,10 @@
     "display_button_send": false,
     "substitute_employee_required": false,
     "computed_duration": 1,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
+    "department_global_id": [32, "خدمات المنشآت / التقنية والحلول الرقمية"],
+    "sector_id": [12, "خدمات المنشآت"],
     "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
+    "message_partner_ids": [3945, 1951, 1037, 826, 3667, 3758],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
@@ -851,14 +574,8 @@
     "id": 14423,
     "payslip_status": false,
     "report_note": false,
-    "user_id": [
-      1328,
-      "mbakr.uat"
-    ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
+    "user_id": [1328, "mbakr.uat"],
+    "manager_id": [1526, "[1688] ايمن بن معتوق السفياني"],
     "notes": "false",
     "number_of_days_temp": 0,
     "number_of_days": 0,
@@ -871,38 +588,20 @@
     "second_approver_id": false,
     "name": "12960",
     "date": "2023-06-06",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      517,
-      "[1417] رائد بن حمد رشيد"
-    ],
+    "employee_id": [1711, "[1750] محمود  بن ناصر  البكر"],
+    "substitute_employee_id": [517, "[1417] رائد بن حمد رشيد"],
     "department_id": [
       441,
       "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
     ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
+    "job_id": [1785, "قائد فريق إدارة الخدمات الرقمية"],
+    "grade_id": [32, "قائد فريق"],
+    "degree_id": [38, "12"],
     "raison": false,
     "date_from": "2023-07-16",
     "date_to": "2023-07-27",
     "duration": 12,
-    "holiday_status_id": [
-      5,
-      "إجازة سنوية #test"
-    ],
+    "holiday_status_id": [5, "إجازة سنوية #test"],
     "with_advanced_salary": false,
     "salary_number": 0,
     "state": "done",
@@ -921,10 +620,7 @@
     "accompanied_child_age": 0,
     "study_subject": false,
     "city": false,
-    "country_ids": [
-      595,
-      "Bonaire, Sint Eustatius and Saba"
-    ],
+    "country_ids": [595, "Bonaire, Sint Eustatius and Saba"],
     "current_holiday_stock": 12.131506849315072,
     "sport_participation_topic": false,
     "birth_child_filename": false,
@@ -946,30 +642,12 @@
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
     "website_message_ids": [],
-    "message_follower_ids": [
-      220311,
-      220312,
-      220313,
-      220314,
-      220315,
-      220316
-    ],
-    "message_ids": [
-      21181822,
-      21181789,
-      21178778,
-      21178777
-    ],
+    "message_follower_ids": [220311, 220312, 220313, 220314, 220315, 220316],
+    "message_ids": [21181822, 21181789, 21178778, 21178777],
     "message_last_post": false,
-    "create_uid": [
-      1328,
-      "mbakr.uat"
-    ],
+    "create_uid": [1328, "mbakr.uat"],
     "create_date": "2023-06-06 07:33:18",
-    "write_uid": [
-      653,
-      "nnabulsi.uat"
-    ],
+    "write_uid": [653, "nnabulsi.uat"],
     "write_date": "2023-06-07 08:39:43",
     "x_sla_labels": "",
     "double_validation": false,
@@ -993,23 +671,10 @@
     "display_button_send": false,
     "substitute_employee_required": false,
     "computed_duration": 12,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
+    "department_global_id": [32, "خدمات المنشآت / التقنية والحلول الرقمية"],
+    "sector_id": [12, "خدمات المنشآت"],
     "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
+    "message_partner_ids": [3945, 1951, 1037, 826, 3667, 3758],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
@@ -1022,14 +687,8 @@
     "id": 13947,
     "payslip_status": false,
     "report_note": false,
-    "user_id": [
-      1328,
-      "mbakr.uat"
-    ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
+    "user_id": [1328, "mbakr.uat"],
+    "manager_id": [1526, "[1688] ايمن بن معتوق السفياني"],
     "notes": "false",
     "number_of_days_temp": 0,
     "number_of_days": 0,
@@ -1042,38 +701,20 @@
     "second_approver_id": false,
     "name": "12511",
     "date": "2023-04-13",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      517,
-      "[1417] رائد بن حمد رشيد"
-    ],
+    "employee_id": [1711, "[1750] محمود  بن ناصر  البكر"],
+    "substitute_employee_id": [517, "[1417] رائد بن حمد رشيد"],
     "department_id": [
       441,
       "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
     ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
+    "job_id": [1785, "قائد فريق إدارة الخدمات الرقمية"],
+    "grade_id": [32, "قائد فريق"],
+    "degree_id": [38, "12"],
     "raison": false,
     "date_from": "2023-07-09",
     "date_to": "2023-07-13",
     "duration": 5,
-    "holiday_status_id": [
-      25,
-      "إجازة زواج"
-    ],
+    "holiday_status_id": [25, "إجازة زواج"],
     "with_advanced_salary": false,
     "salary_number": 0,
     "state": "done",
@@ -1092,10 +733,7 @@
     "accompanied_child_age": 0,
     "study_subject": false,
     "city": false,
-    "country_ids": [
-      595,
-      "Bonaire, Sint Eustatius and Saba"
-    ],
+    "country_ids": [595, "Bonaire, Sint Eustatius and Saba"],
     "current_holiday_stock": 5,
     "sport_participation_topic": false,
     "birth_child_filename": false,
@@ -1115,34 +753,14 @@
     "half_day_duration": 0,
     "res_model": "hr.holidays",
     "is_from_mobile": false,
-    "mobile_approvals_ids": [
-      6090
-    ],
+    "mobile_approvals_ids": [6090],
     "website_message_ids": [],
-    "message_follower_ids": [
-      209497,
-      209498,
-      209499,
-      209500,
-      209501,
-      209502
-    ],
-    "message_ids": [
-      20929139,
-      20929127,
-      20927052,
-      20927048
-    ],
+    "message_follower_ids": [209497, 209498, 209499, 209500, 209501, 209502],
+    "message_ids": [20929139, 20929127, 20927052, 20927048],
     "message_last_post": false,
-    "create_uid": [
-      1328,
-      "mbakr.uat"
-    ],
+    "create_uid": [1328, "mbakr.uat"],
     "create_date": "2023-04-13 07:51:44",
-    "write_uid": [
-      653,
-      "nnabulsi.uat"
-    ],
+    "write_uid": [653, "nnabulsi.uat"],
     "write_date": "2023-04-13 10:08:15",
     "x_sla_labels": "",
     "double_validation": false,
@@ -1166,23 +784,10 @@
     "display_button_send": false,
     "substitute_employee_required": false,
     "computed_duration": 5,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
+    "department_global_id": [32, "خدمات المنشآت / التقنية والحلول الرقمية"],
+    "sector_id": [12, "خدمات المنشآت"],
     "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
+    "message_partner_ids": [3945, 1951, 1037, 826, 3667, 3758],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,

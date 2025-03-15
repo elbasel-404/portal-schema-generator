@@ -1,4 +1,9 @@
 import { rm } from "node:fs/promises";
+import { getLogger } from "./getLogger";
+
+const logger = getLogger({
+  logFileName: "main",
+});
 
 interface DeleteDirectoryArgs {
   path: string;
@@ -14,7 +19,13 @@ export const deleteDirectory = async ({ path }: DeleteDirectoryArgs) => {
   try {
     await rm(path, { recursive: true });
   } catch (error) {
-    console.log(`Error deleting directory: ${path}`);
-    console.log(error);
+    // logger.error({
+    //   data: `Error deleting directory: ${path}`,
+    //   errorFilePath: "utils/io/deleteDirectory.ts",
+    // });
+    // logger.error({
+    //   data: error as Error,
+    //   errorFilePath: "utils/io/deleteDirectory.ts",
+    // });
   }
 };

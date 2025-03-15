@@ -1,5 +1,8 @@
-import { fetch, write } from "bun";
+import { fetch } from "bun";
 import { writeStringToFile } from "../io";
+import { getLogger } from "@utils/io/getLogger";
+
+const logger = getLogger({ logFileName: "main" });
 
 interface WriteResponseToFileArgs {
   url: string | URL;
@@ -28,7 +31,7 @@ export const writeResponseToFile = async ({
     headers,
     method,
   });
-  console.log({ result });
+  // logger.info({ data: result });
   const resultJson = await result.json();
   const resultJsonString = JSON.stringify(resultJson);
   const bytes = await writeStringToFile({

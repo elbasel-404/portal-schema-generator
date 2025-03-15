@@ -8,10 +8,13 @@ const TYPES_DIR = "./types";
 const JSON_DIR = "./json";
 
 import endpoints from "@lib/endpoints.json";
+import { getLogger } from "@utils/io/getLogger";
 
-const fetchHeaders = getFetchHeaders();
+const logger = getLogger({ logFileName: "generate" });
+
+const fetchHeaders = await getFetchHeaders();
 endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
-  const fetchUrl = getFetchUrl(url);
+  const fetchUrl = await getFetchUrl(url);
   const response = await fetch(fetchUrl, {
     method: method,
     headers: fetchHeaders.headers,
@@ -29,9 +32,13 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
 
   const validatedResponseJson = ResponseSchema.parse(responseJson);
   const { id, jsonrpc, result } = validatedResponseJson;
-  const { statusCode, status, data } = result;
+  const {
+    statusCode: responseStatusCode,
+    status: responseStatus,
+    data: responseData,
+  } = result;
 
-  // console.log({
+  // logger.info({
   //   name,
   //   id,
   //   jsonrpc,
@@ -40,7 +47,7 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
   //   data: data.length + " items",
   // });
 
-  const dataJsonString = JSON.stringify(data, null, 2);
+  const dataJsonString = JSON.stringify(responseData, null, 2);
   const dataJsonFilePath = `./${JSON_DIR}/${name}/data.json`;
   await writeStringToFile({
     filePath: dataJsonFilePath,
@@ -64,14 +71,16 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
     data: responseDataInterface,
   });
 
-  console.log({
-    name,
-    status,
-    statusCode,
-    data: data.length + " items",
-    responseJsonFilePath,
-    dataJsonFilePath,
-    responseDataZodSchemaFilePath,
-    responseDataInterfaceFilePath,
-  });
+  // logger.info({
+  //   data: {
+  //     name,
+  //     status: responseStatus,
+  //     statusCode: responseStatusCode,
+  //     numItems: responseData.length + " items",
+  //     responseJsonFilePath,
+  //     dataJsonFilePath,
+  //     responseDataZodSchemaFilePath,
+  //     responseDataInterfaceFilePath,
+  //   },
+  // });
 });

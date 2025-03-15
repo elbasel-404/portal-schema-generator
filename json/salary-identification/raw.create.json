@@ -1,9 +1,6 @@
-{
-  "jsonrpc": "2.0",
-  "id": null,
-  "result": {
-    "statusCode": 400,
+[
+  {
     "status": "error",
-    "message": "exceptions must derive from BaseException"
+    "error": "Employee ID is required."
   }
-}
+]
