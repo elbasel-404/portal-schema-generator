@@ -9,7 +9,7 @@ import {
   STATS_COUNTS_FILE_PATH,
   STATS_LOGFILES_FILE_PATH,
 } from "@constants/paths/logs";
-import { deleteDirectory, writeStringToFile } from "@utils/io";
+import { writeStringToFile } from "@utils/io";
 import { clearFileContents } from "@utils/io/clearFileContents";
 import { clearLogs } from "@utils/io/clearLogs";
 
@@ -79,9 +79,16 @@ const processEndpoint = async (ep: Endpoint) => {
   }
 
   const rawObject = rawDataArray[0];
+  const isError = !!rawObject?.error;
+  // console.log({ rawObject, isError });
 
-  // const isError = rawObject?.error;
-  // const rawObjectSchema = isError ? CreateSucessSchema : CreateErrorSchema;
+  const rawObjectSchema = isError ? CreateErrorSchema : CreateSucessSchema;
+  const validatedData = rawObjectSchema.parse(rawObject);
+  const validatedDataFilePath = `./json/${name}/data.create.json`;
+  await writeStringToFile({
+    data: JSON.stringify(validatedData, null, 2),
+    filePath: validatedDataFilePath,
+  });
 
   // if (isError) {
   // await logger.error({
@@ -93,7 +100,7 @@ const processEndpoint = async (ep: Endpoint) => {
   // }
 
   await logger.info({
-    title: `${name}: SUCCES `,
+    title: `${name}: SUCCES`,
     data: rawObject,
   });
 };
