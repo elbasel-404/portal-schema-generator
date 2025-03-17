@@ -30,8 +30,8 @@ const processEndpoint = async (ep: Endpoint) => {
 
   if (!createUrl) {
     await logger.error({
-      title: `ERROR: No createUrl found for endpoint: ${name}`,
-      data: `No createUrl found for endpoint: ${name}, skipping...`,
+      title: `${name}: createUrl not found`,
+      data: `${name}: skipped..`,
       errorFilePath: "./scripts/generate.create.ts",
     });
     return;
@@ -39,8 +39,8 @@ const processEndpoint = async (ep: Endpoint) => {
 
   if (!createRequestBody) {
     await logger.error({
-      title: `ERROR: No createRequestBody found for endpoint: ${name}`,
-      data: `No createRequestBody found for endpoint: ${name}, skipping...`,
+      title: `${name}: createRequestBody is empty: `,
+      data: `${name}, skipped..`,
       errorFilePath: "./scripts/generate.create.ts",
     });
   }
@@ -71,8 +71,8 @@ const processEndpoint = async (ep: Endpoint) => {
 
   if (!rawDataArray) {
     await logger.error({
-      title: `ERROR: No rawDataArray found for endpoint: ${name}`,
-      data: `No rawDataArray found for endpoint: ${name}, skipping...`,
+      title: `${name}: ${rawFilePath} is empty: `,
+      data: `${name} skipped..`,
       errorFilePath: "./scripts/generate.create.ts",
     });
     return;
@@ -80,7 +80,6 @@ const processEndpoint = async (ep: Endpoint) => {
 
   const rawObject = rawDataArray[0];
   const isError = !!rawObject?.error;
-  // console.log({ rawObject, isError });
 
   const rawObjectSchema = isError ? CreateErrorSchema : CreateSucessSchema;
   const validatedData = rawObjectSchema.parse(rawObject);
@@ -89,15 +88,6 @@ const processEndpoint = async (ep: Endpoint) => {
     data: JSON.stringify(validatedData, null, 2),
     filePath: validatedDataFilePath,
   });
-
-  // if (isError) {
-  // await logger.error({
-  //   title: `ERROR: Error found for endpoint: ${name}`,
-  //   data: rawObject,
-  //   errorFilePath: "./scripts/generate.create.ts",
-  // });
-  // return;
-  // }
 
   await logger.info({
     title: `${name}: SUCCES`,
