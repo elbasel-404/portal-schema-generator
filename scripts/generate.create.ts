@@ -5,6 +5,13 @@ import { getLogger } from "@utils/io/getLogger";
 import { readJsonFile } from "@utils/io/readJsonFile";
 import { CreateSucessSchema } from "@schemas/CreateSucessSchema";
 import { CreateErrorSchema } from "@schemas/CreateErrorSchema";
+import {
+  STATS_COUNTS_FILE_PATH,
+  STATS_LOGFILES_FILE_PATH,
+} from "@constants/paths/logs";
+import { deleteDirectory, writeStringToFile } from "@utils/io";
+import { clearFileContents } from "@utils/io/clearFileContents";
+import { clearLogs } from "@utils/io/clearLogs";
 
 const logger = getLogger({
   logFileName: "generate.create",
@@ -57,7 +64,7 @@ const processEndpoint = async (ep: Endpoint) => {
     formData,
   });
 
-  // console.log(rawFilePath);
+  console.log(rawFilePath);
   const rawDataArray = await readJsonFile({
     filePath: rawFilePath,
   });
@@ -73,35 +80,41 @@ const processEndpoint = async (ep: Endpoint) => {
 
   const rawObject = rawDataArray[0];
 
-  const isError = rawObject?.error;
+  // const isError = rawObject?.error;
+  // const rawObjectSchema = isError ? CreateSucessSchema : CreateErrorSchema;
 
-  const rawObjectSchema = isError ? CreateSucessSchema : CreateErrorSchema;
-
-  if (isError) {
-    // await logger.error({
-    //   title: `ERROR: Error found for endpoint: ${name}`,
-    //   data: rawObject,
-    //   errorFilePath: "./scripts/generate.create.ts",
-    // });
-    return;
-  }
+  // if (isError) {
+  // await logger.error({
+  //   title: `ERROR: Error found for endpoint: ${name}`,
+  //   data: rawObject,
+  //   errorFilePath: "./scripts/generate.create.ts",
+  // });
+  // return;
+  // }
 
   await logger.info({
-    title: `SUCCESS: Data logged for endpoint: ${name}`,
+    title: `${name}: SUCCES `,
     data: rawObject,
   });
 };
+
+await clearFileContents(STATS_COUNTS_FILE_PATH);
+await clearFileContents(STATS_LOGFILES_FILE_PATH);
+await clearLogs();
 
 const main = async () => {
   await Promise.all(allEndpoints.map(processEndpoint));
 };
 
+console.log("Generated Files:");
+await main();
+
 const loggedDataCount = await readJsonFile({
-  filePath: ".logs/loggedDataCount.json",
+  filePath: STATS_COUNTS_FILE_PATH,
 });
 
 const logFiles = await readJsonFile({
-  filePath: ".logs/logFiles.json",
+  filePath: STATS_LOGFILES_FILE_PATH,
 });
 
 console.log(loggedDataCount);
@@ -110,6 +123,3 @@ console.log("Log Files:");
 logFiles.forEach(async (logFile: string) => {
   console.log(logFile);
 });
-
-console.log("Generated Files:");
-await main();

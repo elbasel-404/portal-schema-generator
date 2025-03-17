@@ -1,3 +1,4 @@
+// utils/io/deleteFile.ts
 // const exists = await file.exists();
 
 import { file } from "bun";

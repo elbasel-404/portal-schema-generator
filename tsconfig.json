@@ -5,7 +5,8 @@
       "@utils/*": ["./utils/*"],
       "@schemas/*": ["./schemas/*"],
       "@models/*": ["./models/*"],
-      "@type/*": ["./type/*"]
+      "@type/*": ["./type/*"],
+      "@constants/*": ["./constants/*"]
     },
     // ! Resolve JSON as js objects
     "resolveJsonModule": true,

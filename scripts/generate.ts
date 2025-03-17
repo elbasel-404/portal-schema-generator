@@ -1,3 +1,4 @@
+// scripts/generate.ts
 import { ResponseSchema } from "@schemas/responseSchema";
 import { getFetchHeaders, getFetchUrl } from "@utils/http";
 import { writeStringToFile } from "@utils/io";
@@ -71,16 +72,16 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
     data: responseDataInterface,
   });
 
-  // logger.info({
-  //   data: {
-  //     name,
-  //     status: responseStatus,
-  //     statusCode: responseStatusCode,
-  //     numItems: responseData.length + " items",
-  //     responseJsonFilePath,
-  //     dataJsonFilePath,
-  //     responseDataZodSchemaFilePath,
-  //     responseDataInterfaceFilePath,
-  //   },
-  // });
+  logger.info({
+    data: {
+      name,
+      status: responseStatus,
+      statusCode: responseStatusCode,
+      numItems: responseData.length + " items",
+      responseJsonFilePath,
+      dataJsonFilePath,
+      responseDataZodSchemaFilePath,
+      responseDataInterfaceFilePath,
+    },
+  });
 });
