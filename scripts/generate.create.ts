@@ -27,7 +27,7 @@ const generateRequestBodySchema = async ({
     2
   );
   const schema = await getModelZodSchema(
-    endpointName,
+    endpointName + "CreateRequestBody",
     createRequestBodyJsonString
   );
 
