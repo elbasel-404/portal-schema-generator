@@ -14,10 +14,11 @@
     "createRequestBody": {
       "employee_id": "21",
       "holiday_status_id": "5",
-      "date_from": "2025-05-01",
-      "date_to": "2025-05-01",
+      "date_from": "2026-05-05",
+      "date_to": "2026-05-05",
       "substitute_employee_id": "10",
-      "notes": "test from api"
+      "notes": "test from api",
+      "attachment_ids": []
     }
   },
   {
