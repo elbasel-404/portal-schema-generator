@@ -1,14 +1,14 @@
 
-ERROR: No createRequestBody found for endpoint: remote-work
+remote-work: createRequestBody is empty: 
 
-ERROR: No createRequestBody found for endpoint: medical-insurance
+permission: createRequestBody is empty: 
 
-ERROR: No createRequestBody found for endpoint: permission
+request-details-workflow: createUrl not found
 
-ERROR: No createUrl found for endpoint: request-create-workflow
+request-create-workflow: createUrl not found
 
-ERROR: No createRequestBody found for endpoint: salary-identification
+salary-identification: createRequestBody is empty: 
 
-ERROR: No createUrl found for endpoint: request-details-workflow
+medical-insurance: createRequestBody is empty: 
 
-ERROR: No rawDataArray found for endpoint: medical-insurance
+medical-insurance: ./json/medical-insurance/raw.create.json is empty: 
