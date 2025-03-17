@@ -1,3 +1,4 @@
+// utils/io/deleteDirectory.ts
 import { rm } from "node:fs/promises";
 import { getLogger } from "./getLogger";
 
@@ -19,13 +20,6 @@ export const deleteDirectory = async ({ path }: DeleteDirectoryArgs) => {
   try {
     await rm(path, { recursive: true });
   } catch (error) {
-    // logger.error({
-    //   data: `Error deleting directory: ${path}`,
-    //   errorFilePath: "utils/io/deleteDirectory.ts",
-    // });
-    // logger.error({
-    //   data: error as Error,
-    //   errorFilePath: "utils/io/deleteDirectory.ts",
-    // });
+    console.error(`Failed to delete directory at ${path}:`, error);
   }
 };

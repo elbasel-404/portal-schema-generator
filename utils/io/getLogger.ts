@@ -1,9 +1,11 @@
+// utils/io/getLogger.ts
+import {
+  LOG_DIR,
+  STATS_COUNTS_FILE_PATH,
+  STATS_LOGFILES_FILE_PATH,
+} from "@constants/paths/logs";
+import { appendStringToFile, writeStringToFile } from "@utils/io";
 import type { LogFileName } from "@type/LogFileName";
-import { LOG_DIR } from "../../constants/LOG_DIR";
-import { appendStringToFile } from "./appendStringToFile";
-import { writeStringToFile } from "./writeStringToFile";
-
-const PRIVATE_DATA_DIR = "./.logs";
 
 const loggedDataCount = {
   info: 0,
@@ -36,7 +38,7 @@ const log = async ({
   // }
 
   let logFilePath = `${LOG_DIR}/${logFileName}`;
-  const logFileSuffix = isError ? "error" : "log";
+  const logFileSuffix = isError ? "error.log" : "log";
 
   const filePath = `${logFilePath}.${logFileSuffix}`;
 
@@ -70,12 +72,12 @@ const log = async ({
 
   await writeStringToFile({
     data: JSON.stringify(loggedDataCount),
-    filePath: `${PRIVATE_DATA_DIR}/loggedDataCount.json`,
+    filePath: STATS_COUNTS_FILE_PATH,
   });
 
   await writeStringToFile({
     data: JSON.stringify(Array.from(logFiles)),
-    filePath: `${PRIVATE_DATA_DIR}/logFiles.json`,
+    filePath: STATS_LOGFILES_FILE_PATH,
   });
 
   await appendStringToFile({
