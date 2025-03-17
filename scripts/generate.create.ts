@@ -1,17 +1,70 @@
-import endpoints from "@lib/endpoints.json";
-import { generateCreateRaw } from "./generate.create.raw";
-import { getFetchHeaders, getFetchUrl } from "@utils/http";
-import { getLogger } from "@utils/io/getLogger";
-import { readJsonFile } from "@utils/io/readJsonFile";
-import { CreateSucessSchema } from "@schemas/CreateSucessSchema";
-import { CreateErrorSchema } from "@schemas/CreateErrorSchema";
 import {
   STATS_COUNTS_FILE_PATH,
   STATS_LOGFILES_FILE_PATH,
 } from "@constants/paths/logs";
+import endpoints from "@lib/endpoints.json";
+import { CreateErrorSchema } from "@schemas/CreateErrorSchema";
+import { CreateSucessSchema } from "@schemas/CreateSucessSchema";
+import { getFetchHeaders, getFetchUrl } from "@utils/http";
 import { writeStringToFile } from "@utils/io";
 import { clearFileContents } from "@utils/io/clearFileContents";
 import { clearLogs } from "@utils/io/clearLogs";
+import { getLogger } from "@utils/io/getLogger";
+import { readJsonFile } from "@utils/io/readJsonFile";
+import { getModelZodSchema } from "@utils/model";
+
+type GenerateRequestBodySchemaArgs = {
+  endpointName: string;
+  createRequestBody: object;
+};
+const generateRequestBodySchema = async ({
+  createRequestBody,
+  endpointName,
+}: GenerateRequestBodySchemaArgs) => {
+  const createRequestBodyJsonString = JSON.stringify(
+    createRequestBody,
+    null,
+    2
+  );
+  const schema = await getModelZodSchema(
+    endpointName,
+    createRequestBodyJsonString
+  );
+
+  const filePath = `./schemas/${endpointName}/create.body.schema.ts`;
+
+  await writeStringToFile({
+    data: schema,
+    filePath,
+  });
+  return filePath;
+};
+
+const generateCreateRaw = async ({
+  endpointName,
+  fetchUrl,
+  method,
+  headers,
+  formData,
+}: {
+  endpointName: string;
+  fetchUrl: string;
+  method: string;
+  headers: Headers;
+  formData: FormData;
+}) => {
+  const response = await fetch(fetchUrl, {
+    method,
+    headers,
+    body: formData,
+  });
+  const responseJson = await response.json();
+  const filePath = `./json/${endpointName}/raw.create.json`;
+  const data = JSON.stringify(responseJson, null, 2);
+
+  await writeStringToFile({ filePath, data });
+  return filePath;
+};
 
 const logger = getLogger({
   logFileName: "generate.create",
@@ -27,6 +80,11 @@ const allEndpoints = endpoints as Endpoint[];
 
 const processEndpoint = async (ep: Endpoint) => {
   const { createUrl, method, name, createRequestBody } = ep;
+  const requestBodySchemaFilePath = await generateRequestBodySchema({
+    createRequestBody,
+    endpointName: name,
+  });
+  console.log(requestBodySchemaFilePath);
 
   if (!createUrl) {
     await logger.error({
