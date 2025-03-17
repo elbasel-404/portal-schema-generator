@@ -1,12 +1,14 @@
 
-salary-identification: createRequestBody is empty: 
-
 remote-work: createRequestBody is empty: 
+
+permission: createRequestBody is empty: 
 
 request-details-workflow: createUrl not found
 
-medical-insurance: createRequestBody is empty: 
-
 request-create-workflow: createUrl not found
 
-permission: createRequestBody is empty: 
+salary-identification: createRequestBody is empty: 
+
+medical-insurance: createRequestBody is empty: 
+
+medical-insurance: ./json/medical-insurance/raw.create.json is empty: 
