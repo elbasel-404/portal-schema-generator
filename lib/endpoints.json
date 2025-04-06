@@ -78,6 +78,20 @@
     "createRequestBody": null
   },
   {
+    "name": "change-bank-account",
+    "url": "hr/change-bank-request",
+    "createUrl": "hr/change-bank-request/create",
+    "method": "POST",
+    "description": "Get bank account requests",
+    "listRequestBody": {
+      "employee_id": 1722
+    },
+    "detailsRequestBody": {
+      "id": 150
+    },
+    "createRequestBody": null
+  },
+  {
     "name": "request-details-workflow",
     "url": "last_update",
     "createUrl": null,
