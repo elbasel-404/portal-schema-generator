@@ -131,5 +131,14 @@
     "description": "Get destination requests",
     "listRequestBody": {},
     "createRequestBody": null
+  },
+  {
+    "name": "hr-letter-types",
+    "createUrl": null,
+    "url": "salary/identification/request/type/read",
+    "method": "POST",
+    "description": "Get destination requests",
+    "listRequestBody": {},
+    "createRequestBody": null
   }
 ]
