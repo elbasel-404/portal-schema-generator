@@ -1,5 +1,97 @@
 [
   {
+    "id": 16475,
+    "name": "15161",
+    "employee_id": [
+      1722,
+      "[1762] عساف  بن رشود الصاعدي"
+    ],
+    "number": "1762",
+    "department_id": [
+      439,
+      "خدمات المنشآت / التقنية والحلول الرقمية / تقنية المعلومات / الأنظمة الداخلية"
+    ],
+    "job_id": [
+      1791,
+      "قائد فريق أنظمة داخلية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      "[02] إستئذان لعمل‬"
+    ],
+    "description": "",
+    "state": "hrm",
+    "date": "2025-04-09",
+    "more_one_day": false,
+    "date_from": "2025-03-03",
+    "date_to": "2025-03-05",
+    "date_done": "",
+    "hour_from": 7.5,
+    "hour_to": 15.5,
+    "hour_number": 8,
+    "current_autorization_stock": 60,
+    "current_nb_autorization": 0,
+    "all_day": false,
+    "reason": "",
+    "active": true,
+    "added_2summary": false,
+    "attachment_ids": [],
+    "policy_id": [
+      3,
+      "استئذان عمل "
+    ],
+    "res_model": "hr.authorization",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      14126442
+    ],
+    "message_ids": [
+      170596143,
+      170596142,
+      170596141
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1336,
+      "asaedi"
+    ],
+    "create_date": "2025-04-09 14:44:53",
+    "write_uid": [
+      1336,
+      "asaedi"
+    ],
+    "write_date": "2025-04-09 14:44:53",
+    "display_button_cancel": false,
+    "check_work_permission": true,
+    "is_direct_manager": false,
+    "check_attachment": true,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": true,
+    "message_partner_ids": [
+      3955
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "15161",
+    "__last_update": "2025-04-09 14:44:53"
+  },
+  {
     "id": 16442,
     "name": "15142",
     "employee_id": [
@@ -23,13 +115,13 @@
       1,
       "[02] إستئذان لعمل‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "refuse",
     "date": "2025-02-20",
     "more_one_day": true,
     "date_from": "2025-02-25",
     "date_to": "2025-02-24",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 0,
     "hour_to": 0,
     "hour_number": 0,
@@ -47,7 +139,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       13641157
     ],
@@ -59,6 +150,7 @@
       169585213
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -117,13 +209,13 @@
       1,
       "[02] إستئذان لعمل‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "refuse",
     "date": "2025-02-18",
     "more_one_day": false,
     "date_from": "2025-02-19",
     "date_to": "2025-02-19",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 13.116666666666667,
     "hour_to": 16.116666666666667,
     "hour_number": 3,
@@ -141,7 +233,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       13623448
     ],
@@ -153,6 +244,7 @@
       169548208
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -217,7 +309,7 @@
     "more_one_day": false,
     "date_from": "2025-02-13",
     "date_to": "2025-02-13",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 12.316666666666666,
     "hour_to": 13.316666666666666,
     "hour_number": 1,
@@ -237,7 +329,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": true,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       13133274
     ],
@@ -249,6 +340,7 @@
       168984041
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -307,20 +399,20 @@
       4,
       "[10] osama"
     ],
-    "description": "false",
+    "description": "",
     "state": "dm",
     "date": "2025-02-09",
     "more_one_day": false,
     "date_from": "2025-02-11",
     "date_to": "2025-02-11",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 10,
     "hour_to": 11,
     "hour_number": 0,
     "current_autorization_stock": 60,
     "current_nb_autorization": 0,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -331,7 +423,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       12891583
     ],
@@ -342,6 +433,7 @@
       168722924
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -406,7 +498,7 @@
     "more_one_day": false,
     "date_from": "2025-02-24",
     "date_to": "2025-02-24",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 7.5,
     "hour_to": 15.5,
     "hour_number": 8,
@@ -424,7 +516,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": true,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       12631671
     ],
@@ -436,6 +527,7 @@
       168433014
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -500,14 +592,14 @@
     "more_one_day": false,
     "date_from": "2025-02-03",
     "date_to": "2025-02-03",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 13.05,
     "hour_to": 16.5,
     "hour_number": 3.4499999999999993,
     "current_autorization_stock": 9,
     "current_nb_autorization": 0,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -518,7 +610,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": true,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       12066128
     ],
@@ -528,6 +619,7 @@
       167817567
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -599,7 +691,7 @@
     "current_autorization_stock": 8,
     "current_nb_autorization": 1,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -610,7 +702,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       11386219
     ],
@@ -621,6 +712,7 @@
       167022549
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -703,7 +795,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       10152686
     ],
@@ -716,6 +807,7 @@
       165698516
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -787,7 +879,7 @@
     "current_autorization_stock": 9,
     "current_nb_autorization": 0,
     "all_day": true,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -798,7 +890,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       9476685
     ],
@@ -809,6 +900,7 @@
       164930885
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1,
       "Khaled Alamri"
@@ -873,7 +965,7 @@
     "more_one_day": true,
     "date_from": "2024-12-29",
     "date_to": "2024-12-31",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 7.5,
     "hour_to": 15.5,
     "hour_number": 8,
@@ -891,7 +983,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       8864680
     ],
@@ -905,6 +996,7 @@
       164245938
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -963,13 +1055,13 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "refuse",
     "date": "2024-12-28",
     "more_one_day": false,
     "date_from": "2024-12-31",
     "date_to": "2024-12-31",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 9.933333333333334,
     "hour_to": 11.966666666666667,
     "hour_number": 2.033333333333333,
@@ -987,7 +1079,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       8489732
     ],
@@ -999,6 +1090,7 @@
       163843149
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1063,7 +1155,7 @@
     "more_one_day": true,
     "date_from": "2024-12-26",
     "date_to": "2024-12-26",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 7.5,
     "hour_to": 15.5,
     "hour_number": 8,
@@ -1081,7 +1173,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       8308270
     ],
@@ -1093,6 +1184,7 @@
       163642549
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1157,7 +1249,7 @@
     "more_one_day": false,
     "date_from": "2024-12-23",
     "date_to": "2024-12-23",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 14.416666666666666,
     "hour_to": 16.416666666666668,
     "hour_number": 2.0000000000000018,
@@ -1175,7 +1267,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       8026979
     ],
@@ -1189,6 +1280,7 @@
       163347531
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1253,7 +1345,7 @@
     "more_one_day": false,
     "date_from": "2024-12-17",
     "date_to": "2024-12-17",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 11.516666666666667,
     "hour_to": 12.516666666666667,
     "hour_number": 1,
@@ -1271,7 +1363,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       7285357
     ],
@@ -1283,6 +1374,7 @@
       162533071
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1341,13 +1433,13 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "refuse",
     "date": "2024-12-11",
     "more_one_day": false,
     "date_from": "2024-12-18",
     "date_to": "2024-12-18",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 8,
     "hour_to": 9,
     "hour_number": 1,
@@ -1365,7 +1457,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       7270486
     ],
@@ -1377,6 +1468,7 @@
       162518099
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1441,7 +1533,7 @@
     "more_one_day": false,
     "date_from": "2024-12-12",
     "date_to": "2024-12-12",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 8,
     "hour_to": 9,
     "hour_number": 1,
@@ -1459,7 +1551,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       7270485
     ],
@@ -1471,6 +1562,7 @@
       162518096
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1529,7 +1621,7 @@
       1,
       "[02] إستئذان لعمل‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "done",
     "date": "2024-12-02",
     "more_one_day": false,
@@ -1542,7 +1634,7 @@
     "current_autorization_stock": 60,
     "current_nb_autorization": 0,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -1553,7 +1645,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       6581545
     ],
@@ -1564,6 +1655,7 @@
       161769048
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1628,7 +1720,7 @@
     "more_one_day": false,
     "date_from": "2024-12-04",
     "date_to": "2024-12-04",
-    "date_done": "false",
+    "date_done": "",
     "hour_from": 9,
     "hour_to": 10,
     "hour_number": 1,
@@ -1646,7 +1738,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       6581469
     ],
@@ -1658,6 +1749,7 @@
       161768831
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1716,7 +1808,7 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "done",
     "date": "2024-11-17",
     "more_one_day": false,
@@ -1729,7 +1821,7 @@
     "current_autorization_stock": 9,
     "current_nb_autorization": 0,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -1740,7 +1832,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       1211813
     ],
@@ -1751,6 +1842,7 @@
       156223190
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1809,7 +1901,7 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "done",
     "date": "2024-10-23",
     "more_one_day": false,
@@ -1822,7 +1914,7 @@
     "current_autorization_stock": 9,
     "current_nb_autorization": 0,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -1833,7 +1925,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       464992
     ],
@@ -1844,6 +1935,7 @@
       155343630
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1915,7 +2007,7 @@
     "current_autorization_stock": 3,
     "current_nb_autorization": 1,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -1926,7 +2018,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       461688
     ],
@@ -1937,6 +2028,7 @@
       155336130
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -1995,7 +2087,7 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "refuse",
     "date": "2024-10-23",
     "more_one_day": false,
@@ -2008,7 +2100,7 @@
     "current_autorization_stock": 4,
     "current_nb_autorization": 0,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -2022,7 +2114,6 @@
       8580,
       8581
     ],
-    "website_message_ids": [],
     "message_follower_ids": [
       461672
     ],
@@ -2034,6 +2125,7 @@
       155336001
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -2092,7 +2184,7 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "done",
     "date": "2024-10-21",
     "more_one_day": false,
@@ -2105,7 +2197,7 @@
     "current_autorization_stock": 3.0166666666666675,
     "current_nb_autorization": 3,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -2116,7 +2208,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       454942
     ],
@@ -2127,6 +2218,7 @@
       155320243
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -2185,7 +2277,7 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "done",
     "date": "2024-10-21",
     "more_one_day": false,
@@ -2198,7 +2290,7 @@
     "current_autorization_stock": 7.000000000000002,
     "current_nb_autorization": 2,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -2209,7 +2301,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       454941
     ],
@@ -2220,6 +2311,7 @@
       155320238
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -2278,7 +2370,7 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "done",
     "date": "2024-10-21",
     "more_one_day": false,
@@ -2291,7 +2383,7 @@
     "current_autorization_stock": 11.000000000000002,
     "current_nb_autorization": 1,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -2302,7 +2394,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       454940
     ],
@@ -2313,6 +2404,7 @@
       155320234
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -2371,7 +2463,7 @@
       3,
       "[01] إستئذان شخصي‬"
     ],
-    "description": "false",
+    "description": "",
     "state": "done",
     "date": "2024-10-21",
     "more_one_day": false,
@@ -2384,7 +2476,7 @@
     "current_autorization_stock": 15,
     "current_nb_autorization": 0,
     "all_day": false,
-    "reason": "false",
+    "reason": "",
     "active": true,
     "added_2summary": false,
     "attachment_ids": [],
@@ -2395,7 +2487,6 @@
     "res_model": "hr.authorization",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       454939
     ],
@@ -2406,6 +2497,7 @@
       155320230
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"

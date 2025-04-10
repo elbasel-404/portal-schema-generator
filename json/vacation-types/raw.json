@@ -1,0 +1,70 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "statusCode": 200,
+    "status": "success",
+    "data": [
+      {
+        "id": 5,
+        "name": "إجازة سنوية #test",
+        "display_name": "إجازة سنوية #test"
+      },
+      {
+        "id": 7,
+        "name": "إجازة مرضيّة",
+        "display_name": "إجازة مرضيّة"
+      },
+      {
+        "id": 16,
+        "name": "إجازة المولود",
+        "display_name": "إجازة المولود"
+      },
+      {
+        "id": 18,
+        "name": "إجازة وفاة",
+        "display_name": "إجازة وفاة"
+      },
+      {
+        "id": 21,
+        "name": "‫إجازة إمتحان‬",
+        "display_name": "‫إجازة إمتحان‬"
+      },
+      {
+        "id": 25,
+        "name": "إجازة زواج",
+        "display_name": "إجازة زواج"
+      },
+      {
+        "id": 26,
+        "name": "حج",
+        "display_name": "حج"
+      },
+      {
+        "id": 28,
+        "name": "Legal Leaves 2020",
+        "display_name": "Legal Leaves 2020"
+      },
+      {
+        "id": 29,
+        "name": "إجازة غير مدفوعة الراتب",
+        "display_name": "إجازة غير مدفوعة الراتب"
+      },
+      {
+        "id": 31,
+        "name": "إجازة المشاركة في الفعاليات الرياضية والثقافية",
+        "display_name": "إجازة المشاركة في الفعاليات الرياضية والثقافية"
+      },
+      {
+        "id": 34,
+        "name": "اجازه عن بعد tessst",
+        "display_name": "اجازه عن بعد tessst"
+      },
+      {
+        "id": 36,
+        "name": "odoo17db",
+        "display_name": "odoo17db"
+      }
+    ]
+  }
+}
