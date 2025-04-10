@@ -72,6 +72,9 @@ export interface Holiday {
     time_from:                    boolean;
     time_to:                      boolean;
     half_day_duration:            number;
+    res_model:                    string;
+    is_from_mobile:               boolean;
+    mobile_approvals_ids:         number[];
     website_message_ids:          any[];
     message_follower_ids:         number[];
     message_ids:                  number[];
@@ -80,9 +83,6 @@ export interface Holiday {
     create_date:                  Date;
     write_uid:                    Array<number | string>;
     write_date:                   Date;
-    res_model:                    string;
-    is_from_mobile:               boolean;
-    mobile_approvals_ids:         number[];
     x_sla_labels:                 string;
     double_validation:            boolean;
     can_reset:                    boolean;
@@ -105,6 +105,8 @@ export interface Holiday {
     display_button_send:          boolean;
     substitute_employee_required: boolean;
     computed_duration:            number;
+    department_global_id:         Array<number | string>;
+    sector_id:                    Array<number | string>;
     message_is_follower:          boolean;
     message_partner_ids:          number[];
     message_channel_ids:          any[];
@@ -114,8 +116,6 @@ export interface Holiday {
     message_needaction_counter:   number;
     display_name:                 string;
     __last_update:                Date;
-    department_global_id:         Array<number | string>;
-    sector_id:                    Array<number | string>;
 }
 
 // Converts JSON strings to/from your types
@@ -348,6 +348,9 @@ const typeMap: any = {
         { json: "time_from", js: "time_from", typ: true },
         { json: "time_to", js: "time_to", typ: true },
         { json: "half_day_duration", js: "half_day_duration", typ: 0 },
+        { json: "res_model", js: "res_model", typ: "" },
+        { json: "is_from_mobile", js: "is_from_mobile", typ: true },
+        { json: "mobile_approvals_ids", js: "mobile_approvals_ids", typ: a(0) },
         { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
         { json: "message_ids", js: "message_ids", typ: a(0) },
@@ -356,9 +359,6 @@ const typeMap: any = {
         { json: "create_date", js: "create_date", typ: Date },
         { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },
         { json: "write_date", js: "write_date", typ: Date },
-        { json: "res_model", js: "res_model", typ: "" },
-        { json: "is_from_mobile", js: "is_from_mobile", typ: true },
-        { json: "mobile_approvals_ids", js: "mobile_approvals_ids", typ: a(0) },
         { json: "x_sla_labels", js: "x_sla_labels", typ: "" },
         { json: "double_validation", js: "double_validation", typ: true },
         { json: "can_reset", js: "can_reset", typ: true },
@@ -381,6 +381,8 @@ const typeMap: any = {
         { json: "display_button_send", js: "display_button_send", typ: true },
         { json: "substitute_employee_required", js: "substitute_employee_required", typ: true },
         { json: "computed_duration", js: "computed_duration", typ: 0 },
+        { json: "department_global_id", js: "department_global_id", typ: a(u(0, "")) },
+        { json: "sector_id", js: "sector_id", typ: a(u(0, "")) },
         { json: "message_is_follower", js: "message_is_follower", typ: true },
         { json: "message_partner_ids", js: "message_partner_ids", typ: a(0) },
         { json: "message_channel_ids", js: "message_channel_ids", typ: a("any") },
@@ -390,7 +392,5 @@ const typeMap: any = {
         { json: "message_needaction_counter", js: "message_needaction_counter", typ: 0 },
         { json: "display_name", js: "display_name", typ: "" },
         { json: "__last_update", js: "__last_update", typ: Date },
-        { json: "department_global_id", js: "department_global_id", typ: a(u(0, "")) },
-        { json: "sector_id", js: "sector_id", typ: a(u(0, "")) },
     ], false),
 };

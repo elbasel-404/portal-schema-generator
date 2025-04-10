@@ -1,0 +1,34 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "statusCode": 200,
+    "status": "success",
+    "data": [
+      {
+        "id": "salary_detail",
+        "name": "تعريف بتفاصيل الراتب"
+      },
+      {
+        "id": "total_salary",
+        "name": "تعريف بإجمالي الراتب"
+      },
+      {
+        "id": "salary_payslip",
+        "name": "مسير للراتب"
+      },
+      {
+        "id": "salary_identification",
+        "name": "تعريف بالراتب"
+      },
+      {
+        "id": "nosalary_identification",
+        "name": "تعريف بدون راتب"
+      },
+      {
+        "id": "salary_check",
+        "name": "تثبيت راتب"
+      }
+    ]
+  }
+}
