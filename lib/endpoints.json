@@ -22,6 +22,15 @@
     }
   },
   {
+    "name": "vacation-types",
+    "createUrl": null,
+    "url": "hr/holidays/status/by_gender",
+    "method": "POST",
+    "description": "Get vacation types requests",
+    "listRequestBody": {},
+    "createRequestBody": null
+  },
+  {
     "name": "remote-work",
     "url": "hr/distance/work/",
     "createUrl": "hr/distance/work/create",
@@ -74,6 +83,20 @@
     },
     "detailsRequestBody": {
       "id": 5166
+    },
+    "createRequestBody": null
+  },
+  {
+    "name": "change-bank-account",
+    "url": "hr/change-bank-request",
+    "createUrl": "hr/change-bank-request/create",
+    "method": "POST",
+    "description": "Get bank account requests",
+    "listRequestBody": {
+      "employee_id": 1722
+    },
+    "detailsRequestBody": {
+      "id": 150
     },
     "createRequestBody": null
   },
