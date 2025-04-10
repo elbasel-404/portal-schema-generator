@@ -2,53 +2,25 @@
 //
 //   import { Convert } from "./file";
 //
-//   const changeBankAccount = Convert.toChangeBankAccount(json);
+//   const destination = Convert.toDestination(json);
 //
 // These functions will throw an error if the JSON doesn't
 // match the expected interface, even if the JSON is valid.
 
-export interface ChangeBankAccount {
-    id:                         number;
-    name:                       string;
-    current_employee_account:   string;
-    employee_id:                Array<number | string>;
-    new_bank_id:                Array<number | string>;
-    iban:                       string;
-    attachment_ids:             any[];
-    attachment_ids_new_iban:    any[];
-    account_status:             boolean | string;
-    state:                      string;
-    order_date:                 Date;
-    refuse_reason:              boolean | string;
-    check_attachment:           boolean;
-    website_message_ids:        any[];
-    message_follower_ids:       number[];
-    message_ids:                number[];
-    message_last_post:          boolean;
-    create_uid:                 Array<number | string>;
-    create_date:                Date;
-    write_uid:                  Array<number | string>;
-    write_date:                 Date;
-    message_is_follower:        boolean;
-    message_partner_ids:        number[];
-    message_channel_ids:        any[];
-    message_unread:             boolean;
-    message_unread_counter:     number;
-    message_needaction:         boolean;
-    message_needaction_counter: number;
-    display_name:               string;
-    __last_update:              Date;
+export interface Destination {
+    id:   number;
+    name: string;
 }
 
 // Converts JSON strings to/from your types
 // and asserts the results of JSON.parse at runtime
 export class Convert {
-    public static toChangeBankAccount(json: string): ChangeBankAccount[] {
-        return cast(JSON.parse(json), a(r("ChangeBankAccount")));
+    public static toDestination(json: string): Destination[] {
+        return cast(JSON.parse(json), a(r("Destination")));
     }
 
-    public static changeBankAccountToJson(value: ChangeBankAccount[]): string {
-        return JSON.stringify(uncast(value, a(r("ChangeBankAccount"))), null, 2);
+    public static destinationToJson(value: Destination[]): string {
+        return JSON.stringify(uncast(value, a(r("Destination"))), null, 2);
     }
 }
 
@@ -205,36 +177,8 @@ function r(name: string) {
 }
 
 const typeMap: any = {
-    "ChangeBankAccount": o([
+    "Destination": o([
         { json: "id", js: "id", typ: 0 },
         { json: "name", js: "name", typ: "" },
-        { json: "current_employee_account", js: "current_employee_account", typ: "" },
-        { json: "employee_id", js: "employee_id", typ: a(u(0, "")) },
-        { json: "new_bank_id", js: "new_bank_id", typ: a(u(0, "")) },
-        { json: "iban", js: "iban", typ: "" },
-        { json: "attachment_ids", js: "attachment_ids", typ: a("any") },
-        { json: "attachment_ids_new_iban", js: "attachment_ids_new_iban", typ: a("any") },
-        { json: "account_status", js: "account_status", typ: u(true, "") },
-        { json: "state", js: "state", typ: "" },
-        { json: "order_date", js: "order_date", typ: Date },
-        { json: "refuse_reason", js: "refuse_reason", typ: u(true, "") },
-        { json: "check_attachment", js: "check_attachment", typ: true },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
-        { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
-        { json: "message_ids", js: "message_ids", typ: a(0) },
-        { json: "message_last_post", js: "message_last_post", typ: true },
-        { json: "create_uid", js: "create_uid", typ: a(u(0, "")) },
-        { json: "create_date", js: "create_date", typ: Date },
-        { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },
-        { json: "write_date", js: "write_date", typ: Date },
-        { json: "message_is_follower", js: "message_is_follower", typ: true },
-        { json: "message_partner_ids", js: "message_partner_ids", typ: a(0) },
-        { json: "message_channel_ids", js: "message_channel_ids", typ: a("any") },
-        { json: "message_unread", js: "message_unread", typ: true },
-        { json: "message_unread_counter", js: "message_unread_counter", typ: 0 },
-        { json: "message_needaction", js: "message_needaction", typ: true },
-        { json: "message_needaction_counter", js: "message_needaction_counter", typ: 0 },
-        { json: "display_name", js: "display_name", typ: "" },
-        { json: "__last_update", js: "__last_update", typ: Date },
     ], false),
 };

@@ -122,5 +122,14 @@
       "model": "hr.authorization"
     },
     "createRequestBody": null
+  },
+  {
+    "name": "destination",
+    "createUrl": null,
+    "url": "salary/identification/request/destination/read",
+    "method": "POST",
+    "description": "Get destination requests",
+    "listRequestBody": {},
+    "createRequestBody": null
   }
 ]
