@@ -26,16 +26,16 @@ export interface SalaryIdentification {
     acc_number:                  string;
     download_link:               string;
     open_link:                   string;
-    res_model:                   ResModel;
-    is_from_mobile:              boolean;
+    website_message_ids:         any[];
     message_follower_ids:        number[];
     message_ids:                 number[];
     message_last_post:           boolean;
-    website_message_ids:         any[];
     create_uid:                  Array<CreateUidEnum | number>;
     create_date:                 Date;
     write_uid:                   Array<CreateUidEnum | number>;
     write_date:                  Date;
+    res_model:                   ResModel;
+    is_from_mobile:              boolean;
     eng_destination:             EngDestination;
     template_name:               Template;
     basic_salary:                number;
@@ -43,8 +43,6 @@ export interface SalaryIdentification {
     allowance_transportation:    number;
     allowance_mobile:            number;
     designation_mandated_amount: number;
-    department_global_id:        Array<DepartmentGlobalIDEnum | number>;
-    sector_id:                   Array<SectorIDEnum | number>;
     message_is_follower:         boolean;
     message_partner_ids:         number[];
     message_channel_ids:         any[];
@@ -54,6 +52,8 @@ export interface SalaryIdentification {
     message_needaction_counter:  number;
     display_name:                DisplayName;
     __last_update:               Date;
+    department_global_id:        Array<DepartmentGlobalIDEnum | number>;
+    sector_id:                   Array<SectorIDEnum | number>;
 }
 
 export enum CreateUidEnum {
@@ -298,16 +298,16 @@ const typeMap: any = {
         { json: "acc_number", js: "acc_number", typ: "" },
         { json: "download_link", js: "download_link", typ: "" },
         { json: "open_link", js: "open_link", typ: "" },
-        { json: "res_model", js: "res_model", typ: r("ResModel") },
-        { json: "is_from_mobile", js: "is_from_mobile", typ: true },
+        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
         { json: "message_ids", js: "message_ids", typ: a(0) },
         { json: "message_last_post", js: "message_last_post", typ: true },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "create_uid", js: "create_uid", typ: a(u(r("CreateUidEnum"), 0)) },
         { json: "create_date", js: "create_date", typ: Date },
         { json: "write_uid", js: "write_uid", typ: a(u(r("CreateUidEnum"), 0)) },
         { json: "write_date", js: "write_date", typ: Date },
+        { json: "res_model", js: "res_model", typ: r("ResModel") },
+        { json: "is_from_mobile", js: "is_from_mobile", typ: true },
         { json: "eng_destination", js: "eng_destination", typ: r("EngDestination") },
         { json: "template_name", js: "template_name", typ: r("Template") },
         { json: "basic_salary", js: "basic_salary", typ: 0 },
@@ -315,8 +315,6 @@ const typeMap: any = {
         { json: "allowance_transportation", js: "allowance_transportation", typ: 0 },
         { json: "allowance_mobile", js: "allowance_mobile", typ: 0 },
         { json: "designation_mandated_amount", js: "designation_mandated_amount", typ: 0 },
-        { json: "department_global_id", js: "department_global_id", typ: a(u(r("DepartmentGlobalIDEnum"), 0)) },
-        { json: "sector_id", js: "sector_id", typ: a(u(r("SectorIDEnum"), 0)) },
         { json: "message_is_follower", js: "message_is_follower", typ: true },
         { json: "message_partner_ids", js: "message_partner_ids", typ: a(0) },
         { json: "message_channel_ids", js: "message_channel_ids", typ: a("any") },
@@ -326,6 +324,8 @@ const typeMap: any = {
         { json: "message_needaction_counter", js: "message_needaction_counter", typ: 0 },
         { json: "display_name", js: "display_name", typ: r("DisplayName") },
         { json: "__last_update", js: "__last_update", typ: Date },
+        { json: "department_global_id", js: "department_global_id", typ: a(u(r("DepartmentGlobalIDEnum"), 0)) },
+        { json: "sector_id", js: "sector_id", typ: a(u(r("SectorIDEnum"), 0)) },
     ], false),
     "CreateUidEnum": [
         "aashehri.uat",

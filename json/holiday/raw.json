@@ -97,9 +97,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": false,
-        "mobile_approvals_ids": [],
+        "website_message_ids": [],
         "message_follower_ids": [
           14126432,
           14126433,
@@ -113,7 +111,6 @@
           170595735
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1336,
           "asaedi"
@@ -124,6 +121,9 @@
           "asaedi"
         ],
         "write_date": "2025-04-09 12:15:17",
+        "res_model": "hr.holidays",
+        "is_from_mobile": false,
+        "mobile_approvals_ids": [],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -146,14 +146,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 4,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -169,7 +161,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 4  يوم",
-        "__last_update": "2025-04-09 12:15:17"
+        "__last_update": "2025-04-09 12:15:17",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 17098,
@@ -263,9 +263,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": false,
-        "mobile_approvals_ids": [],
+        "website_message_ids": [],
         "message_follower_ids": [
           14115389,
           14115390,
@@ -279,7 +277,6 @@
           170572912
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1336,
           "asaedi"
@@ -290,6 +287,9 @@
           "asaedi"
         ],
         "write_date": "2025-04-08 08:23:09",
+        "res_model": "hr.holidays",
+        "is_from_mobile": false,
+        "mobile_approvals_ids": [],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -312,14 +312,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 7,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -335,7 +327,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 7  يوم",
-        "__last_update": "2025-04-08 08:23:09"
+        "__last_update": "2025-04-08 08:23:09",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 16818,
@@ -431,9 +431,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": true,
-        "mobile_approvals_ids": [],
+        "website_message_ids": [],
         "message_follower_ids": [
           12122581,
           12122582,
@@ -447,7 +445,6 @@
           167874035
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1336,
           "asaedi"
@@ -458,6 +455,9 @@
           "asaedi"
         ],
         "write_date": "2025-02-02 12:10:37",
+        "res_model": "hr.holidays",
+        "is_from_mobile": true,
+        "mobile_approvals_ids": [],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -480,14 +480,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 1,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -503,7 +495,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة وفاة : 1  يوم",
-        "__last_update": "2025-02-02 12:10:37"
+        "__last_update": "2025-02-02 12:10:37",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 16757,
@@ -599,9 +599,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": true,
-        "mobile_approvals_ids": [],
+        "website_message_ids": [],
         "message_follower_ids": [
           10962982,
           10962984,
@@ -616,7 +614,6 @@
           166562793
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1336,
           "asaedi"
@@ -627,6 +624,9 @@
           "asaedi"
         ],
         "write_date": "2025-01-21 09:56:46",
+        "res_model": "hr.holidays",
+        "is_from_mobile": true,
+        "mobile_approvals_ids": [],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -649,14 +649,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 2,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -672,7 +664,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة وفاة : 2  يوم",
-        "__last_update": "2025-01-21 09:56:46"
+        "__last_update": "2025-01-21 09:56:46",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 16756,
@@ -768,9 +768,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": true,
-        "mobile_approvals_ids": [],
+        "website_message_ids": [],
         "message_follower_ids": [
           10945067,
           10945068,
@@ -785,7 +783,6 @@
           166544870
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1336,
           "asaedi"
@@ -796,6 +793,9 @@
           "asaedi"
         ],
         "write_date": "2025-01-21 09:50:00",
+        "res_model": "hr.holidays",
+        "is_from_mobile": true,
+        "mobile_approvals_ids": [],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -818,14 +818,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 2,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -841,7 +833,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة وفاة : 2  يوم",
-        "__last_update": "2025-01-21 09:50:00"
+        "__last_update": "2025-01-21 09:50:00",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 16197,
@@ -938,9 +938,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": false,
-        "mobile_approvals_ids": [],
+        "website_message_ids": [],
         "message_follower_ids": [
           259541,
           259542,
@@ -956,7 +954,6 @@
           154588724
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1328,
           "mbakr.uat"
@@ -967,6 +964,9 @@
           "rquwayfil.t.uat"
         ],
         "write_date": "2023-11-20 05:05:03",
+        "res_model": "hr.holidays",
+        "is_from_mobile": false,
+        "mobile_approvals_ids": [],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -989,14 +989,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 1,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -1012,7 +1004,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 1  يوم",
-        "__last_update": "2023-11-20 05:05:03"
+        "__last_update": "2023-11-20 05:05:03",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 15576,
@@ -1109,9 +1109,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": false,
-        "mobile_approvals_ids": [],
+        "website_message_ids": [],
         "message_follower_ids": [
           241674,
           241675,
@@ -1127,7 +1125,6 @@
           74718902
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1328,
           "mbakr.uat"
@@ -1138,6 +1135,9 @@
           "rquwayfil.t.uat"
         ],
         "write_date": "2023-09-27 05:19:12",
+        "res_model": "hr.holidays",
+        "is_from_mobile": false,
+        "mobile_approvals_ids": [],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -1160,14 +1160,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 1,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -1183,7 +1175,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 1  يوم",
-        "__last_update": "2023-09-27 05:19:12"
+        "__last_update": "2023-09-27 05:19:12",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 14423,
@@ -1280,9 +1280,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": false,
-        "mobile_approvals_ids": [],
+        "website_message_ids": [],
         "message_follower_ids": [
           220311,
           220312,
@@ -1298,7 +1296,6 @@
           21178777
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1328,
           "mbakr.uat"
@@ -1309,6 +1306,9 @@
           "nnabulsi.uat"
         ],
         "write_date": "2023-06-07 08:39:43",
+        "res_model": "hr.holidays",
+        "is_from_mobile": false,
+        "mobile_approvals_ids": [],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -1331,14 +1331,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 12,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -1354,7 +1346,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 12  يوم",
-        "__last_update": "2023-06-07 08:39:43"
+        "__last_update": "2023-06-07 08:39:43",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       },
       {
         "id": 13947,
@@ -1451,11 +1451,7 @@
         "time_from": false,
         "time_to": false,
         "half_day_duration": 0,
-        "res_model": "hr.holidays",
-        "is_from_mobile": false,
-        "mobile_approvals_ids": [
-          6090
-        ],
+        "website_message_ids": [],
         "message_follower_ids": [
           209497,
           209498,
@@ -1471,7 +1467,6 @@
           20927048
         ],
         "message_last_post": false,
-        "website_message_ids": [],
         "create_uid": [
           1328,
           "mbakr.uat"
@@ -1482,6 +1477,11 @@
           "nnabulsi.uat"
         ],
         "write_date": "2023-04-13 10:08:15",
+        "res_model": "hr.holidays",
+        "is_from_mobile": false,
+        "mobile_approvals_ids": [
+          6090
+        ],
         "x_sla_labels": "",
         "double_validation": false,
         "can_reset": false,
@@ -1504,14 +1504,6 @@
         "display_button_send": false,
         "substitute_employee_required": false,
         "computed_duration": 5,
-        "department_global_id": [
-          32,
-          "خدمات المنشآت / التقنية والحلول الرقمية"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
         "message_is_follower": false,
         "message_partner_ids": [
           3945,
@@ -1527,7 +1519,15 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "محمود  بن ناصر  البكر - إجازة زواج : 5  يوم",
-        "__last_update": "2023-04-13 10:08:15"
+        "__last_update": "2023-04-13 10:08:15",
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ]
       }
     ]
   }

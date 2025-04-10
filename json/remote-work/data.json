@@ -40,6 +40,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       14137476
     ],
@@ -49,7 +50,6 @@
       170618312
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -123,6 +123,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       12726253
     ],
@@ -132,7 +133,6 @@
       168528419
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -206,6 +206,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       12725201
     ],
@@ -215,7 +216,6 @@
       168526742
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -289,6 +289,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       12608538
     ],
@@ -298,7 +299,6 @@
       168409870
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -372,6 +372,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       251776
     ],
@@ -383,7 +384,6 @@
       154162831
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -457,6 +457,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       251774
     ],
@@ -468,7 +469,6 @@
       154156433
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -542,6 +542,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       248028
     ],
@@ -553,7 +554,6 @@
       124959569
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -627,6 +627,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       241003
     ],
@@ -638,7 +639,6 @@
       65135204
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -712,6 +712,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       238497
     ],
@@ -723,7 +724,6 @@
       45599223
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -797,6 +797,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       233290
     ],
@@ -808,7 +809,6 @@
       22568462
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -882,6 +882,7 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       225566
     ],
@@ -893,7 +894,6 @@
       21247405
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -970,6 +970,7 @@
       6285,
       6286
     ],
+    "website_message_ids": [],
     "message_follower_ids": [
       212693
     ],
@@ -981,7 +982,6 @@
       20986236
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -1057,6 +1057,7 @@
     "mobile_approvals_ids": [
       6284
     ],
+    "website_message_ids": [],
     "message_follower_ids": [
       212684
     ],
@@ -1068,7 +1069,6 @@
       20986218
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
