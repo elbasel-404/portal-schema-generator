@@ -8,24 +8,9 @@
 // match the expected interface, even if the JSON is valid.
 
 export interface BankDetails {
-    id:            number;
-    name:          string;
-    street:        boolean;
-    street2:       boolean;
-    zip:           boolean;
-    city:          boolean | string;
-    state:         boolean;
-    country:       Array<number | string> | boolean;
-    email:         boolean;
-    phone:         boolean;
-    active:        boolean;
-    bic:           boolean | string;
-    create_uid:    Array<number | string>;
-    create_date:   Date;
-    write_uid:     Array<number | string>;
-    write_date:    Date;
-    display_name:  string;
-    __last_update: Date;
+    id:           number;
+    name:         string;
+    display_name: string;
 }
 
 // Converts JSON strings to/from your types
@@ -196,21 +181,6 @@ const typeMap: any = {
     "BankDetails": o([
         { json: "id", js: "id", typ: 0 },
         { json: "name", js: "name", typ: "" },
-        { json: "street", js: "street", typ: true },
-        { json: "street2", js: "street2", typ: true },
-        { json: "zip", js: "zip", typ: true },
-        { json: "city", js: "city", typ: u(true, "") },
-        { json: "state", js: "state", typ: true },
-        { json: "country", js: "country", typ: u(a(u(0, "")), true) },
-        { json: "email", js: "email", typ: true },
-        { json: "phone", js: "phone", typ: true },
-        { json: "active", js: "active", typ: true },
-        { json: "bic", js: "bic", typ: u(true, "") },
-        { json: "create_uid", js: "create_uid", typ: a(u(0, "")) },
-        { json: "create_date", js: "create_date", typ: Date },
-        { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },
-        { json: "write_date", js: "write_date", typ: Date },
         { json: "display_name", js: "display_name", typ: "" },
-        { json: "__last_update", js: "__last_update", typ: Date },
     ], false),
 };
