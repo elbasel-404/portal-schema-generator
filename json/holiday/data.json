@@ -94,6 +94,7 @@
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       14126432,
       14126433,
@@ -107,7 +108,6 @@
       170595735
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -260,6 +260,7 @@
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       14115389,
       14115390,
@@ -273,7 +274,6 @@
       170572912
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -428,6 +428,7 @@
     "res_model": "hr.holidays",
     "is_from_mobile": true,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       12122581,
       12122582,
@@ -441,7 +442,6 @@
       167874035
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -596,6 +596,7 @@
     "res_model": "hr.holidays",
     "is_from_mobile": true,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       10962982,
       10962984,
@@ -610,7 +611,6 @@
       166562793
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -765,6 +765,7 @@
     "res_model": "hr.holidays",
     "is_from_mobile": true,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       10945067,
       10945068,
@@ -779,7 +780,6 @@
       166544870
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1336,
       "asaedi"
@@ -935,6 +935,7 @@
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       259541,
       259542,
@@ -950,7 +951,6 @@
       154588724
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -1106,6 +1106,7 @@
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       241674,
       241675,
@@ -1121,7 +1122,6 @@
       74718902
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -1277,6 +1277,7 @@
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
+    "website_message_ids": [],
     "message_follower_ids": [
       220311,
       220312,
@@ -1292,7 +1293,6 @@
       21178777
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"
@@ -1450,6 +1450,7 @@
     "mobile_approvals_ids": [
       6090
     ],
+    "website_message_ids": [],
     "message_follower_ids": [
       209497,
       209498,
@@ -1465,7 +1466,6 @@
       20927048
     ],
     "message_last_post": false,
-    "website_message_ids": [],
     "create_uid": [
       1328,
       "mbakr.uat"

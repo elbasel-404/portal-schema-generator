@@ -8,1635 +8,297 @@
       {
         "id": 38,
         "name": "ADCB, Alkarama Brunch, Dubai, UAE",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          2,
-          "United Arab Emirates"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "ADCBAEAA",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-06-20 08:17:02",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-06-20 08:18:32",
-        "display_name": "ADCB, Alkarama Brunch, Dubai, UAE - ADCBAEAA",
-        "__last_update": "2021-06-20 08:18:32"
+        "display_name": "ADCB, Alkarama Brunch, Dubai, UAE - ADCBAEAA"
       },
       {
         "id": 43,
         "name": "ANZ Bank",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": false,
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-08-18 08:03:54",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-08-18 08:04:14",
-        "display_name": "ANZ Bank",
-        "__last_update": "2021-08-18 08:04:14"
+        "display_name": "ANZ Bank"
       },
       {
         "id": 23,
         "name": "Bank of America",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          233,
-          "United States"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BOFAUS3N",
-        "create_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "create_date": "2020-10-19 11:55:51",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-08-19 07:04:12",
-        "display_name": "Bank of America - BOFAUS3N",
-        "__last_update": "2021-08-19 07:04:12"
+        "display_name": "Bank of America - BOFAUS3N"
       },
       {
         "id": 16,
         "name": "Bank of America, NA",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          233,
-          "United States"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BOFAUS3N",
-        "create_uid": [
-          328,
-          "igumaish.uat"
-        ],
-        "create_date": "2020-07-21 09:47:31",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-05-20 11:37:42",
-        "display_name": "Bank of America, NA - BOFAUS3N",
-        "__last_update": "2021-05-20 11:37:42"
+        "display_name": "Bank of America, NA - BOFAUS3N"
       },
       {
         "id": 55,
         "name": "Bank of Ireland",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BOFIIE2D",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-11-08 07:24:15",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-11-08 07:25:39",
-        "display_name": "Bank of Ireland - BOFIIE2D",
-        "__last_update": "2021-11-08 07:25:39"
+        "display_name": "Bank of Ireland - BOFIIE2D"
       },
       {
         "id": 49,
         "name": "Barclays",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BUKBGB22",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-10-18 12:05:32",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-10-18 12:08:21",
-        "display_name": "Barclays - BUKBGB22",
-        "__last_update": "2021-10-18 12:08:21"
+        "display_name": "Barclays - BUKBGB22"
       },
       {
         "id": 46,
         "name": "BMO Harris Bank NA",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          233,
-          "United States"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "HATRUS44",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-09-21 10:53:37",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-09-21 10:54:45",
-        "display_name": "BMO Harris Bank NA - HATRUS44",
-        "__last_update": "2021-09-21 10:54:45"
+        "display_name": "BMO Harris Bank NA - HATRUS44"
       },
       {
         "id": 33,
         "name": "BNP Paribas",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BNPASARI",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-01-18 09:59:11",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2022-11-29 08:19:32",
-        "display_name": "BNP Paribas - BNPASARI",
-        "__last_update": "2022-11-29 08:19:32"
+        "display_name": "BNP Paribas - BNPASARI"
       },
       {
         "id": 34,
         "name": "Branch: Mashreq Bank DIC (Dubai Internet City)",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          2,
-          "United Arab Emirates"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "SWIFT: BOMLAEAD",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-06-02 10:56:12",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-06-02 10:56:12",
-        "display_name": "Branch: Mashreq Bank DIC (Dubai Internet City) - SWIFT: BOMLAEAD",
-        "__last_update": "2021-06-02 10:56:12"
+        "display_name": "Branch: Mashreq Bank DIC (Dubai Internet City) - SWIFT: BOMLAEAD"
       },
       {
         "id": 57,
         "name": "CIB",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "CIBEEGCX",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-11-11 11:48:13",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-11-11 11:54:19",
-        "display_name": "CIB - CIBEEGCX",
-        "__last_update": "2021-11-11 11:54:19"
+        "display_name": "CIB - CIBEEGCX"
       },
       {
         "id": 19,
         "name": "CitiBank N.A",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "CITIUS33XXX",
-        "create_uid": [
-          328,
-          "igumaish.uat"
-        ],
-        "create_date": "2020-10-08 08:00:36",
-        "write_uid": [
-          328,
-          "igumaish.uat"
-        ],
-        "write_date": "2023-08-21 06:04:03",
-        "display_name": "CitiBank N.A - CITIUS33XXX",
-        "__last_update": "2023-08-21 06:04:03"
+        "display_name": "CitiBank N.A - CITIUS33XXX"
       },
       {
         "id": 25,
         "name": "Comerica Bank ",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "MNBDUS33",
-        "create_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "create_date": "2020-11-02 11:27:34",
-        "write_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "write_date": "2020-11-02 11:32:37",
-        "display_name": "Comerica Bank  - MNBDUS33",
-        "__last_update": "2020-11-02 11:32:37"
+        "display_name": "Comerica Bank  - MNBDUS33"
       },
       {
         "id": 29,
         "name": "Deutsche bank AG",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          57,
-          "Germany"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BIC DEUT DEBB XXX",
-        "create_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "create_date": "2020-11-22 08:05:06",
-        "write_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "write_date": "2020-11-22 08:06:09",
-        "display_name": "Deutsche bank AG - BIC DEUT DEBB XXX",
-        "__last_update": "2020-11-22 08:06:09"
+        "display_name": "Deutsche bank AG - BIC DEUT DEBB XXX"
       },
       {
         "id": 40,
         "name": "Deutsche Bank AG",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "DEUTDEFFXXX",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-07-05 10:51:23",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-07-05 10:52:52",
-        "display_name": "Deutsche Bank AG - DEUTDEFFXXX",
-        "__last_update": "2021-07-05 10:52:52"
+        "display_name": "Deutsche Bank AG - DEUTDEFFXXX"
       },
       {
         "id": 54,
         "name": " EMIRATES NBD BANK",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "EBILAEAD",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-11-02 07:04:05",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-11-02 07:05:02",
-        "display_name": " EMIRATES NBD BANK - EBILAEAD",
-        "__last_update": "2021-11-02 07:05:02"
+        "display_name": " EMIRATES NBD BANK - EBILAEAD"
       },
       {
         "id": 36,
         "name": "Emirates NBD Branch Business Bay",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          2,
-          "United Arab Emirates"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "EBILAEAD",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-06-20 07:01:22",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-06-20 07:02:12",
-        "display_name": "Emirates NBD Branch Business Bay - EBILAEAD",
-        "__last_update": "2021-06-20 07:02:12"
+        "display_name": "Emirates NBD Branch Business Bay - EBILAEAD"
       },
       {
         "id": 51,
         "name": "First Abu Dhabi Bank PJSC – Saudi Branch",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "FABMSARI",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-10-28 07:37:21",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-10-28 07:38:35",
-        "display_name": "First Abu Dhabi Bank PJSC – Saudi Branch - FABMSARI",
-        "__last_update": "2021-10-28 07:38:35"
+        "display_name": "First Abu Dhabi Bank PJSC – Saudi Branch - FABMSARI"
       },
       {
         "id": 41,
         "name": "HSBC",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "HBUKGB4B",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-07-05 11:31:50",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-09-30 09:16:07",
-        "display_name": "HSBC - HBUKGB4B",
-        "__last_update": "2021-09-30 09:16:07"
+        "display_name": "HSBC - HBUKGB4B"
       },
       {
         "id": 37,
         "name": "HSBC Bank USA",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          233,
-          "United States"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "MRMDUS33 ",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-06-20 08:00:56",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-06-20 08:01:42",
-        "display_name": "HSBC Bank USA - MRMDUS33 ",
-        "__last_update": "2021-06-20 08:01:42"
+        "display_name": "HSBC Bank USA - MRMDUS33 "
       },
       {
         "id": 56,
         "name": " HSBC GBP",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": " MIDLGB22",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-11-10 08:13:21",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-11-10 08:14:05",
-        "display_name": " HSBC GBP -  MIDLGB22",
-        "__last_update": "2021-11-10 08:14:05"
+        "display_name": " HSBC GBP -  MIDLGB22"
       },
       {
         "id": 28,
         "name": "INTESA SANPAOLO Spa",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          109,
-          "Italy"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BCITITMMXXX",
-        "create_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "create_date": "2020-11-22 05:46:52",
-        "write_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "write_date": "2020-11-22 05:48:16",
-        "display_name": "INTESA SANPAOLO Spa - BCITITMMXXX",
-        "__last_update": "2020-11-22 05:48:16"
+        "display_name": "INTESA SANPAOLO Spa - BCITITMMXXX"
       },
       {
         "id": 39,
         "name": "Ithmaar Bank",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          23,
-          "Bahrain"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "FIBHBHBM",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-06-22 11:06:40",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-06-22 11:06:47",
-        "display_name": "Ithmaar Bank - FIBHBHBM",
-        "__last_update": "2021-06-22 11:06:47"
+        "display_name": "Ithmaar Bank - FIBHBHBM"
       },
       {
         "id": 52,
         "name": "JP Morgan Chase Bank",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "CHASUS33",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-11-01 13:35:39",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-11-01 13:37:06",
-        "display_name": "JP Morgan Chase Bank - CHASUS33",
-        "__last_update": "2021-11-01 13:37:06"
+        "display_name": "JP Morgan Chase Bank - CHASUS33"
       },
       {
         "id": 50,
         "name": "KUVEYT TURK KATILIM BANKASI A.S",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "KTEFTRISXXX",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-10-24 08:47:26",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-10-24 08:47:35",
-        "display_name": "KUVEYT TURK KATILIM BANKASI A.S - KTEFTRISXXX",
-        "__last_update": "2021-10-24 08:47:35"
+        "display_name": "KUVEYT TURK KATILIM BANKASI A.S - KTEFTRISXXX"
       },
       {
         "id": 31,
         "name": "Lloyds Bank ",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "LOYDGGB2L ",
-        "create_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "create_date": "2020-12-06 07:23:39",
-        "write_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "write_date": "2020-12-06 07:25:39",
-        "display_name": "Lloyds Bank  - LOYDGGB2L ",
-        "__last_update": "2020-12-06 07:25:39"
+        "display_name": "Lloyds Bank  - LOYDGGB2L "
       },
       {
         "id": 53,
         "name": "Lloyds Bank plc",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "30-00-02",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-11-01 13:46:31",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-11-01 13:48:01",
-        "display_name": "Lloyds Bank plc - 30-00-02",
-        "__last_update": "2021-11-01 13:48:01"
+        "display_name": "Lloyds Bank plc - 30-00-02"
       },
       {
         "id": 35,
         "name": " Mashreq Bank DIC",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          2,
-          "United Arab Emirates"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BOMLAEAD",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-06-02 11:00:02",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-11-14 08:11:11",
-        "display_name": " Mashreq Bank DIC - BOMLAEAD",
-        "__last_update": "2021-11-14 08:11:11"
+        "display_name": " Mashreq Bank DIC - BOMLAEAD"
       },
       {
         "id": 44,
         "name": "NatWest",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": false,
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-09-05 09:27:42",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-09-05 09:28:25",
-        "display_name": "NatWest",
-        "__last_update": "2021-09-05 09:28:25"
+        "display_name": "NatWest"
       },
       {
         "id": 48,
         "name": "Royal Bank of Canada",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "ROYCCAT2",
-        "create_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "create_date": "2021-10-10 11:35:33",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-10-10 11:50:46",
-        "display_name": "Royal Bank of Canada - ROYCCAT2",
-        "__last_update": "2021-10-10 11:50:46"
+        "display_name": "Royal Bank of Canada - ROYCCAT2"
       },
       {
         "id": 32,
         "name": "Standard Chartered Bank",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          2,
-          "United Arab Emirates"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": false,
-        "create_uid": [
-          328,
-          "igumaish.uat"
-        ],
-        "create_date": "2020-12-24 08:32:39",
-        "write_uid": [
-          328,
-          "igumaish.uat"
-        ],
-        "write_date": "2020-12-24 08:40:48",
-        "display_name": "Standard Chartered Bank",
-        "__last_update": "2020-12-24 08:40:48"
+        "display_name": "Standard Chartered Bank"
       },
       {
         "id": 42,
         "name": "The Development Bank of Singapore Ltd",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          197,
-          "Singapore"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "DBSSSGSG",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-08-15 12:22:04",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-08-15 12:22:25",
-        "display_name": "The Development Bank of Singapore Ltd - DBSSSGSG",
-        "__last_update": "2021-08-15 12:22:25"
+        "display_name": "The Development Bank of Singapore Ltd - DBSSSGSG"
       },
       {
         "id": 45,
         "name": "THE NORTHERN TRUST COMPANY",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          233,
-          "United States"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "CNORUS44",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-09-16 06:08:36",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-09-16 06:09:07",
-        "display_name": "THE NORTHERN TRUST COMPANY - CNORUS44",
-        "__last_update": "2021-09-16 06:09:07"
+        "display_name": "THE NORTHERN TRUST COMPANY - CNORUS44"
       },
       {
         "id": 24,
         "name": "UBS Switzerland AG",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          43,
-          "Switzerland"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "UBSWCHZH80A",
-        "create_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "create_date": "2020-10-25 07:29:59",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-06-23 10:40:40",
-        "display_name": "UBS Switzerland AG - UBSWCHZH80A",
-        "__last_update": "2021-06-23 10:40:40"
+        "display_name": "UBS Switzerland AG - UBSWCHZH80A"
       },
       {
         "id": 30,
         "name": "Union Bank of Switzerland ",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          43,
-          "Switzerland"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "UBSWCHZH80A",
-        "create_uid": [
-          617,
-          "Mazen S. Alkharji"
-        ],
-        "create_date": "2020-11-26 08:58:32",
-        "write_uid": [
-          617,
-          "Mazen S. Alkharji"
-        ],
-        "write_date": "2020-11-26 08:59:51",
-        "display_name": "Union Bank of Switzerland  - UBSWCHZH80A",
-        "__last_update": "2020-11-26 08:59:51"
+        "display_name": "Union Bank of Switzerland  - UBSWCHZH80A"
       },
       {
         "id": 27,
         "name": "Wells Fargo Bank N.A",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "WFBIUS6S",
-        "create_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "create_date": "2020-11-18 06:57:31",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-09-13 10:39:22",
-        "display_name": "Wells Fargo Bank N.A - WFBIUS6S",
-        "__last_update": "2021-09-13 10:39:22"
+        "display_name": "Wells Fargo Bank N.A - WFBIUS6S"
       },
       {
         "id": 22,
         "name": "(Wells Fargo Bank N.A (London Branch",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "PNBPGB2L",
-        "create_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "create_date": "2020-10-19 07:58:37",
-        "write_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "write_date": "2020-10-19 07:59:32",
-        "display_name": "(Wells Fargo Bank N.A (London Branch - PNBPGB2L",
-        "__last_update": "2020-10-19 07:59:32"
+        "display_name": "(Wells Fargo Bank N.A (London Branch - PNBPGB2L"
       },
       {
         "id": 47,
         "name": "Wells Fargo Bank San Francisco, CA",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          233,
-          "United States"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "WFBIUS6S",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2021-09-22 06:53:15",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-09-22 06:54:22",
-        "display_name": "Wells Fargo Bank San Francisco, CA - WFBIUS6S",
-        "__last_update": "2021-09-22 06:54:22"
+        "display_name": "Wells Fargo Bank San Francisco, CA - WFBIUS6S"
       },
       {
         "id": 26,
         "name": "Wells Fargo Ban, N.A ",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": false,
-        "create_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "create_date": "2020-11-18 06:54:41",
-        "write_uid": [
-          761,
-          "Ghada A. Alsuliman"
-        ],
-        "write_date": "2020-11-18 06:54:41",
-        "display_name": "Wells Fargo Ban, N.A ",
-        "__last_update": "2020-11-18 06:54:41"
+        "display_name": "Wells Fargo Ban, N.A "
       },
       {
         "id": 4,
         "name": "البنك الأهلي السعودي",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "NCBKSAJEXXX",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:57:19",
-        "write_uid": [
-          1455,
-          "ahumaidi.uat"
-        ],
-        "write_date": "2023-11-26 07:32:25",
-        "display_name": "البنك الأهلي السعودي - NCBKSAJEXXX",
-        "__last_update": "2023-11-26 07:32:25"
+        "display_name": "البنك الأهلي السعودي - NCBKSAJEXXX"
       },
       {
         "id": 58,
         "name": "البنك الأهلي السعودي (البنك الأهلي التجاري + مجموعة سامبا المالية (سامبا))",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": false,
-        "create_uid": [
-          641,
-          "nbishr.uat"
-        ],
-        "create_date": "2021-11-18 06:35:51",
-        "write_uid": [
-          551,
-          "aedan.uat"
-        ],
-        "write_date": "2022-07-21 10:52:02",
-        "display_name": "البنك الأهلي السعودي (البنك الأهلي التجاري + مجموعة سامبا المالية (سامبا))",
-        "__last_update": "2022-07-21 10:52:02"
+        "display_name": "البنك الأهلي السعودي (البنك الأهلي التجاري + مجموعة سامبا المالية (سامبا))"
       },
       {
         "id": 5,
         "name": "البنك الأول",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "AAALSARIXXX - AAAL",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:57:36",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-04-04 06:46:02",
-        "display_name": "البنك الأول - AAALSARIXXX - AAAL",
-        "__last_update": "2021-04-04 06:46:02"
+        "display_name": "البنك الأول - AAALSARIXXX - AAAL"
       },
       {
         "id": 12,
         "name": "البنك السعودي البريطاني - ساب",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "SABBSARIXXX - SABB",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:59:32",
-        "write_uid": [
-          1149,
-          "fsuwidan.uat"
-        ],
-        "write_date": "2023-10-16 06:01:05",
-        "display_name": "البنك السعودي البريطاني - ساب - SABBSARIXXX - SABB",
-        "__last_update": "2023-10-16 06:01:05"
+        "display_name": "البنك السعودي البريطاني - ساب - SABBSARIXXX - SABB"
       },
       {
         "id": 11,
         "name": "البنك السعودي الفرنسي",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BSFRSARIXXX - BSFR",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:59:18",
-        "write_uid": [
-          1536,
-          "abyousef.uat"
-        ],
-        "write_date": "2023-10-29 07:24:42",
-        "display_name": "البنك السعودي الفرنسي - BSFRSARIXXX - BSFR",
-        "__last_update": "2023-10-29 07:24:42"
+        "display_name": "البنك السعودي الفرنسي - BSFRSARIXXX - BSFR"
       },
       {
         "id": 59,
         "name": "البنك السعودي المركزي",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": false,
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2022-06-16 11:17:24",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2022-06-16 11:18:46",
-        "display_name": "البنك السعودي المركزي",
-        "__last_update": "2022-06-16 11:18:46"
+        "display_name": "البنك السعودي المركزي"
       },
       {
         "id": 2,
         "name": "البنك السعودي للاستثمار",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "SIBCSARIXXX - SIBC",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:56:04",
-        "write_uid": [
-          1149,
-          "fsuwidan.uat"
-        ],
-        "write_date": "2022-11-27 06:10:01",
-        "display_name": "البنك السعودي للاستثمار - SIBCSARIXXX - SIBC",
-        "__last_update": "2022-11-27 06:10:01"
+        "display_name": "البنك السعودي للاستثمار - SIBCSARIXXX - SIBC"
       },
       {
         "id": 10,
         "name": "البنك العربي الوطني",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "ARNBSARIXXX - ARNB",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:59:02",
-        "write_uid": [
-          1455,
-          "ahumaidi.uat"
-        ],
-        "write_date": "2023-08-06 06:28:38",
-        "display_name": "البنك العربي الوطني - ARNBSARIXXX - ARNB",
-        "__last_update": "2023-08-06 06:28:38"
+        "display_name": "البنك العربي الوطني - ARNBSARIXXX - ARNB"
       },
       {
         "id": 60,
         "name": "البنك المركزي السعودي",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "ٍSAMA",
-        "create_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "create_date": "2022-11-16 08:09:45",
-        "write_uid": [
-          267,
-          "assubaie.uat"
-        ],
-        "write_date": "2023-06-19 09:10:55",
-        "display_name": "البنك المركزي السعودي - ٍSAMA",
-        "__last_update": "2023-06-19 09:10:55"
+        "display_name": "البنك المركزي السعودي - ٍSAMA"
       },
       {
         "id": 17,
         "name": "بنك االمارات دبي الوطني",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": "الرياض",
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": false,
-        "create_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "create_date": "2020-09-15 10:49:54",
-        "write_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "write_date": "2020-09-15 10:49:54",
-        "display_name": "بنك االمارات دبي الوطني",
-        "__last_update": "2020-09-15 10:49:54"
+        "display_name": "بنك االمارات دبي الوطني"
       },
       {
         "id": 18,
         "name": "بنك الامارات دبي الوطني",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": "الرياض",
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "EBILSARIXXX",
-        "create_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "create_date": "2020-09-15 10:51:40",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-10-27 06:19:40",
-        "display_name": "بنك الامارات دبي الوطني - EBILSARIXXX",
-        "__last_update": "2021-10-27 06:19:40"
+        "display_name": "بنك الامارات دبي الوطني - EBILSARIXXX"
       },
       {
         "id": 21,
         "name": "بنك الامارات دبي الوطني Emirates NBD",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "EBILAEAD",
-        "create_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "create_date": "2020-10-19 06:53:39",
-        "write_uid": [
-          817,
-          "gabdulkader.uat"
-        ],
-        "write_date": "2021-08-05 06:01:03",
-        "display_name": "بنك الامارات دبي الوطني Emirates NBD - EBILAEAD",
-        "__last_update": "2021-08-05 06:01:03"
+        "display_name": "بنك الامارات دبي الوطني Emirates NBD - EBILAEAD"
       },
       {
         "id": 6,
         "name": "بنك البلاد",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "ALBISARIXXX - ALBI",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:57:53",
-        "write_uid": [
-          1455,
-          "ahumaidi.uat"
-        ],
-        "write_date": "2023-07-11 11:13:24",
-        "display_name": "بنك البلاد - ALBISARIXXX - ALBI",
-        "__last_update": "2023-07-11 11:13:24"
+        "display_name": "بنك البلاد - ALBISARIXXX - ALBI"
       },
       {
         "id": 7,
         "name": "بنك الجزيرة",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "BJAZSAJEXXX - BJAZ",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:58:12",
-        "write_uid": [
-          641,
-          "nbishr.uat"
-        ],
-        "write_date": "2024-11-20 08:48:04",
-        "display_name": "بنك الجزيرة - BJAZSAJEXXX - BJAZ",
-        "__last_update": "2024-11-20 08:48:04"
+        "display_name": "بنك الجزيرة - BJAZSAJEXXX - BJAZ"
       },
       {
         "id": 15,
         "name": "بنك الخليج الدولي ",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "GULFSARI",
-        "create_uid": [
-          693,
-          "Somayah M. Alameer"
-        ],
-        "create_date": "2020-03-12 07:02:01",
-        "write_uid": [
-          1149,
-          "fsuwidan.uat"
-        ],
-        "write_date": "2023-02-26 08:14:32",
-        "display_name": "بنك الخليج الدولي  - GULFSARI",
-        "__last_update": "2023-02-26 08:14:32"
+        "display_name": "بنك الخليج الدولي  - GULFSARI"
       },
       {
         "id": 9,
         "name": "بنك الرياض",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "RIBLSARIXXX - RIBL",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:58:45",
-        "write_uid": [
-          1455,
-          "ahumaidi.uat"
-        ],
-        "write_date": "2023-11-22 06:09:42",
-        "display_name": "بنك الرياض - RIBLSARIXXX - RIBL",
-        "__last_update": "2023-11-22 06:09:42"
+        "display_name": "بنك الرياض - RIBLSARIXXX - RIBL"
       },
       {
         "id": 20,
         "name": "بنك دبي التجاري Commercial Bank of Dubai",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "CBDUAEAD",
-        "create_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "create_date": "2020-10-13 07:42:42",
-        "write_uid": [
-          733,
-          "Ghida A. Alabdulkader"
-        ],
-        "write_date": "2020-10-13 07:43:15",
-        "display_name": "بنك دبي التجاري Commercial Bank of Dubai - CBDUAEAD",
-        "__last_update": "2020-10-13 07:43:15"
+        "display_name": "بنك دبي التجاري Commercial Bank of Dubai - CBDUAEAD"
       },
       {
         "id": 14,
         "name": "مؤسسة النقد العربي السعودي",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": false,
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": false,
-        "create_uid": [
-          536,
-          "Abdulaziz A. Alsaif"
-        ],
-        "create_date": "2019-12-19 12:32:26",
-        "write_uid": [
-          328,
-          "igumaish.uat"
-        ],
-        "write_date": "2020-07-12 12:17:02",
-        "display_name": "مؤسسة النقد العربي السعودي",
-        "__last_update": "2020-07-12 12:17:02"
+        "display_name": "مؤسسة النقد العربي السعودي"
       },
       {
         "id": 13,
         "name": "مجموعة سامبا المالية",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "SAMBSARIXXX - SAMB",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:59:51",
-        "write_uid": [
-          995,
-          "Fatimah H. Alsuwidan"
-        ],
-        "write_date": "2021-12-19 06:09:35",
-        "display_name": "مجموعة سامبا المالية - SAMBSARIXXX - SAMB",
-        "__last_update": "2021-12-19 06:09:35"
+        "display_name": "مجموعة سامبا المالية - SAMBSARIXXX - SAMB"
       },
       {
         "id": 3,
         "name": "مصرف الإنماء",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "INMASARIXXX - INMA",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:56:19",
-        "write_uid": [
-          551,
-          "aedan.uat"
-        ],
-        "write_date": "2023-11-14 08:08:53",
-        "display_name": "مصرف الإنماء - INMASARIXXX - INMA",
-        "__last_update": "2023-11-14 08:08:53"
+        "display_name": "مصرف الإنماء - INMASARIXXX - INMA"
       },
       {
         "id": 8,
         "name": "مصرف الراجحي",
-        "street": false,
-        "street2": false,
-        "zip": false,
-        "city": false,
-        "state": false,
-        "country": [
-          192,
-          "Saudi Arabia"
-        ],
-        "email": false,
-        "phone": false,
-        "active": true,
-        "bic": "RJHISARIXXX - RJHI",
-        "create_uid": [
-          78,
-          "Musaed  A. Alshibel"
-        ],
-        "create_date": "2018-12-29 16:58:30",
-        "write_uid": [
-          551,
-          "aedan.uat"
-        ],
-        "write_date": "2023-11-26 10:34:53",
-        "display_name": "مصرف الراجحي - RJHISARIXXX - RJHI",
-        "__last_update": "2023-11-26 10:34:53"
+        "display_name": "مصرف الراجحي - RJHISARIXXX - RJHI"
       }
     ]
   }

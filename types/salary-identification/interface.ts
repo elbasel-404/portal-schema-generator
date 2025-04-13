@@ -28,10 +28,10 @@ export interface SalaryIdentification {
     open_link:                   string;
     res_model:                   ResModel;
     is_from_mobile:              boolean;
+    website_message_ids:         any[];
     message_follower_ids:        number[];
     message_ids:                 number[];
     message_last_post:           boolean;
-    website_message_ids:         any[];
     create_uid:                  Array<CreateUidEnum | number>;
     create_date:                 Date;
     write_uid:                   Array<CreateUidEnum | number>;
@@ -300,10 +300,10 @@ const typeMap: any = {
         { json: "open_link", js: "open_link", typ: "" },
         { json: "res_model", js: "res_model", typ: r("ResModel") },
         { json: "is_from_mobile", js: "is_from_mobile", typ: true },
+        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
         { json: "message_ids", js: "message_ids", typ: a(0) },
         { json: "message_last_post", js: "message_last_post", typ: true },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "create_uid", js: "create_uid", typ: a(u(r("CreateUidEnum"), 0)) },
         { json: "create_date", js: "create_date", typ: Date },
         { json: "write_uid", js: "write_uid", typ: a(u(r("CreateUidEnum"), 0)) },
