@@ -149,5 +149,14 @@
     "description": "Get bank details requests",
     "listRequestBody": {},
     "createRequestBody": null
+  },
+  {
+    "name": "relative-relation",
+    "createUrl": null,
+    "url": "hr/medical/insurance/relative-relation",
+    "method": "POST",
+    "description": "Get relative relation requests",
+    "listRequestBody": {},
+    "createRequestBody": null
   }
 ]
