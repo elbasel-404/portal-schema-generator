@@ -2,92 +2,41 @@
 //
 //   import { Convert } from "./file";
 //
-//   const medicalInsurance = Convert.toMedicalInsurance(json);
+//   const bankDetails = Convert.toBankDetails(json);
 //
 // These functions will throw an error if the JSON doesn't
 // match the expected interface, even if the JSON is valid.
 
-export interface MedicalInsurance {
-    id:                            number;
-    name:                          string;
-    date:                          Date;
-    employee_id:                   Array<EmployeeIDEnum | number>;
-    request_type:                  RequestType;
-    attachment_ids:                number[];
-    relative_relation:             string;
-    individual_complete_name:      string;
-    state:                         State;
-    reason:                        boolean | string;
-    active:                        boolean;
-    individual_english_name:       string;
-    medical_insurance_type_id:     Array<MedicalInsuranceTypeIDEnum | number>;
-    medical_insurance_category_id: Array<MedicalInsuranceCategoryIDEnum | number>;
-    insurance_amount:              number;
-    coverage:                      boolean | CoverageEnum;
-    date_from:                     boolean | Date;
-    date_to:                       boolean | Date;
-    message_follower_ids:          number[];
-    message_ids:                   number[];
-    message_last_post:             boolean;
-    website_message_ids:           any[];
-    create_uid:                    Array<CreateUidEnum | number>;
-    create_date:                   Date;
-    write_uid:                     Array<CreateUidEnum | number>;
-    write_date:                    Date;
-    message_is_follower:           boolean;
-    message_partner_ids:           number[];
-    message_channel_ids:           any[];
-    message_unread:                boolean;
-    message_unread_counter:        number;
-    message_needaction:            boolean;
-    message_needaction_counter:    number;
-    display_name:                  string;
-    __last_update:                 Date;
-}
-
-export enum CoverageEnum {
-    Yearly = "yearly",
-}
-
-export enum CreateUidEnum {
-    Asaedi = "asaedi",
-    KhaledAlamri = "Khaled Alamri",
-    NnabulsiUAT = "nnabulsi.uat",
-}
-
-export enum EmployeeIDEnum {
-    The1762عسافبنرشودالصاعدي = "[1762] عساف  بن رشود الصاعدي",
-}
-
-export enum MedicalInsuranceCategoryIDEnum {
-    Vip = "VIP",
-}
-
-export enum MedicalInsuranceTypeIDEnum {
-    تأمينبوبا2020 = "تأمين بوبا 2020",
-}
-
-export enum RequestType {
-    Add = "add",
-    Exclude = "exclude",
-}
-
-export enum State {
-    Done = "done",
-    Employee = "employee",
-    Humain = "humain",
-    Refuse = "refuse",
+export interface BankDetails {
+    id:            number;
+    name:          string;
+    street:        boolean;
+    street2:       boolean;
+    zip:           boolean;
+    city:          boolean | string;
+    state:         boolean;
+    country:       Array<number | string> | boolean;
+    email:         boolean;
+    phone:         boolean;
+    active:        boolean;
+    bic:           boolean | string;
+    create_uid:    Array<number | string>;
+    create_date:   Date;
+    write_uid:     Array<number | string>;
+    write_date:    Date;
+    display_name:  string;
+    __last_update: Date;
 }
 
 // Converts JSON strings to/from your types
 // and asserts the results of JSON.parse at runtime
 export class Convert {
-    public static toMedicalInsurance(json: string): MedicalInsurance[] {
-        return cast(JSON.parse(json), a(r("MedicalInsurance")));
+    public static toBankDetails(json: string): BankDetails[] {
+        return cast(JSON.parse(json), a(r("BankDetails")));
     }
 
-    public static medicalInsuranceToJson(value: MedicalInsurance[]): string {
-        return JSON.stringify(uncast(value, a(r("MedicalInsurance"))), null, 2);
+    public static bankDetailsToJson(value: BankDetails[]): string {
+        return JSON.stringify(uncast(value, a(r("BankDetails"))), null, 2);
     }
 }
 
@@ -244,68 +193,24 @@ function r(name: string) {
 }
 
 const typeMap: any = {
-    "MedicalInsurance": o([
+    "BankDetails": o([
         { json: "id", js: "id", typ: 0 },
         { json: "name", js: "name", typ: "" },
-        { json: "date", js: "date", typ: Date },
-        { json: "employee_id", js: "employee_id", typ: a(u(r("EmployeeIDEnum"), 0)) },
-        { json: "request_type", js: "request_type", typ: r("RequestType") },
-        { json: "attachment_ids", js: "attachment_ids", typ: a(0) },
-        { json: "relative_relation", js: "relative_relation", typ: "" },
-        { json: "individual_complete_name", js: "individual_complete_name", typ: "" },
-        { json: "state", js: "state", typ: r("State") },
-        { json: "reason", js: "reason", typ: u(true, "") },
+        { json: "street", js: "street", typ: true },
+        { json: "street2", js: "street2", typ: true },
+        { json: "zip", js: "zip", typ: true },
+        { json: "city", js: "city", typ: u(true, "") },
+        { json: "state", js: "state", typ: true },
+        { json: "country", js: "country", typ: u(a(u(0, "")), true) },
+        { json: "email", js: "email", typ: true },
+        { json: "phone", js: "phone", typ: true },
         { json: "active", js: "active", typ: true },
-        { json: "individual_english_name", js: "individual_english_name", typ: "" },
-        { json: "medical_insurance_type_id", js: "medical_insurance_type_id", typ: a(u(r("MedicalInsuranceTypeIDEnum"), 0)) },
-        { json: "medical_insurance_category_id", js: "medical_insurance_category_id", typ: a(u(r("MedicalInsuranceCategoryIDEnum"), 0)) },
-        { json: "insurance_amount", js: "insurance_amount", typ: 0 },
-        { json: "coverage", js: "coverage", typ: u(true, r("CoverageEnum")) },
-        { json: "date_from", js: "date_from", typ: u(true, Date) },
-        { json: "date_to", js: "date_to", typ: u(true, Date) },
-        { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
-        { json: "message_ids", js: "message_ids", typ: a(0) },
-        { json: "message_last_post", js: "message_last_post", typ: true },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
-        { json: "create_uid", js: "create_uid", typ: a(u(r("CreateUidEnum"), 0)) },
+        { json: "bic", js: "bic", typ: u(true, "") },
+        { json: "create_uid", js: "create_uid", typ: a(u(0, "")) },
         { json: "create_date", js: "create_date", typ: Date },
-        { json: "write_uid", js: "write_uid", typ: a(u(r("CreateUidEnum"), 0)) },
+        { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },
         { json: "write_date", js: "write_date", typ: Date },
-        { json: "message_is_follower", js: "message_is_follower", typ: true },
-        { json: "message_partner_ids", js: "message_partner_ids", typ: a(0) },
-        { json: "message_channel_ids", js: "message_channel_ids", typ: a("any") },
-        { json: "message_unread", js: "message_unread", typ: true },
-        { json: "message_unread_counter", js: "message_unread_counter", typ: 0 },
-        { json: "message_needaction", js: "message_needaction", typ: true },
-        { json: "message_needaction_counter", js: "message_needaction_counter", typ: 0 },
         { json: "display_name", js: "display_name", typ: "" },
         { json: "__last_update", js: "__last_update", typ: Date },
     ], false),
-    "CoverageEnum": [
-        "yearly",
-    ],
-    "CreateUidEnum": [
-        "asaedi",
-        "Khaled Alamri",
-        "nnabulsi.uat",
-    ],
-    "EmployeeIDEnum": [
-        "[1762] عساف  بن رشود الصاعدي",
-    ],
-    "MedicalInsuranceCategoryIDEnum": [
-        "VIP",
-    ],
-    "MedicalInsuranceTypeIDEnum": [
-        "تأمين بوبا 2020",
-    ],
-    "RequestType": [
-        "add",
-        "exclude",
-    ],
-    "State": [
-        "done",
-        "employee",
-        "humain",
-        "refuse",
-    ],
 };

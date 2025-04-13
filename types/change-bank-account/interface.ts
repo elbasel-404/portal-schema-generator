@@ -21,10 +21,10 @@ export interface ChangeBankAccount {
     order_date:                 Date;
     refuse_reason:              boolean | string;
     check_attachment:           boolean;
-    website_message_ids:        any[];
     message_follower_ids:       number[];
     message_ids:                number[];
     message_last_post:          boolean;
+    website_message_ids:        any[];
     create_uid:                 Array<number | string>;
     create_date:                Date;
     write_uid:                  Array<number | string>;
@@ -219,10 +219,10 @@ const typeMap: any = {
         { json: "order_date", js: "order_date", typ: Date },
         { json: "refuse_reason", js: "refuse_reason", typ: u(true, "") },
         { json: "check_attachment", js: "check_attachment", typ: true },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
         { json: "message_ids", js: "message_ids", typ: a(0) },
         { json: "message_last_post", js: "message_last_post", typ: true },
+        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "create_uid", js: "create_uid", typ: a(u(0, "")) },
         { json: "create_date", js: "create_date", typ: Date },
         { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },

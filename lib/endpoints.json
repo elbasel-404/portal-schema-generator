@@ -140,5 +140,14 @@
     "description": "Get destination requests",
     "listRequestBody": {},
     "createRequestBody": null
+  },
+  {
+    "name": "bank-details",
+    "createUrl": null,
+    "url": "hr/new-bank",
+    "method": "POST",
+    "description": "Get bank details requests",
+    "listRequestBody": {},
+    "createRequestBody": null
   }
 ]
