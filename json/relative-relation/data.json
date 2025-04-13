@@ -1,0 +1,22 @@
+[
+  {
+    "id": "son",
+    "name": "إبن"
+  },
+  {
+    "id": "daughter",
+    "name": "إبنة"
+  },
+  {
+    "id": "husband",
+    "name": "زوج (ة)"
+  },
+  {
+    "id": "father",
+    "name": "أب"
+  },
+  {
+    "id": "mother",
+    "name": "أم"
+  }
+]
