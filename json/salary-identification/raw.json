@@ -6,6 +6,80 @@
     "status": "success",
     "data": [
       {
+        "id": 5195,
+        "number": "04790",
+        "order_date": "2025-04-13",
+        "employee_id": [
+          447,
+          "[1401] حمد بن يوسف القشيميط"
+        ],
+        "destination_id": [
+          2,
+          "مصرف الراجحي"
+        ],
+        "type": "total_salary",
+        "speech_lang": false,
+        "state": "done",
+        "partner_id": false,
+        "template_id": [],
+        "refuse_reason": false,
+        "notes": "Test",
+        "active": true,
+        "account_status": "",
+        "bank_id": [],
+        "acc_number": "",
+        "download_link": "",
+        "open_link": "",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
+        "message_follower_ids": [
+          14170522
+        ],
+        "message_ids": [
+          170686047,
+          170686046,
+          170686045
+        ],
+        "message_last_post": false,
+        "website_message_ids": [],
+        "create_uid": [
+          1,
+          "Khaled Alamri"
+        ],
+        "create_date": "2025-04-13 08:41:42",
+        "write_uid": [
+          1,
+          "Khaled Alamri"
+        ],
+        "write_date": "2025-04-13 08:41:42",
+        "eng_destination": "",
+        "template_name": "",
+        "basic_salary": 10000,
+        "allowance_housing": 2500,
+        "allowance_transportation": 1000,
+        "allowance_mobile": 500,
+        "designation_mandated_amount": 0,
+        "department_global_id": [
+          445,
+          "خدمات المنشآت / خدمات المنشآت"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ],
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "[1401] حمد بن يوسف القشيميط",
+        "__last_update": "2025-04-13 08:41:42"
+      },
+      {
         "id": 5186,
         "number": "04781",
         "order_date": "2025-04-10",
@@ -35,7 +109,6 @@
         "open_link": "/web/content/161160?filename=Salary_Request_5186.pdf&access_token=25bce946-8273-4d9e-bce1-f7d7be987379",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           14137517
         ],
@@ -45,6 +118,7 @@
           170618897
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -112,7 +186,6 @@
         "open_link": "/web/content/160385?filename=Salary_Request_5166.pdf&access_token=5ed55a29-8913-45db-b643-7a8fba158909",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           13676447
         ],
@@ -122,6 +195,7 @@
           169660217
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -189,7 +263,6 @@
         "open_link": "/web/content/160174?filename=Salary_Request_5131.pdf&access_token=e65f3664-f882-4e7b-822f-e914c2d7b190",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           13614349
         ],
@@ -199,6 +272,7 @@
           169528280
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -266,7 +340,6 @@
         "open_link": "/web/content/160171?filename=Salary_Request_5128.pdf&access_token=64d733dc-8b2c-4c8b-92de-6c9aa7f24826",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           13614338
         ],
@@ -276,6 +349,7 @@
           169528210
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -343,7 +417,6 @@
         "open_link": "/web/content/160134?filename=Salary_Request_5112.pdf&access_token=d46cf661-797c-4ca3-bcfa-6698d585e18f",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           13604821
         ],
@@ -353,6 +426,7 @@
           169508632
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -420,7 +494,6 @@
         "open_link": "/web/content/159868?filename=Salary_Request_5090.pdf&access_token=2532d16e-edf9-4ca4-882e-0e9944d68b28",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           13103574
         ],
@@ -430,6 +503,7 @@
           168954292
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -497,7 +571,6 @@
         "open_link": "/web/content/159854?filename=Salary_Request_5087.pdf&access_token=e970899f-76a8-45ea-b49b-a654b7992e64",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           13019739
         ],
@@ -507,6 +580,7 @@
           168861012
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -571,7 +645,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           12640524
         ],
@@ -581,6 +654,7 @@
           168441892
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -645,7 +719,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           12544538
         ],
@@ -655,6 +728,7 @@
           168336271
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -719,7 +793,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           12247130
         ],
@@ -729,6 +802,7 @@
           168020085
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -793,7 +867,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           12247129
         ],
@@ -803,6 +876,7 @@
           168020082
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -870,7 +944,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           12197802
         ],
@@ -880,6 +953,7 @@
           167960611
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -944,7 +1018,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11423170
         ],
@@ -953,6 +1026,7 @@
           167069328
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1017,7 +1091,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11422491
         ],
@@ -1026,6 +1099,7 @@
           167068648
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1090,7 +1164,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11410640
         ],
@@ -1099,6 +1172,7 @@
           167056347
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1163,7 +1237,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11386961
         ],
@@ -1172,6 +1245,7 @@
           167023773
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1236,7 +1310,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11386957
         ],
@@ -1245,6 +1318,7 @@
           167023768
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1309,7 +1383,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11386953
         ],
@@ -1318,6 +1391,7 @@
           167023763
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1382,7 +1456,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11348282
         ],
@@ -1392,6 +1465,7 @@
           166967030
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1456,7 +1530,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11198134
         ],
@@ -1465,6 +1538,7 @@
           166808299
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1529,7 +1603,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           11021839
         ],
@@ -1538,6 +1611,7 @@
           166621898
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1602,7 +1676,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           9517940
         ],
@@ -1611,6 +1684,7 @@
           164980195
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1675,7 +1749,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           9449759
         ],
@@ -1684,6 +1757,7 @@
           164903059
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1748,7 +1822,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           9449758
         ],
@@ -1757,6 +1830,7 @@
           164903057
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1821,7 +1895,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           9438246
         ],
@@ -1830,6 +1903,7 @@
           164891543
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1894,7 +1968,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           9334487
         ],
@@ -1903,6 +1976,7 @@
           164779614
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -1970,7 +2044,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           485009
         ],
@@ -1981,6 +2054,7 @@
           155389556
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
           "Khaled Alamri"
@@ -2048,7 +2122,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           261545
         ],
@@ -2059,6 +2132,7 @@
           154685502
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2126,7 +2200,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           261540
         ],
@@ -2137,6 +2210,7 @@
           154685485
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2198,7 +2272,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           243366
         ],
@@ -2209,6 +2282,7 @@
           89584461
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2270,7 +2344,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           155762
         ],
@@ -2281,6 +2354,7 @@
           19343036
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2342,7 +2416,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           69493
         ],
@@ -2353,6 +2426,7 @@
           7943180
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2414,7 +2488,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           69492
         ],
@@ -2425,6 +2498,7 @@
           7943106
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2486,7 +2560,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           69491
         ],
@@ -2497,6 +2570,7 @@
           7942750
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2558,7 +2632,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           67198
         ],
@@ -2569,6 +2642,7 @@
           7878805
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2630,7 +2704,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           67197
         ],
@@ -2641,6 +2714,7 @@
           7878802
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2702,7 +2776,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           56755
         ],
@@ -2713,6 +2786,7 @@
           7747566
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2774,7 +2848,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           56754
         ],
@@ -2785,6 +2858,7 @@
           7747563
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
@@ -2846,7 +2920,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           48372
         ],
@@ -2857,6 +2930,7 @@
           5632728
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
           "hqushaymit.uat"
