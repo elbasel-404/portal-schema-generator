@@ -295,7 +295,7 @@
     "is_cut": false,
     "is_cancelled": false,
     "is_started": true,
-    "is_finished": false,
+    "is_finished": true,
     "is_extended": false,
     "can_be_cut": false,
     "can_be_cancelled": false,

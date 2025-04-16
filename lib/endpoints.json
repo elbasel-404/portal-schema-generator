@@ -158,5 +158,19 @@
     "description": "Get relative relation requests",
     "listRequestBody": {},
     "createRequestBody": null
+  },
+  {
+    "name": "custody",
+    "url": "hr/custody",
+    "createUrl": "hr/custody/create",
+    "method": "POST",
+    "description": "Get custody requests",
+    "listRequestBody": {
+      "employee_id": 21
+    },
+    "detailsRequestBody": {
+      "id": 133
+    },
+    "createRequestBody": null
   }
 ]

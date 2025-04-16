@@ -1,0 +1,224 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "statusCode": 200,
+    "status": "success",
+    "data": [
+      {
+        "id": 114,
+        "name": "00145",
+        "custody_amount": 10000,
+        "custody_type": "temporary",
+        "refuse_reason": "س",
+        "cancel_reason": false,
+        "custody_reason_id": [
+          3,
+          "اعدادات العهد المالية"
+        ],
+        "custody_reason": "test",
+        "employee_id": [
+          21,
+          "[1026] أفنان بنت أسعد أبابطين"
+        ],
+        "is_have_close_custody": false,
+        "is_have_replace_custody": false,
+        "state": "refuse",
+        "hide_payment_order": false,
+        "payment_order_id": false,
+        "order_date": "2025-02-18",
+        "company_id": [
+          1,
+          " الهيئة العامة للمنشآت الصغيرة والمتوسطة"
+        ],
+        "account_id": [
+          7955,
+          "312111003 ذمم مدينة من الموظفين - حسابات مدينة أخرى"
+        ],
+        "journal_id": false,
+        "payment_state": false,
+        "readonly_by_pass": false,
+        "payment_move_line_ids": [],
+        "check_custody_remain_amount": false,
+        "active": true,
+        "res_model": "manage.financial.custody",
+        "is_from_mobile": true,
+        "mobile_approvals_ids": [],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13623435
+        ],
+        "message_ids": [
+          169948689,
+          169948688,
+          169948687,
+          169548675,
+          169548026,
+          169548025
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          233,
+          "aababtain.uat"
+        ],
+        "create_date": "2025-02-18 09:59:58",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-03-11 13:15:04",
+        "number": "1026",
+        "sector_id": [
+          34,
+          "ريادة الأعمال"
+        ],
+        "administration_id": [
+          89,
+          "ريادة الأعمال / تخطيط ريادة الأعمال / ريادة الأعمال النسائية"
+        ],
+        "job_id": [
+          1589,
+          "مدير إدارة ريادة الأعمال النسائية"
+        ],
+        "degree_id": [
+          36,
+          "14"
+        ],
+        "check_authority_owner": false,
+        "custody_paid_amount": 0,
+        "custody_remain_amount": 10000,
+        "bank_id": [
+          11,
+          "البنك السعودي الفرنسي - BSFRSARIXXX - BSFR"
+        ],
+        "acc_number": "SA5655000000004790500394",
+        "is_dm": false,
+        "payments_widget": "false",
+        "is_action_send": false,
+        "account_move_number": "",
+        "account_move_id": false,
+        "department_global_id": [
+          44,
+          "ريادة الأعمال / تخطيط ريادة الأعمال"
+        ],
+        "message_is_follower": false,
+        "message_partner_ids": [
+          237
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "00145",
+        "__last_update": "2025-03-11 13:15:04"
+      },
+      {
+        "id": 131,
+        "name": "00162",
+        "custody_amount": 100,
+        "custody_type": "permanent",
+        "refuse_reason": false,
+        "cancel_reason": false,
+        "custody_reason_id": [
+          3,
+          "اعدادات العهد المالية"
+        ],
+        "custody_reason": "LLLLL",
+        "employee_id": [
+          21,
+          "[1026] أفنان بنت أسعد أبابطين"
+        ],
+        "is_have_close_custody": false,
+        "is_have_replace_custody": false,
+        "state": "financial_purchasing_mgr",
+        "hide_payment_order": false,
+        "payment_order_id": false,
+        "order_date": "2025-03-11",
+        "company_id": [
+          1,
+          " الهيئة العامة للمنشآت الصغيرة والمتوسطة"
+        ],
+        "account_id": [
+          7955,
+          "312111003 ذمم مدينة من الموظفين - حسابات مدينة أخرى"
+        ],
+        "journal_id": false,
+        "payment_state": false,
+        "readonly_by_pass": false,
+        "payment_move_line_ids": [],
+        "check_custody_remain_amount": false,
+        "active": true,
+        "res_model": "manage.financial.custody",
+        "is_from_mobile": false,
+        "mobile_approvals_ids": [],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13811387
+        ],
+        "message_ids": [
+          170731702,
+          169948692,
+          169948691,
+          169948690
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-11 13:15:16",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-04-14 23:13:03",
+        "number": "1026",
+        "sector_id": [
+          34,
+          "ريادة الأعمال"
+        ],
+        "administration_id": [
+          89,
+          "ريادة الأعمال / تخطيط ريادة الأعمال / ريادة الأعمال النسائية"
+        ],
+        "job_id": [
+          1589,
+          "مدير إدارة ريادة الأعمال النسائية"
+        ],
+        "degree_id": [
+          36,
+          "14"
+        ],
+        "check_authority_owner": false,
+        "custody_paid_amount": 0,
+        "custody_remain_amount": 100,
+        "bank_id": [
+          11,
+          "البنك السعودي الفرنسي - BSFRSARIXXX - BSFR"
+        ],
+        "acc_number": "SA5655000000004790500394",
+        "is_dm": false,
+        "payments_widget": "false",
+        "is_action_send": false,
+        "account_move_number": "",
+        "account_move_id": false,
+        "department_global_id": [
+          44,
+          "ريادة الأعمال / تخطيط ريادة الأعمال"
+        ],
+        "message_is_follower": false,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "00162",
+        "__last_update": "2025-04-14 23:13:03"
+      }
+    ]
+  }
+}
