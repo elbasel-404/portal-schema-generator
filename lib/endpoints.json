@@ -172,5 +172,19 @@
       "id": 133
     },
     "createRequestBody": null
+  },
+  {
+    "name": "training",
+    "url": "hr/training",
+    "createUrl": "",
+    "method": "POST",
+    "description": "Get training requests",
+    "listRequestBody": {
+      "create_employee_id": 1722
+    },
+    "detailsRequestBody": {
+      "id": 160
+    },
+    "createRequestBody": null
   }
 ]

@@ -1,0 +1,795 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "statusCode": 200,
+    "status": "success",
+    "data": [
+      {
+        "id": 160,
+        "name": "training test",
+        "number": "00147",
+        "date": "2025-03-25",
+        "date_from": "2025-04-11",
+        "date_to": "2025-04-12",
+        "number_of_days": 2,
+        "place": false,
+        "number_place": 1,
+        "application_ids": [],
+        "state": "candidate",
+        "reason_to_cancel": false,
+        "training_center": "مركز التدريب",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "international",
+        "amount": 0,
+        "country_id": [
+          12,
+          "Austria"
+        ],
+        "programme_training": "برنامج الدورة",
+        "published": true,
+        "attachment_ids": [],
+        "display_button_candidat_course": true,
+        "city": "city",
+        "currency_id": false,
+        "public_ids": [
+          1905,
+          1902,
+          1901,
+          1900,
+          1899
+        ],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13967126
+        ],
+        "message_ids": [
+          170550891,
+          170550890,
+          170270875,
+          170270874,
+          170270873
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-25 12:31:58",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-04-07 14:16:12",
+        "number_participant": 0,
+        "display_button": false,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "training test",
+        "__last_update": "2025-04-07 14:16:12"
+      },
+      {
+        "id": 159,
+        "name": "test",
+        "number": "00146",
+        "date": "2025-03-25",
+        "date_from": "2025-03-26",
+        "date_to": "2025-03-28",
+        "number_of_days": 3,
+        "place": false,
+        "number_place": 0,
+        "application_ids": [],
+        "state": "gm_humain",
+        "reason_to_cancel": false,
+        "training_center": "test",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "international",
+        "amount": 0,
+        "country_id": [
+          597,
+          "Curaçao"
+        ],
+        "programme_training": "test",
+        "published": true,
+        "attachment_ids": [],
+        "display_button_candidat_course": true,
+        "city": "Manama",
+        "currency_id": false,
+        "public_ids": [],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13967125
+        ],
+        "message_ids": [
+          170270872,
+          170270871,
+          170270870
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-25 12:24:08",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-03-25 12:24:36",
+        "number_participant": 0,
+        "display_button": false,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "test",
+        "__last_update": "2025-03-25 12:24:36"
+      },
+      {
+        "id": 158,
+        "name": "test",
+        "number": "00145",
+        "date": "2025-03-25",
+        "date_from": "2025-03-27",
+        "date_to": "2025-04-09",
+        "number_of_days": 14,
+        "place": [
+          4,
+          "الرياض"
+        ],
+        "number_place": 50,
+        "application_ids": [],
+        "state": "candidate",
+        "reason_to_cancel": false,
+        "training_center": "test",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "regional",
+        "amount": 0,
+        "country_id": false,
+        "programme_training": "test",
+        "published": true,
+        "attachment_ids": [],
+        "display_button_candidat_course": false,
+        "city": false,
+        "currency_id": false,
+        "public_ids": [],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13967124
+        ],
+        "message_ids": [
+          170270869,
+          170270868,
+          170270867,
+          170270866
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-25 12:18:45",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-04-07 11:58:27",
+        "number_participant": 0,
+        "display_button": true,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "test",
+        "__last_update": "2025-04-07 11:58:27"
+      },
+      {
+        "id": 156,
+        "name": "training test",
+        "number": "00143",
+        "date": "2025-03-25",
+        "date_from": "2025-04-11",
+        "date_to": "2025-04-12",
+        "number_of_days": 2,
+        "place": false,
+        "number_place": 1,
+        "application_ids": [],
+        "state": "done",
+        "reason_to_cancel": false,
+        "training_center": "مركز التدريب",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "international",
+        "amount": 0,
+        "country_id": [
+          192,
+          "Saudi Arabia"
+        ],
+        "programme_training": "برنامج الدورة",
+        "published": false,
+        "attachment_ids": [
+          161112
+        ],
+        "display_button_candidat_course": false,
+        "city": "city",
+        "currency_id": false,
+        "public_ids": [],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13967117
+        ],
+        "message_ids": [
+          170270865,
+          170270864,
+          170270863,
+          170270823,
+          170270822,
+          170270821
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-25 11:32:35",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-03-25 12:00:22",
+        "number_participant": 0,
+        "display_button": false,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "training test",
+        "__last_update": "2025-03-25 12:00:22"
+      },
+      {
+        "id": 155,
+        "name": "training test",
+        "number": "00142",
+        "date": "2025-03-25",
+        "date_from": "2025-04-11",
+        "date_to": "2025-04-12",
+        "number_of_days": 2,
+        "place": false,
+        "number_place": 1,
+        "application_ids": [],
+        "state": "candidate",
+        "reason_to_cancel": false,
+        "training_center": "مركز التدريب",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "international",
+        "amount": 0,
+        "country_id": [
+          192,
+          "Saudi Arabia"
+        ],
+        "programme_training": "برنامج الدورة",
+        "published": false,
+        "attachment_ids": [
+          161109
+        ],
+        "display_button_candidat_course": false,
+        "city": "city",
+        "currency_id": false,
+        "public_ids": [],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13967097
+        ],
+        "message_ids": [
+          170270862,
+          170270861,
+          170270746,
+          170270745,
+          170270744
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-25 10:45:50",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-03-25 11:54:55",
+        "number_participant": 0,
+        "display_button": false,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "training test",
+        "__last_update": "2025-03-25 11:54:55"
+      },
+      {
+        "id": 154,
+        "name": "training test",
+        "number": "00141",
+        "date": "2025-03-25",
+        "date_from": "2025-04-11",
+        "date_to": "2025-04-12",
+        "number_of_days": 2,
+        "place": [
+          1,
+          "مكة المكرمة"
+        ],
+        "number_place": 1,
+        "application_ids": [],
+        "state": "confirm",
+        "reason_to_cancel": false,
+        "training_center": "مركز التدريب",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "regional",
+        "amount": 0,
+        "country_id": false,
+        "programme_training": "برنامج الدورة",
+        "published": false,
+        "attachment_ids": [
+          161108
+        ],
+        "display_button_candidat_course": true,
+        "city": false,
+        "currency_id": false,
+        "public_ids": [],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13967095
+        ],
+        "message_ids": [
+          170270739,
+          170270738,
+          170270737
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-25 10:42:27",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-03-25 10:42:27",
+        "number_participant": 0,
+        "display_button": false,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "training test",
+        "__last_update": "2025-03-25 10:42:27"
+      },
+      {
+        "id": 153,
+        "name": "training test",
+        "number": "00140",
+        "date": "2025-03-25",
+        "date_from": "2025-04-11",
+        "date_to": "2025-04-12",
+        "number_of_days": 2,
+        "place": false,
+        "number_place": 1,
+        "application_ids": [],
+        "state": "gm_humain",
+        "reason_to_cancel": false,
+        "training_center": "مركز التدريب",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "international",
+        "amount": 0,
+        "country_id": [
+          12,
+          "Austria"
+        ],
+        "programme_training": "برنامج الدورة",
+        "published": false,
+        "attachment_ids": [],
+        "display_button_candidat_course": true,
+        "city": "city",
+        "currency_id": false,
+        "public_ids": [],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13967094
+        ],
+        "message_ids": [
+          170270736,
+          170270735,
+          170270734
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-25 10:40:12",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-03-25 10:40:12",
+        "number_participant": 0,
+        "display_button": false,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "training test",
+        "__last_update": "2025-03-25 10:40:12"
+      },
+      {
+        "id": 152,
+        "name": "test2",
+        "number": "00139",
+        "date": "2025-03-24",
+        "date_from": "2025-04-01",
+        "date_to": "2025-04-02",
+        "number_of_days": 2,
+        "place": [
+          2,
+          "جدة"
+        ],
+        "number_place": 2,
+        "application_ids": [],
+        "state": "confirm",
+        "reason_to_cancel": false,
+        "training_center": "test",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "regional",
+        "amount": 0,
+        "country_id": false,
+        "programme_training": "test",
+        "published": false,
+        "attachment_ids": [],
+        "display_button_candidat_course": true,
+        "city": false,
+        "currency_id": false,
+        "public_ids": [],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13957182
+        ],
+        "message_ids": [
+          170250089,
+          170250087,
+          170250086
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-24 10:31:35",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-03-24 10:32:16",
+        "number_participant": 0,
+        "display_button": false,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "test2",
+        "__last_update": "2025-03-24 10:32:16"
+      },
+      {
+        "id": 151,
+        "name": "test1",
+        "number": "00138",
+        "date": "2025-03-24",
+        "date_from": "2025-03-24",
+        "date_to": "2025-03-26",
+        "number_of_days": 3,
+        "place": [
+          1,
+          "مكة المكرمة"
+        ],
+        "number_place": 1,
+        "application_ids": [],
+        "state": "confirm",
+        "reason_to_cancel": false,
+        "training_center": "test",
+        "training_center_id": false,
+        "partner_ids": [
+          601,
+          2756,
+          2665,
+          2761,
+          2785,
+          3346,
+          691,
+          692,
+          2922,
+          693,
+          3531,
+          3298,
+          694,
+          3354
+        ],
+        "type": "regional",
+        "amount": 0,
+        "country_id": false,
+        "programme_training": "test",
+        "published": false,
+        "attachment_ids": [],
+        "display_button_candidat_course": true,
+        "city": false,
+        "currency_id": false,
+        "public_ids": [],
+        "refuse_reason": false,
+        "active": true,
+        "type_training_activity": false,
+        "create_employee_id": [
+          1722,
+          "[1762] عساف  بن رشود الصاعدي"
+        ],
+        "website_message_ids": [],
+        "message_follower_ids": [
+          13957181
+        ],
+        "message_ids": [
+          170250088,
+          170250085,
+          170250084
+        ],
+        "message_last_post": false,
+        "create_uid": [
+          1336,
+          "asaedi"
+        ],
+        "create_date": "2025-03-24 10:30:58",
+        "write_uid": [
+          1336,
+          "asaedi"
+        ],
+        "write_date": "2025-03-24 10:31:52",
+        "number_participant": 0,
+        "display_button": false,
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3955
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "test1",
+        "__last_update": "2025-03-24 10:31:52"
+      }
+    ]
+  }
+}
