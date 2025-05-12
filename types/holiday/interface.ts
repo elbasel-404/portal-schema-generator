@@ -11,41 +11,41 @@ export interface Holiday {
     id:                           number;
     payslip_status:               boolean;
     report_note:                  boolean;
-    user_id:                      Array<number | string>;
-    manager_id:                   Array<number | string>;
+    user_id:                      Array<CreateUidEnum | number>;
+    manager_id:                   Array<ManagerIDEnum | number>;
     notes:                        string;
     number_of_days_temp:          number;
     number_of_days:               number;
     meeting_id:                   boolean;
-    type:                         string;
+    type:                         Type;
     linked_request_ids:           any[];
     category_id:                  boolean;
-    holiday_type:                 string;
+    holiday_type:                 HolidayType;
     first_approver_id:            boolean;
     second_approver_id:           boolean;
     name:                         string;
     date:                         Date;
-    employee_id:                  Array<number | string>;
-    substitute_employee_id:       Array<number | string>;
+    employee_id:                  Array<EmployeeIDEnum | number>;
+    substitute_employee_id:       Array<ManagerIDEnum | number>;
     department_id:                Array<number | string>;
-    job_id:                       Array<number | string>;
-    grade_id:                     Array<number | string>;
+    job_id:                       Array<JobIDEnum | number>;
+    grade_id:                     Array<GradeIDEnum | number>;
     degree_id:                    Array<number | string>;
     raison:                       boolean | string;
     date_from:                    Date;
     date_to:                      Date;
     duration:                     number;
-    holiday_status_id:            Array<number | string>;
+    holiday_status_id:            Array<HolidayStatusIDEnum | number>;
     with_advanced_salary:         boolean;
     salary_number:                number;
-    state:                        string;
+    state:                        State;
     holiday_cancellation:         boolean;
     is_extension:                 boolean;
     extended_holiday_id:          boolean;
     parent_id:                    boolean;
     extension_holidays_ids:       any[];
     extension_duration:           number;
-    childbirth_date:              boolean;
+    childbirth_date:              boolean | Date;
     sold_overtime:                number;
     sold_attendance:              number;
     death_person:                 boolean | string;
@@ -54,34 +54,29 @@ export interface Holiday {
     accompanied_child_age:        number;
     study_subject:                boolean;
     city:                         boolean;
-    country_ids:                  Array<number | string> | boolean;
+    country_ids:                  Array<CountryIDEnum | number> | boolean;
     current_holiday_stock:        number;
     sport_participation_topic:    boolean;
     birth_child_filename:         boolean;
     hide_with_advanced_salary:    boolean;
     token_compensation_stock:     number;
     payed_salary_advance:         boolean;
-    done_date:                    string;
+    done_date:                    Date;
     attachment_ids:               number[];
     date_holidays_to:             boolean;
     refuse_reason:                string;
     active:                       boolean;
     cancel_reason:                boolean;
-    half_day:                     boolean;
-    period_type:                  boolean;
-    time_from:                    boolean;
-    time_to:                      boolean;
-    half_day_duration:            number;
-    res_model:                    string;
+    res_model:                    ResModel;
     is_from_mobile:               boolean;
     mobile_approvals_ids:         number[];
-    website_message_ids:          any[];
     message_follower_ids:         number[];
     message_ids:                  number[];
     message_last_post:            boolean;
-    create_uid:                   Array<number | string>;
+    website_message_ids:          any[];
+    create_uid:                   Array<CreateUidEnum | number>;
     create_date:                  Date;
-    write_uid:                    Array<number | string>;
+    write_uid:                    Array<WriteUidEnum | number>;
     write_date:                   Date;
     x_sla_labels:                 string;
     double_validation:            boolean;
@@ -104,9 +99,8 @@ export interface Holiday {
     attachment_required:          boolean;
     display_button_send:          boolean;
     substitute_employee_required: boolean;
-    computed_duration:            number;
-    department_global_id:         Array<number | string>;
-    sector_id:                    Array<number | string>;
+    department_global_id:         Array<DepartmentGlobalIDEnum | number>;
+    sector_id:                    Array<SectorIDEnum | number>;
     message_is_follower:          boolean;
     message_partner_ids:          number[];
     message_channel_ids:          any[];
@@ -116,6 +110,67 @@ export interface Holiday {
     message_needaction_counter:   number;
     display_name:                 string;
     __last_update:                Date;
+}
+
+export enum CountryIDEnum {
+    BonaireSintEustatiusAndSaba = "Bonaire, Sint Eustatius and Saba",
+}
+
+export enum CreateUidEnum {
+    MahmoudNAlbakr = "Mahmoud N. Albakr",
+}
+
+export enum DepartmentGlobalIDEnum {
+    خدماتالمنشآتالتقنيةوالحلولالرقمية = "خدمات المنشآت / التقنية والحلول الرقمية",
+}
+
+export enum EmployeeIDEnum {
+    The1750محمودبنناصرالبكر = "[1750] محمود  بن ناصر  البكر",
+}
+
+export enum GradeIDEnum {
+    قائدفريق = "قائد فريق",
+}
+
+export enum HolidayStatusIDEnum {
+    إجازةالمولود = "إجازة المولود",
+    إجازةزواج = "إجازة زواج",
+    إجازةسنوية = "إجازة سنوية",
+    إجازةمرضيّة = "إجازة مرضيّة",
+}
+
+export enum HolidayType {
+    Employee = "employee",
+}
+
+export enum JobIDEnum {
+    قائدفريقإدارةالخدماتالرقمية = "قائد فريق إدارة الخدمات الرقمية",
+}
+
+export enum ManagerIDEnum {
+    The1417رائدبنحمدرشيد = "[1417] رائد بن حمد رشيد",
+    The1688ايمنبنمعتوقالسفياني = "[1688] ايمن بن معتوق السفياني",
+}
+
+export enum ResModel {
+    HrHolidays = "hr.holidays",
+}
+
+export enum SectorIDEnum {
+    خدماتالمنشآت = "خدمات المنشآت",
+}
+
+export enum State {
+    Done = "done",
+}
+
+export enum Type {
+    Remove = "remove",
+}
+
+export enum WriteUidEnum {
+    AnfalNHamdi = "Anfal N. Hamdi",
+    MubarakHAlajmi = "Mubarak H. Alajmi",
 }
 
 // Converts JSON strings to/from your types
@@ -287,41 +342,41 @@ const typeMap: any = {
         { json: "id", js: "id", typ: 0 },
         { json: "payslip_status", js: "payslip_status", typ: true },
         { json: "report_note", js: "report_note", typ: true },
-        { json: "user_id", js: "user_id", typ: a(u(0, "")) },
-        { json: "manager_id", js: "manager_id", typ: a(u(0, "")) },
+        { json: "user_id", js: "user_id", typ: a(u(r("CreateUidEnum"), 0)) },
+        { json: "manager_id", js: "manager_id", typ: a(u(r("ManagerIDEnum"), 0)) },
         { json: "notes", js: "notes", typ: "" },
         { json: "number_of_days_temp", js: "number_of_days_temp", typ: 0 },
         { json: "number_of_days", js: "number_of_days", typ: 0 },
         { json: "meeting_id", js: "meeting_id", typ: true },
-        { json: "type", js: "type", typ: "" },
+        { json: "type", js: "type", typ: r("Type") },
         { json: "linked_request_ids", js: "linked_request_ids", typ: a("any") },
         { json: "category_id", js: "category_id", typ: true },
-        { json: "holiday_type", js: "holiday_type", typ: "" },
+        { json: "holiday_type", js: "holiday_type", typ: r("HolidayType") },
         { json: "first_approver_id", js: "first_approver_id", typ: true },
         { json: "second_approver_id", js: "second_approver_id", typ: true },
         { json: "name", js: "name", typ: "" },
         { json: "date", js: "date", typ: Date },
-        { json: "employee_id", js: "employee_id", typ: a(u(0, "")) },
-        { json: "substitute_employee_id", js: "substitute_employee_id", typ: a(u(0, "")) },
+        { json: "employee_id", js: "employee_id", typ: a(u(r("EmployeeIDEnum"), 0)) },
+        { json: "substitute_employee_id", js: "substitute_employee_id", typ: a(u(r("ManagerIDEnum"), 0)) },
         { json: "department_id", js: "department_id", typ: a(u(0, "")) },
-        { json: "job_id", js: "job_id", typ: a(u(0, "")) },
-        { json: "grade_id", js: "grade_id", typ: a(u(0, "")) },
+        { json: "job_id", js: "job_id", typ: a(u(r("JobIDEnum"), 0)) },
+        { json: "grade_id", js: "grade_id", typ: a(u(r("GradeIDEnum"), 0)) },
         { json: "degree_id", js: "degree_id", typ: a(u(0, "")) },
         { json: "raison", js: "raison", typ: u(true, "") },
         { json: "date_from", js: "date_from", typ: Date },
         { json: "date_to", js: "date_to", typ: Date },
         { json: "duration", js: "duration", typ: 0 },
-        { json: "holiday_status_id", js: "holiday_status_id", typ: a(u(0, "")) },
+        { json: "holiday_status_id", js: "holiday_status_id", typ: a(u(r("HolidayStatusIDEnum"), 0)) },
         { json: "with_advanced_salary", js: "with_advanced_salary", typ: true },
         { json: "salary_number", js: "salary_number", typ: 0 },
-        { json: "state", js: "state", typ: "" },
+        { json: "state", js: "state", typ: r("State") },
         { json: "holiday_cancellation", js: "holiday_cancellation", typ: true },
         { json: "is_extension", js: "is_extension", typ: true },
         { json: "extended_holiday_id", js: "extended_holiday_id", typ: true },
         { json: "parent_id", js: "parent_id", typ: true },
         { json: "extension_holidays_ids", js: "extension_holidays_ids", typ: a("any") },
         { json: "extension_duration", js: "extension_duration", typ: 0 },
-        { json: "childbirth_date", js: "childbirth_date", typ: true },
+        { json: "childbirth_date", js: "childbirth_date", typ: u(true, Date) },
         { json: "sold_overtime", js: "sold_overtime", typ: 0 },
         { json: "sold_attendance", js: "sold_attendance", typ: 0 },
         { json: "death_person", js: "death_person", typ: u(true, "") },
@@ -330,34 +385,29 @@ const typeMap: any = {
         { json: "accompanied_child_age", js: "accompanied_child_age", typ: 0 },
         { json: "study_subject", js: "study_subject", typ: true },
         { json: "city", js: "city", typ: true },
-        { json: "country_ids", js: "country_ids", typ: u(a(u(0, "")), true) },
+        { json: "country_ids", js: "country_ids", typ: u(a(u(r("CountryIDEnum"), 0)), true) },
         { json: "current_holiday_stock", js: "current_holiday_stock", typ: 3.14 },
         { json: "sport_participation_topic", js: "sport_participation_topic", typ: true },
         { json: "birth_child_filename", js: "birth_child_filename", typ: true },
         { json: "hide_with_advanced_salary", js: "hide_with_advanced_salary", typ: true },
         { json: "token_compensation_stock", js: "token_compensation_stock", typ: 0 },
         { json: "payed_salary_advance", js: "payed_salary_advance", typ: true },
-        { json: "done_date", js: "done_date", typ: "" },
+        { json: "done_date", js: "done_date", typ: Date },
         { json: "attachment_ids", js: "attachment_ids", typ: a(0) },
         { json: "date_holidays_to", js: "date_holidays_to", typ: true },
         { json: "refuse_reason", js: "refuse_reason", typ: "" },
         { json: "active", js: "active", typ: true },
         { json: "cancel_reason", js: "cancel_reason", typ: true },
-        { json: "half_day", js: "half_day", typ: true },
-        { json: "period_type", js: "period_type", typ: true },
-        { json: "time_from", js: "time_from", typ: true },
-        { json: "time_to", js: "time_to", typ: true },
-        { json: "half_day_duration", js: "half_day_duration", typ: 0 },
-        { json: "res_model", js: "res_model", typ: "" },
+        { json: "res_model", js: "res_model", typ: r("ResModel") },
         { json: "is_from_mobile", js: "is_from_mobile", typ: true },
         { json: "mobile_approvals_ids", js: "mobile_approvals_ids", typ: a(0) },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
         { json: "message_ids", js: "message_ids", typ: a(0) },
         { json: "message_last_post", js: "message_last_post", typ: true },
-        { json: "create_uid", js: "create_uid", typ: a(u(0, "")) },
+        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
+        { json: "create_uid", js: "create_uid", typ: a(u(r("CreateUidEnum"), 0)) },
         { json: "create_date", js: "create_date", typ: Date },
-        { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },
+        { json: "write_uid", js: "write_uid", typ: a(u(r("WriteUidEnum"), 0)) },
         { json: "write_date", js: "write_date", typ: Date },
         { json: "x_sla_labels", js: "x_sla_labels", typ: "" },
         { json: "double_validation", js: "double_validation", typ: true },
@@ -380,9 +430,8 @@ const typeMap: any = {
         { json: "attachment_required", js: "attachment_required", typ: true },
         { json: "display_button_send", js: "display_button_send", typ: true },
         { json: "substitute_employee_required", js: "substitute_employee_required", typ: true },
-        { json: "computed_duration", js: "computed_duration", typ: 0 },
-        { json: "department_global_id", js: "department_global_id", typ: a(u(0, "")) },
-        { json: "sector_id", js: "sector_id", typ: a(u(0, "")) },
+        { json: "department_global_id", js: "department_global_id", typ: a(u(r("DepartmentGlobalIDEnum"), 0)) },
+        { json: "sector_id", js: "sector_id", typ: a(u(r("SectorIDEnum"), 0)) },
         { json: "message_is_follower", js: "message_is_follower", typ: true },
         { json: "message_partner_ids", js: "message_partner_ids", typ: a(0) },
         { json: "message_channel_ids", js: "message_channel_ids", typ: a("any") },
@@ -393,4 +442,51 @@ const typeMap: any = {
         { json: "display_name", js: "display_name", typ: "" },
         { json: "__last_update", js: "__last_update", typ: Date },
     ], false),
+    "CountryIDEnum": [
+        "Bonaire, Sint Eustatius and Saba",
+    ],
+    "CreateUidEnum": [
+        "Mahmoud N. Albakr",
+    ],
+    "DepartmentGlobalIDEnum": [
+        "خدمات المنشآت / التقنية والحلول الرقمية",
+    ],
+    "EmployeeIDEnum": [
+        "[1750] محمود  بن ناصر  البكر",
+    ],
+    "GradeIDEnum": [
+        "قائد فريق",
+    ],
+    "HolidayStatusIDEnum": [
+        "إجازة المولود",
+        "إجازة زواج",
+        "إجازة سنوية",
+        "إجازة مرضيّة",
+    ],
+    "HolidayType": [
+        "employee",
+    ],
+    "JobIDEnum": [
+        "قائد فريق إدارة الخدمات الرقمية",
+    ],
+    "ManagerIDEnum": [
+        "[1417] رائد بن حمد رشيد",
+        "[1688] ايمن بن معتوق السفياني",
+    ],
+    "ResModel": [
+        "hr.holidays",
+    ],
+    "SectorIDEnum": [
+        "خدمات المنشآت",
+    ],
+    "State": [
+        "done",
+    ],
+    "Type": [
+        "remove",
+    ],
+    "WriteUidEnum": [
+        "Anfal N. Hamdi",
+        "Mubarak H. Alajmi",
+    ],
 };

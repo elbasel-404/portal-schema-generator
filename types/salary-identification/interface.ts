@@ -12,8 +12,8 @@ export interface SalaryIdentification {
     number:                      string;
     order_date:                  Date;
     employee_id:                 Array<DisplayName | number>;
-    destination_id:              Array<DestinationIDEnum | number>;
-    type:                        Type;
+    destination_id:              Array<number | string>;
+    type:                        string;
     speech_lang:                 boolean | string;
     state:                       State;
     partner_id:                  boolean;
@@ -28,15 +28,15 @@ export interface SalaryIdentification {
     open_link:                   string;
     res_model:                   ResModel;
     is_from_mobile:              boolean;
-    website_message_ids:         any[];
     message_follower_ids:        number[];
     message_ids:                 number[];
     message_last_post:           boolean;
+    website_message_ids:         any[];
     create_uid:                  Array<CreateUidEnum | number>;
     create_date:                 Date;
-    write_uid:                   Array<CreateUidEnum | number>;
+    write_uid:                   Array<number | string>;
     write_date:                  Date;
-    eng_destination:             EngDestination;
+    eng_destination:             string;
     template_name:               Template;
     basic_salary:                number;
     allowance_housing:           number;
@@ -57,34 +57,16 @@ export interface SalaryIdentification {
 }
 
 export enum CreateUidEnum {
-    AashehriUAT = "aashehri.uat",
-    AbeerFAlbaker = "Abeer F. Albaker",
-    AlbaraaAAboAqeel = "Albaraa A. Abo Aqeel",
-    HqushaymitUAT = "hqushaymit.uat",
-    KhaledAlamri = "Khaled Alamri",
+    Administrator = "Administrator",
+    HamadYAlqushaymit = "Hamad Y. Alqushaymit",
 }
 
 export enum DepartmentGlobalIDEnum {
-    خدماتالمنشآتخدماتالمنشآت = "خدمات المنشآت / خدمات المنشآت",
-}
-
-export enum DestinationIDEnum {
-    إلىمنيهمهالأمر = "إلى من يهمه الأمر",
-    البنكالأهليالسعودي = "البنك الأهلي السعودي",
-    مصرفالإنماء = "مصرف الإنماء",
-    مصرفالراجحي = "مصرف الراجحي",
+    خدماتالمنشآتالتقنيةوالحلولالرقمية = "خدمات المنشآت / التقنية والحلول الرقمية",
 }
 
 export enum DisplayName {
     The1401حمدبنيوسفالقشيميط = "[1401] حمد بن يوسف القشيميط",
-}
-
-export enum EngDestination {
-    AlinmaBank = "Alinma Bank",
-    AlrajhiBank = "Alrajhi Bank",
-    Empty = "",
-    SaudiNationalBank = "Saudi National Bank",
-    ToWhom = "To Whom",
 }
 
 export enum ResModel {
@@ -97,21 +79,12 @@ export enum SectorIDEnum {
 
 export enum State {
     Done = "done",
-    Draft = "draft",
 }
 
 export enum Template {
     Empty = "",
+    SalaryRequestRTL = "Salary Request RTL",
     خطابتعريفبتفاصيلالراتب = "خطاب تعريف بتفاصيل الراتب",
-}
-
-export enum Type {
-    NosalaryIdentification = "nosalary_identification",
-    SalaryCheck = "salary_check",
-    SalaryDetail = "salary_detail",
-    SalaryIdentification = "salary_identification",
-    SalaryPayslip = "salary_payslip",
-    TotalSalary = "total_salary",
 }
 
 // Converts JSON strings to/from your types
@@ -284,8 +257,8 @@ const typeMap: any = {
         { json: "number", js: "number", typ: "" },
         { json: "order_date", js: "order_date", typ: Date },
         { json: "employee_id", js: "employee_id", typ: a(u(r("DisplayName"), 0)) },
-        { json: "destination_id", js: "destination_id", typ: a(u(r("DestinationIDEnum"), 0)) },
-        { json: "type", js: "type", typ: r("Type") },
+        { json: "destination_id", js: "destination_id", typ: a(u(0, "")) },
+        { json: "type", js: "type", typ: "" },
         { json: "speech_lang", js: "speech_lang", typ: u(true, "") },
         { json: "state", js: "state", typ: r("State") },
         { json: "partner_id", js: "partner_id", typ: true },
@@ -300,19 +273,19 @@ const typeMap: any = {
         { json: "open_link", js: "open_link", typ: "" },
         { json: "res_model", js: "res_model", typ: r("ResModel") },
         { json: "is_from_mobile", js: "is_from_mobile", typ: true },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
         { json: "message_ids", js: "message_ids", typ: a(0) },
         { json: "message_last_post", js: "message_last_post", typ: true },
+        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "create_uid", js: "create_uid", typ: a(u(r("CreateUidEnum"), 0)) },
         { json: "create_date", js: "create_date", typ: Date },
-        { json: "write_uid", js: "write_uid", typ: a(u(r("CreateUidEnum"), 0)) },
+        { json: "write_uid", js: "write_uid", typ: a(u(0, "")) },
         { json: "write_date", js: "write_date", typ: Date },
-        { json: "eng_destination", js: "eng_destination", typ: r("EngDestination") },
+        { json: "eng_destination", js: "eng_destination", typ: "" },
         { json: "template_name", js: "template_name", typ: r("Template") },
-        { json: "basic_salary", js: "basic_salary", typ: 0 },
-        { json: "allowance_housing", js: "allowance_housing", typ: 0 },
-        { json: "allowance_transportation", js: "allowance_transportation", typ: 0 },
+        { json: "basic_salary", js: "basic_salary", typ: 3.14 },
+        { json: "allowance_housing", js: "allowance_housing", typ: 3.14 },
+        { json: "allowance_transportation", js: "allowance_transportation", typ: 3.14 },
         { json: "allowance_mobile", js: "allowance_mobile", typ: 0 },
         { json: "designation_mandated_amount", js: "designation_mandated_amount", typ: 0 },
         { json: "department_global_id", js: "department_global_id", typ: a(u(r("DepartmentGlobalIDEnum"), 0)) },
@@ -328,30 +301,14 @@ const typeMap: any = {
         { json: "__last_update", js: "__last_update", typ: Date },
     ], false),
     "CreateUidEnum": [
-        "aashehri.uat",
-        "Abeer F. Albaker",
-        "Albaraa A. Abo Aqeel",
-        "hqushaymit.uat",
-        "Khaled Alamri",
+        "Administrator",
+        "Hamad Y. Alqushaymit",
     ],
     "DepartmentGlobalIDEnum": [
-        "خدمات المنشآت / خدمات المنشآت",
-    ],
-    "DestinationIDEnum": [
-        "إلى من يهمه الأمر",
-        "البنك الأهلي السعودي",
-        "مصرف الإنماء",
-        "مصرف الراجحي",
+        "خدمات المنشآت / التقنية والحلول الرقمية",
     ],
     "DisplayName": [
         "[1401] حمد بن يوسف القشيميط",
-    ],
-    "EngDestination": [
-        "Alinma Bank",
-        "Alrajhi Bank",
-        "",
-        "Saudi National Bank",
-        "To Whom",
     ],
     "ResModel": [
         "salary.identification.request",
@@ -361,18 +318,10 @@ const typeMap: any = {
     ],
     "State": [
         "done",
-        "draft",
     ],
     "Template": [
         "",
+        "Salary Request RTL",
         "خطاب تعريف بتفاصيل الراتب",
-    ],
-    "Type": [
-        "nosalary_identification",
-        "salary_check",
-        "salary_detail",
-        "salary_identification",
-        "salary_payslip",
-        "total_salary",
     ],
 };

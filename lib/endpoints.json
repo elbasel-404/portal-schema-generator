@@ -1,8 +1,8 @@
 [
   {
     "name": "holiday",
-    "url": "hr/holidays/request",
-    "createUrl": "hr/holidays/request/create",
+    "url": "po/hr/holidays/request",
+    "createUrl": "po/hr/holidays/request/create",
     "method": "POST",
     "description": "Get holiday requests",
     "listRequestBody": {
@@ -24,7 +24,7 @@
   {
     "name": "vacation-types",
     "createUrl": null,
-    "url": "hr/holidays/status/by_gender",
+    "url": "po/hr/holidays/status/by_gender",
     "method": "POST",
     "description": "Get vacation types requests",
     "listRequestBody": {},
@@ -32,8 +32,8 @@
   },
   {
     "name": "remote-work",
-    "url": "hr/distance/work/",
-    "createUrl": "hr/distance/work/create",
+    "url": "po/hr/distance/work/",
+    "createUrl": "po/hr/distance/work/create",
     "method": "POST",
     "description": "Get remote work requests",
     "listRequestBody": {
@@ -46,8 +46,8 @@
   },
   {
     "name": "permission",
-    "url": "hr/authorization",
-    "createUrl": "hr/authorization/create",
+    "url": "po/hr/authorization",
+    "createUrl": "po/hr/authorization/create",
     "method": "POST",
     "description": "Get permissions requests",
     "listRequestBody": {
@@ -59,23 +59,9 @@
     "createRequestBody": null
   },
   {
-    "name": "medical-insurance",
-    "url": "hr/medical/insurance/read",
-    "createUrl": "hr/medical/insurance/create",
-    "method": "POST",
-    "description": "Get medical insurance requests",
-    "listRequestBody": {
-      "employee_id": 1722
-    },
-    "detailsRequestBody": {
-      "id": 456
-    },
-    "createRequestBody": null
-  },
-  {
     "name": "salary-identification",
-    "url": "salary/identification/request/read",
-    "createUrl": "salary/identification/request/create",
+    "url": "po/salary/identification/request/read",
+    "createUrl": "po/salary/identification/request/create",
     "method": "POST",
     "description": "Get salary identification requests",
     "listRequestBody": {
@@ -88,8 +74,8 @@
   },
   {
     "name": "change-bank-account",
-    "url": "hr/change-bank-request",
-    "createUrl": "hr/change-bank-request/create",
+    "url": "po/hr/change-bank-request",
+    "createUrl": "po/hr/change-bank-request/create",
     "method": "POST",
     "description": "Get bank account requests",
     "listRequestBody": {
@@ -101,21 +87,9 @@
     "createRequestBody": null
   },
   {
-    "name": "request-details-workflow",
-    "url": "last_update",
-    "createUrl": null,
-    "method": "POST",
-    "description": "Get details workflow requests",
-    "listRequestBody": {
-      "res_model": "hr.authorization",
-      "res_id": 16439
-    },
-    "createRequestBody": null
-  },
-  {
     "name": "request-create-workflow",
     "createUrl": null,
-    "url": "request_workflow",
+    "url": "po/request_workflow",
     "method": "POST",
     "description": "Get details workflow requests",
     "listRequestBody": {
@@ -126,7 +100,7 @@
   {
     "name": "destination",
     "createUrl": null,
-    "url": "salary/identification/request/destination/read",
+    "url": "po/salary/identification/request/destination/read",
     "method": "POST",
     "description": "Get destination requests",
     "listRequestBody": {},
@@ -135,7 +109,7 @@
   {
     "name": "hr-letter-types",
     "createUrl": null,
-    "url": "salary/identification/request/type/read",
+    "url": "po/salary/identification/request/type/read",
     "method": "POST",
     "description": "Get destination requests",
     "listRequestBody": {},
@@ -144,47 +118,10 @@
   {
     "name": "bank-details",
     "createUrl": null,
-    "url": "hr/new-bank",
+    "url": "po/hr/new-bank",
     "method": "POST",
     "description": "Get bank details requests",
     "listRequestBody": {},
-    "createRequestBody": null
-  },
-  {
-    "name": "relative-relation",
-    "createUrl": null,
-    "url": "hr/medical/insurance/relative-relation",
-    "method": "POST",
-    "description": "Get relative relation requests",
-    "listRequestBody": {},
-    "createRequestBody": null
-  },
-  {
-    "name": "custody",
-    "url": "hr/custody",
-    "createUrl": "hr/custody/create",
-    "method": "POST",
-    "description": "Get custody requests",
-    "listRequestBody": {
-      "employee_id": 21
-    },
-    "detailsRequestBody": {
-      "id": 133
-    },
-    "createRequestBody": null
-  },
-  {
-    "name": "training",
-    "url": "hr/training",
-    "createUrl": "",
-    "method": "POST",
-    "description": "Get training requests",
-    "listRequestBody": {
-      "create_employee_id": 1722
-    },
-    "detailsRequestBody": {
-      "id": 160
-    },
     "createRequestBody": null
   }
 ]
