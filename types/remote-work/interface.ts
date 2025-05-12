@@ -21,19 +21,19 @@ export interface RemoteWork {
     date_to:                    Date;
     duration:                   number;
     state:                      State;
-    reason:                     string;
+    reason:                     boolean;
     active:                     boolean;
     description:                string;
     is_reviewed_approved:       boolean;
-    note:                       string;
+    note:                       boolean | string;
     is_token_updated:           boolean;
     res_model:                  ResModel;
     is_from_mobile:             boolean;
     mobile_approvals_ids:       number[];
-    website_message_ids:        any[];
     message_follower_ids:       number[];
     message_ids:                number[];
     message_last_post:          boolean;
+    website_message_ids:        any[];
     create_uid:                 Array<CreateUidEnum | number>;
     create_date:                Date;
     write_uid:                  Array<WriteUidEnum | number>;
@@ -54,8 +54,7 @@ export interface RemoteWork {
 }
 
 export enum CreateUidEnum {
-    Asaedi = "asaedi",
-    MbakrUAT = "mbakr.uat",
+    MahmoudNAlbakr = "Mahmoud N. Albakr",
 }
 
 export enum DepartmentGlobalIDEnum {
@@ -84,7 +83,6 @@ export enum SectorIDEnum {
 
 export enum State {
     Done = "done",
-    Humain = "humain",
 }
 
 export enum TypeIDEnum {
@@ -92,9 +90,10 @@ export enum TypeIDEnum {
 }
 
 export enum WriteUidEnum {
-    Asaedi = "asaedi",
-    NnabulsiUAT = "nnabulsi.uat",
-    WdowayanUAT = "wdowayan.uat",
+    JaberAAlfaleh = "Jaber A. Alfaleh",
+    NoufAAlnabulsi = "Nouf A. Alnabulsi",
+    OmarSalehAAlsadhan = "Omar Saleh A Alsadhan",
+    WaleedFAldowayan = "Waleed F. Aldowayan",
 }
 
 // Converts JSON strings to/from your types
@@ -276,19 +275,19 @@ const typeMap: any = {
         { json: "date_to", js: "date_to", typ: Date },
         { json: "duration", js: "duration", typ: 0 },
         { json: "state", js: "state", typ: r("State") },
-        { json: "reason", js: "reason", typ: "" },
+        { json: "reason", js: "reason", typ: true },
         { json: "active", js: "active", typ: true },
         { json: "description", js: "description", typ: "" },
         { json: "is_reviewed_approved", js: "is_reviewed_approved", typ: true },
-        { json: "note", js: "note", typ: "" },
+        { json: "note", js: "note", typ: u(true, "") },
         { json: "is_token_updated", js: "is_token_updated", typ: true },
         { json: "res_model", js: "res_model", typ: r("ResModel") },
         { json: "is_from_mobile", js: "is_from_mobile", typ: true },
         { json: "mobile_approvals_ids", js: "mobile_approvals_ids", typ: a(0) },
-        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "message_follower_ids", js: "message_follower_ids", typ: a(0) },
         { json: "message_ids", js: "message_ids", typ: a(0) },
         { json: "message_last_post", js: "message_last_post", typ: true },
+        { json: "website_message_ids", js: "website_message_ids", typ: a("any") },
         { json: "create_uid", js: "create_uid", typ: a(u(r("CreateUidEnum"), 0)) },
         { json: "create_date", js: "create_date", typ: Date },
         { json: "write_uid", js: "write_uid", typ: a(u(r("WriteUidEnum"), 0)) },
@@ -308,8 +307,7 @@ const typeMap: any = {
         { json: "__last_update", js: "__last_update", typ: Date },
     ], false),
     "CreateUidEnum": [
-        "asaedi",
-        "mbakr.uat",
+        "Mahmoud N. Albakr",
     ],
     "DepartmentGlobalIDEnum": [
         "خدمات المنشآت / التقنية والحلول الرقمية",
@@ -331,14 +329,14 @@ const typeMap: any = {
     ],
     "State": [
         "done",
-        "humain",
     ],
     "TypeIDEnum": [
         " الموظفين الرسميين",
     ],
     "WriteUidEnum": [
-        "asaedi",
-        "nnabulsi.uat",
-        "wdowayan.uat",
+        "Jaber A. Alfaleh",
+        "Nouf A. Alnabulsi",
+        "Omar Saleh A Alsadhan",
+        "Waleed F. Aldowayan",
     ],
 };

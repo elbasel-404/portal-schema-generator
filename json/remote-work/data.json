@@ -1,6 +1,6 @@
 [
   {
-    "id": 7971,
+    "id": 11301,
     "employee_id": [
       1711,
       "[1750] محمود  بن ناصر  البكر"
@@ -26,42 +26,44 @@
       38,
       "12"
     ],
-    "name": "07972",
-    "date_from": "2025-04-16",
-    "date_to": "2025-04-17",
-    "duration": 2,
-    "state": "humain",
-    "reason": "",
+    "name": "11301",
+    "date_from": "2025-02-27",
+    "date_to": "2025-02-27",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
     "active": true,
-    "description": "",
-    "is_reviewed_approved": false,
-    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p><p>4- يشترط كتابة المهام المطلوبة للموافقة على العمل عن بعد</p><p> </p>",
+    "description": "team support \r\n",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
-      14137476
+      5439304
     ],
     "message_ids": [
-      170618314,
-      170618313,
-      170618312
+      160583637,
+      160580516,
+      160580473,
+      160580472,
+      160580471
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
-      1336,
-      "asaedi"
+      1328,
+      "Mahmoud N. Albakr"
     ],
-    "create_date": "2025-04-10 08:44:42",
+    "create_date": "2025-02-27 03:32:50",
     "write_uid": [
-      1336,
-      "asaedi"
+      1780,
+      "Jaber A. Alfaleh"
     ],
-    "write_date": "2025-04-10 08:44:42",
+    "write_date": "2025-02-27 06:31:21",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -72,18 +74,18 @@
     ],
     "message_is_follower": false,
     "message_partner_ids": [
-      3955
+      3945
     ],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "07972",
-    "__last_update": "2025-04-10 08:44:42"
+    "display_name": "11301",
+    "__last_update": "2025-02-27 06:31:21"
   },
   {
-    "id": 7899,
+    "id": 11194,
     "employee_id": [
       1711,
       "[1750] محمود  بن ناصر  البكر"
@@ -109,42 +111,44 @@
       38,
       "12"
     ],
-    "name": "07900",
-    "date_from": "2061-05-16",
-    "date_to": "2061-05-17",
-    "duration": 2,
-    "state": "humain",
-    "reason": "",
+    "name": "11194",
+    "date_from": "2025-02-16",
+    "date_to": "2025-02-16",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
     "active": true,
-    "description": "",
-    "is_reviewed_approved": false,
-    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p><p>4- يشترط كتابة المهام المطلوبة للموافقة على العمل عن بعد</p><p> </p>",
+    "description": "team support \r\nissues fixing",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
-      12726253
+      4833096
     ],
     "message_ids": [
-      168528423,
-      168528422,
-      168528419
+      159948385,
+      159946894,
+      159946876,
+      159946875,
+      159946874
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
-      1336,
-      "asaedi"
+      1328,
+      "Mahmoud N. Albakr"
     ],
-    "create_date": "2025-02-06 20:05:07",
+    "create_date": "2025-02-16 02:49:38",
     "write_uid": [
-      1336,
-      "asaedi"
+      653,
+      "Nouf A. Alnabulsi"
     ],
-    "write_date": "2025-02-06 20:05:07",
+    "write_date": "2025-02-16 05:35:46",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -155,18 +159,18 @@
     ],
     "message_is_follower": false,
     "message_partner_ids": [
-      3955
+      3945
     ],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "07900",
-    "__last_update": "2025-02-06 20:05:07"
+    "display_name": "11194",
+    "__last_update": "2025-02-16 05:35:46"
   },
   {
-    "id": 7898,
+    "id": 10998,
     "employee_id": [
       1711,
       "[1750] محمود  بن ناصر  البكر"
@@ -192,42 +196,44 @@
       38,
       "12"
     ],
-    "name": "07899",
-    "date_from": "2060-05-16",
-    "date_to": "2060-05-17",
-    "duration": 2,
-    "state": "humain",
-    "reason": "",
+    "name": "10998",
+    "date_from": "2025-01-26",
+    "date_to": "2025-01-26",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
     "active": true,
-    "description": "",
-    "is_reviewed_approved": false,
-    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p><p>4- يشترط كتابة المهام المطلوبة للموافقة على العمل عن بعد</p><p> </p>",
+    "description": "team support",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
-      12725201
+      3830223
     ],
     "message_ids": [
-      168526744,
-      168526743,
-      168526742
+      158845078,
+      158842871,
+      158841641,
+      158841640,
+      158841639
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
-      1336,
-      "asaedi"
+      1328,
+      "Mahmoud N. Albakr"
     ],
-    "create_date": "2025-02-06 19:03:03",
+    "create_date": "2025-01-26 05:28:33",
     "write_uid": [
-      1336,
-      "asaedi"
+      653,
+      "Nouf A. Alnabulsi"
     ],
-    "write_date": "2025-02-06 19:03:03",
+    "write_date": "2025-01-26 06:43:59",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -238,18 +244,18 @@
     ],
     "message_is_follower": false,
     "message_partner_ids": [
-      3955
+      3945
     ],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "07899",
-    "__last_update": "2025-02-06 19:03:03"
+    "display_name": "10998",
+    "__last_update": "2025-01-26 06:43:59"
   },
   {
-    "id": 7895,
+    "id": 10903,
     "employee_id": [
       1711,
       "[1750] محمود  بن ناصر  البكر"
@@ -275,42 +281,44 @@
       38,
       "12"
     ],
-    "name": "07896",
-    "date_from": "2026-05-12",
-    "date_to": "2026-05-13",
-    "duration": 2,
-    "state": "humain",
-    "reason": "",
+    "name": "10903",
+    "date_from": "2025-01-16",
+    "date_to": "2025-01-16",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
     "active": true,
-    "description": "",
-    "is_reviewed_approved": false,
-    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p><p>4- يشترط كتابة المهام المطلوبة للموافقة على العمل عن بعد</p><p> </p>",
+    "description": "team support\r\nservices monitor",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
     "is_token_updated": false,
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
-      12608538
+      3456587
     ],
     "message_ids": [
-      168409872,
-      168409871,
-      168409870
+      158436861,
+      158436410,
+      158436009,
+      158436008,
+      158436007
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
-      1336,
-      "asaedi"
+      1328,
+      "Mahmoud N. Albakr"
     ],
-    "create_date": "2025-02-06 11:27:02",
+    "create_date": "2025-01-15 05:56:18",
     "write_uid": [
-      1336,
-      "asaedi"
+      1780,
+      "Jaber A. Alfaleh"
     ],
-    "write_date": "2025-02-06 11:27:02",
+    "write_date": "2025-01-15 06:23:42",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -321,15 +329,1292 @@
     ],
     "message_is_follower": false,
     "message_partner_ids": [
-      3955
+      3945
     ],
     "message_channel_ids": [],
     "message_unread": false,
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "07896",
-    "__last_update": "2025-02-06 11:27:02"
+    "display_name": "10903",
+    "__last_update": "2025-01-15 06:23:42"
+  },
+  {
+    "id": 10214,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "10214",
+    "date_from": "2024-11-03",
+    "date_to": "2024-11-03",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "Team Support \r\nOperating ",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      368630
+    ],
+    "message_ids": [
+      155221181,
+      155220902,
+      155220762,
+      155220761,
+      155220760
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-10-30 06:37:29",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-10-30 07:56:27",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "10214",
+    "__last_update": "2024-10-30 07:56:27"
+  },
+  {
+    "id": 9991,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "09991",
+    "date_from": "2024-10-10",
+    "date_to": "2024-10-10",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "Team support \r\nReview Tasks",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [
+      10453
+    ],
+    "message_follower_ids": [
+      357023
+    ],
+    "message_ids": [
+      155149576,
+      155148959,
+      155148956,
+      155148955,
+      155148954
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-09-28 10:54:00",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-09-29 05:34:29",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "09991",
+    "__last_update": "2024-09-29 05:34:29"
+  },
+  {
+    "id": 9861,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "09861",
+    "date_from": "2024-09-22",
+    "date_to": "2024-09-22",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "Team support\r\nmonitor services",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      353618
+    ],
+    "message_ids": [
+      155119548,
+      155119542,
+      155119388,
+      155119387,
+      155119386
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-09-12 07:11:16",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-09-12 08:21:02",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "09861",
+    "__last_update": "2024-09-12 08:21:02"
+  },
+  {
+    "id": 9567,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "09567",
+    "date_from": "2024-07-31",
+    "date_to": "2024-07-31",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "تطوير ربط تنفيذ \nدعم الفرق ",
+    "is_reviewed_approved": false,
+    "note": false,
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": true,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      337251
+    ],
+    "message_ids": [
+      155030976,
+      155030966,
+      155025496,
+      155025495,
+      155025494
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-07-30 21:14:50",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-08-01 05:05:48",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "09567",
+    "__last_update": "2024-08-01 05:05:48"
+  },
+  {
+    "id": 9395,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "09395",
+    "date_from": "2024-07-07",
+    "date_to": "2024-07-07",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "follow up with the team \r\nchecking the alerting system ",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      333061
+    ],
+    "message_ids": [
+      154990563,
+      154990529,
+      154990247,
+      154990246,
+      154990245
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-07-07 07:31:52",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-07-07 10:12:24",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "09395",
+    "__last_update": "2024-07-07 10:12:24"
+  },
+  {
+    "id": 9333,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "09333",
+    "date_from": "2024-06-27",
+    "date_to": "2024-06-27",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "Follow up with the team \r\nsupport team",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      330206
+    ],
+    "message_ids": [
+      154975640,
+      154975577,
+      154974284,
+      154974283,
+      154974282
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-06-26 09:39:49",
+    "write_uid": [
+      302,
+      "Omar Saleh A Alsadhan"
+    ],
+    "write_date": "2024-06-27 05:47:20",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "09333",
+    "__last_update": "2024-06-27 05:47:20"
+  },
+  {
+    "id": 9243,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "09243",
+    "date_from": "2024-06-10",
+    "date_to": "2024-06-10",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "follow up with the team \r\ngive support to other department if needed \r\nclose report issue if needed",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      326808
+    ],
+    "message_ids": [
+      154950189,
+      154949215,
+      154947277,
+      154947276,
+      154947275
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-06-09 07:31:09",
+    "write_uid": [
+      302,
+      "Omar Saleh A Alsadhan"
+    ],
+    "write_date": "2024-06-10 07:17:46",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "09243",
+    "__last_update": "2024-06-10 07:17:46"
+  },
+  {
+    "id": 8964,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "08964",
+    "date_from": "2024-05-01",
+    "date_to": "2024-05-02",
+    "duration": 2,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "follow up with the team \r\nSupport on technical issue",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      314862
+    ],
+    "message_ids": [
+      154871820,
+      154871791,
+      154871096,
+      154871095,
+      154871094
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-04-29 09:45:29",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-04-30 05:33:17",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "08964",
+    "__last_update": "2024-04-30 05:33:17"
+  },
+  {
+    "id": 8852,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "08852",
+    "date_from": "2024-04-14",
+    "date_to": "2024-04-15",
+    "duration": 2,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "Integration platform monitor \r\nupdate task management \r\nteam Support",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      311973
+    ],
+    "message_ids": [
+      154846026,
+      154845912,
+      154845897,
+      154845896,
+      154845895
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-04-04 07:31:19",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-04-04 10:10:02",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "08852",
+    "__last_update": "2024-04-04 10:10:02"
+  },
+  {
+    "id": 8548,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "08548",
+    "date_from": "2024-03-13",
+    "date_to": "2024-03-13",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "follow up with team's tasks \r\nMonitor API Gateway",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      306654
+    ],
+    "message_ids": [
+      154816191,
+      154816186,
+      154815490,
+      154815489,
+      154815488
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-03-11 09:24:57",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-03-12 07:16:41",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "08548",
+    "__last_update": "2024-03-12 07:16:41"
+  },
+  {
+    "id": 8516,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "08516",
+    "date_from": "2024-03-06",
+    "date_to": "2024-03-06",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "monitor apis transactions \r\ngive support to the team \r\nreply to emails",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      305497
+    ],
+    "message_ids": [
+      154810301,
+      154810073,
+      154808220,
+      154808219,
+      154808218
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-03-06 02:45:03",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-03-07 08:29:04",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "08516",
+    "__last_update": "2024-03-07 08:29:04"
+  },
+  {
+    "id": 8078,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "08078",
+    "date_from": "2024-01-10",
+    "date_to": "2024-01-10",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "monitor apis logs \r\nsupport team ",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      271513
+    ],
+    "message_ids": [
+      154670200,
+      154670197,
+      154670196,
+      154670195,
+      154670194
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-01-09 08:25:10",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-01-09 08:36:02",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "08078",
+    "__last_update": "2024-01-09 08:36:02"
+  },
+  {
+    "id": 8045,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "08045",
+    "date_from": "2024-01-07",
+    "date_to": "2024-01-07",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "support technical team \r\nTransaction monitor and fixing issues",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      270592
+    ],
+    "message_ids": [
+      154662818,
+      154662809,
+      154661921,
+      154661920,
+      154661919
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-01-04 05:47:30",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2024-01-04 08:58:37",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "08045",
+    "__last_update": "2024-01-04 08:58:37"
+  },
+  {
+    "id": 7886,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "07886",
+    "date_from": "2023-12-20",
+    "date_to": "2023-12-20",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "monitor apis transactions\r\nteam support \r\nfix issue if needed",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      265257
+    ],
+    "message_ids": [
+      154635658,
+      154635140,
+      154634773,
+      154634772,
+      154634771
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2023-12-19 09:01:33",
+    "write_uid": [
+      653,
+      "Nouf A. Alnabulsi"
+    ],
+    "write_date": "2023-12-20 06:43:57",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "07886",
+    "__last_update": "2023-12-20 06:43:57"
+  },
+  {
+    "id": 7789,
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "number": "1750",
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "type_id": [
+      1,
+      " الموظفين الرسميين"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "name": "07789",
+    "date_from": "2023-12-05",
+    "date_to": "2023-12-05",
+    "duration": 1,
+    "state": "done",
+    "reason": false,
+    "active": true,
+    "description": "api gateway support \r\nsoftware team support \r\n",
+    "is_reviewed_approved": true,
+    "note": "<p>1-     يعد يوم العمل عن بعد يوم عمل رسمي بحيث يلتزم الموظف بساعات العمل الرسمية. و يلتزم الموظف بتقديم التقارير و الإثباتات اللازمة عما تم إنجازه خلال العمل عن بعد متى ما طلب منه ذلك. </p><p>2-     على الموظف أن يكون متاح للتواصل من خلال الهاتف النقال المعتمد لدى منشآت والبر يد الإلكتروني الرسمي خلال ساعات العمل الرسمية. </p><p> 3-      يعد كل رئيس مباشر مسؤول عن التزام مرؤوسيه بساعات العمل والإنجاز، والتنسيق مع الإدارة العامة للموارد البشرية في حال تبين عدم التزام أي من مرؤوسيه بالسياسة.</p>",
+    "is_token_updated": false,
+    "res_model": "hr.distance.work",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      262566
+    ],
+    "message_ids": [
+      154615256,
+      154615125,
+      154615122,
+      154615121,
+      154615120
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2023-12-05 02:51:07",
+    "write_uid": [
+      1295,
+      "Waleed F. Aldowayan"
+    ],
+    "write_date": "2023-12-05 05:40:10",
+    "is_direct_manager": false,
+    "current_stock": 11,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "07789",
+    "__last_update": "2023-12-05 05:40:10"
   },
   {
     "id": 7613,
@@ -363,7 +1648,7 @@
     "date_to": "2023-11-16",
     "duration": 1,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "follow up with team\r\nsuggestions and ideas\r\nsupervision ",
     "is_reviewed_approved": true,
@@ -372,7 +1657,6 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       251776
     ],
@@ -384,18 +1668,19 @@
       154162831
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-11-12 05:29:59",
     "write_uid": [
       653,
-      "nnabulsi.uat"
+      "Nouf A. Alnabulsi"
     ],
     "write_date": "2023-11-12 05:57:32",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -448,7 +1733,7 @@
     "date_to": "2023-11-12",
     "duration": 1,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "follow up with the team \r\nfix issues and suggestions ",
     "is_reviewed_approved": true,
@@ -457,7 +1742,6 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       251774
     ],
@@ -469,18 +1753,19 @@
       154156433
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-11-12 05:25:40",
     "write_uid": [
       653,
-      "nnabulsi.uat"
+      "Nouf A. Alnabulsi"
     ],
     "write_date": "2023-11-12 05:57:37",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -533,7 +1818,7 @@
     "date_to": "2023-10-26",
     "duration": 1,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "support technical team \r\nsupport apigateway operation\r\nissue fixing",
     "is_reviewed_approved": true,
@@ -542,7 +1827,6 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       248028
     ],
@@ -554,18 +1838,19 @@
       124959569
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-10-25 06:26:27",
     "write_uid": [
       653,
-      "nnabulsi.uat"
+      "Nouf A. Alnabulsi"
     ],
     "write_date": "2023-10-25 09:42:31",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -618,7 +1903,7 @@
     "date_to": "2023-09-21",
     "duration": 1,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "دعم فريق التكامل \r\nحل مشاكل التقنية الدورية \r\nدعم فرق الاخرى",
     "is_reviewed_approved": true,
@@ -627,7 +1912,6 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       241003
     ],
@@ -639,18 +1923,19 @@
       65135204
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-09-21 05:33:49",
     "write_uid": [
       653,
-      "nnabulsi.uat"
+      "Nouf A. Alnabulsi"
     ],
     "write_date": "2023-09-21 07:18:41",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -703,7 +1988,7 @@
     "date_to": "2023-09-10",
     "duration": 1,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "دعم فريق الرابط \r\nمراقبة العمليات  وحل المشكلات ان وجد",
     "is_reviewed_approved": true,
@@ -712,7 +1997,6 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       238497
     ],
@@ -724,18 +2008,19 @@
       45599223
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-09-10 02:01:13",
     "write_uid": [
       653,
-      "nnabulsi.uat"
+      "Nouf A. Alnabulsi"
     ],
     "write_date": "2023-09-10 05:44:52",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -788,7 +2073,7 @@
     "date_to": "2023-08-10",
     "duration": 1,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "مراقبة خدمات api gateway \r\nدعم الفرق تقنيا",
     "is_reviewed_approved": true,
@@ -797,7 +2082,6 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       233290
     ],
@@ -809,18 +2093,19 @@
       22568462
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-08-10 05:00:27",
     "write_uid": [
       653,
-      "nnabulsi.uat"
+      "Nouf A. Alnabulsi"
     ],
     "write_date": "2023-08-10 11:47:57",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -873,7 +2158,7 @@
     "date_to": "2023-07-06",
     "duration": 2,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "APIGW Supporting \r\nTeam Support ",
     "is_reviewed_approved": true,
@@ -882,7 +2167,6 @@
     "res_model": "hr.distance.work",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       225566
     ],
@@ -894,18 +2178,19 @@
       21247405
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-07-04 05:34:31",
     "write_uid": [
       1295,
-      "wdowayan.uat"
+      "Waleed F. Aldowayan"
     ],
     "write_date": "2023-07-04 07:47:13",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -958,7 +2243,7 @@
     "date_to": "2023-05-14",
     "duration": 1,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "API gateway support and issue fixing",
     "is_reviewed_approved": true,
@@ -970,7 +2255,6 @@
       6285,
       6286
     ],
-    "website_message_ids": [],
     "message_follower_ids": [
       212693
     ],
@@ -982,18 +2266,19 @@
       20986236
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-05-10 12:25:39",
     "write_uid": [
       653,
-      "nnabulsi.uat"
+      "Nouf A. Alnabulsi"
     ],
     "write_date": "2023-05-10 12:33:40",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -1046,7 +2331,7 @@
     "date_to": "2023-05-11",
     "duration": 1,
     "state": "done",
-    "reason": "",
+    "reason": false,
     "active": true,
     "description": "API gateway support and issue fixing ",
     "is_reviewed_approved": true,
@@ -1057,7 +2342,6 @@
     "mobile_approvals_ids": [
       6284
     ],
-    "website_message_ids": [],
     "message_follower_ids": [
       212684
     ],
@@ -1069,18 +2353,19 @@
       20986218
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-05-10 12:13:20",
     "write_uid": [
       653,
-      "nnabulsi.uat"
+      "Nouf A. Alnabulsi"
     ],
     "write_date": "2023-05-10 12:33:45",
     "is_direct_manager": false,
-    "current_stock": 16,
+    "current_stock": 11,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"

@@ -1,17 +1,17 @@
 [
   {
-    "id": 17099,
+    "id": 22380,
     "payslip_status": false,
     "report_note": false,
     "user_id": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "manager_id": [
       1526,
       "[1688] ايمن بن معتوق السفياني"
     ],
-    "notes": "test",
+    "notes": "",
     "number_of_days_temp": 0,
     "number_of_days": 0,
     "meeting_id": false,
@@ -21,15 +21,15 @@
     "holiday_type": "employee",
     "first_approver_id": false,
     "second_approver_id": false,
-    "name": "15274",
-    "date": "2025-04-09",
+    "name": "20535",
+    "date": "2025-02-06",
     "employee_id": [
       1711,
       "[1750] محمود  بن ناصر  البكر"
     ],
     "substitute_employee_id": [
-      1,
-      "[] Administrator بن admin "
+      517,
+      "[1417] رائد بن حمد رشيد"
     ],
     "department_id": [
       441,
@@ -47,17 +47,17 @@
       38,
       "12"
     ],
-    "raison": "other",
-    "date_from": "2025-04-21",
-    "date_to": "2025-04-24",
-    "duration": 4,
+    "raison": false,
+    "date_from": "2025-02-06",
+    "date_to": "2025-02-06",
+    "duration": 1,
     "holiday_status_id": [
       5,
-      "إجازة سنوية #test"
+      "إجازة سنوية"
     ],
     "with_advanced_salary": false,
     "salary_number": 0,
-    "state": "hrm",
+    "state": "done",
     "holiday_cancellation": false,
     "is_extension": false,
     "extended_holiday_id": false,
@@ -73,221 +73,55 @@
     "accompanied_child_age": 0,
     "study_subject": false,
     "city": false,
-    "country_ids": false,
-    "current_holiday_stock": 16.42120000000003,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 4.709999999999988,
     "sport_participation_topic": false,
     "birth_child_filename": false,
     "hide_with_advanced_salary": true,
     "token_compensation_stock": 0,
     "payed_salary_advance": false,
-    "done_date": "",
+    "done_date": "2025-02-06 05:27:56",
     "attachment_ids": [],
     "date_holidays_to": false,
     "refuse_reason": "",
     "active": true,
     "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
-      14126432,
-      14126433,
-      14126434,
-      14126435,
-      14126436,
-      14126437
+      4328430,
+      4328431,
+      4328432,
+      4328433,
+      4328434,
+      4328435
     ],
     "message_ids": [
-      170595736,
-      170595735
+      159388470,
+      159387722,
+      159387201,
+      159387200
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
-      1336,
-      "asaedi"
-    ],
-    "create_date": "2025-04-09 12:15:17",
-    "write_uid": [
-      1336,
-      "asaedi"
-    ],
-    "write_date": "2025-04-09 12:15:17",
-    "x_sla_labels": "",
-    "double_validation": false,
-    "can_reset": false,
-    "is_annual": true,
-    "spend_advanced_salary": false,
-    "advanced_salary_period": 30,
-    "is_current_user": false,
-    "is_direct_manager": false,
-    "is_cut": false,
-    "is_cancelled": false,
-    "is_started": false,
-    "is_finished": false,
-    "is_extended": false,
-    "can_be_cut": false,
-    "can_be_cancelled": false,
-    "display_button_cancel": false,
-    "display_button_cut": false,
-    "display_button_extend": false,
-    "attachment_required": false,
-    "display_button_send": false,
-    "substitute_employee_required": false,
-    "computed_duration": 4,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
-    "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
-    "message_channel_ids": [],
-    "message_unread": false,
-    "message_unread_counter": 0,
-    "message_needaction": false,
-    "message_needaction_counter": 0,
-    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 4  يوم",
-    "__last_update": "2025-04-09 12:15:17"
-  },
-  {
-    "id": 17098,
-    "payslip_status": false,
-    "report_note": false,
-    "user_id": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
-    "notes": "rffr",
-    "number_of_days_temp": 0,
-    "number_of_days": 0,
-    "meeting_id": false,
-    "type": "remove",
-    "linked_request_ids": [],
-    "category_id": false,
-    "holiday_type": "employee",
-    "first_approver_id": false,
-    "second_approver_id": false,
-    "name": "15273",
-    "date": "2025-04-08",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      9,
-      "[1009] عبدالمحسن بن إبراهيم بن جفال"
-    ],
-    "department_id": [
-      441,
-      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
-    ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
-    "raison": "other",
-    "date_from": "2025-04-08",
-    "date_to": "2025-04-14",
-    "duration": 7,
-    "holiday_status_id": [
-      5,
-      "إجازة سنوية #test"
-    ],
-    "with_advanced_salary": false,
-    "salary_number": 0,
-    "state": "hrm",
-    "holiday_cancellation": false,
-    "is_extension": false,
-    "extended_holiday_id": false,
-    "parent_id": false,
-    "extension_holidays_ids": [],
-    "extension_duration": 0,
-    "childbirth_date": false,
-    "sold_overtime": 0,
-    "sold_attendance": 0,
-    "death_person": false,
-    "compensation_type": false,
-    "accompaniment_type": false,
-    "accompanied_child_age": 0,
-    "study_subject": false,
-    "city": false,
-    "country_ids": false,
-    "current_holiday_stock": 16.42120000000003,
-    "sport_participation_topic": false,
-    "birth_child_filename": false,
-    "hide_with_advanced_salary": true,
-    "token_compensation_stock": 0,
-    "payed_salary_advance": false,
-    "done_date": "",
-    "attachment_ids": [],
-    "date_holidays_to": false,
-    "refuse_reason": "",
-    "active": true,
-    "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
-    "res_model": "hr.holidays",
-    "is_from_mobile": false,
-    "mobile_approvals_ids": [],
-    "website_message_ids": [],
-    "message_follower_ids": [
-      14115389,
-      14115390,
-      14115391,
-      14115392,
-      14115393,
-      14115394
-    ],
-    "message_ids": [
-      170572913,
-      170572912
-    ],
-    "message_last_post": false,
-    "create_uid": [
-      1336,
-      "asaedi"
-    ],
-    "create_date": "2025-04-08 08:23:09",
+    "create_date": "2025-02-06 04:41:02",
     "write_uid": [
-      1336,
-      "asaedi"
+      1747,
+      "Anfal N. Hamdi"
     ],
-    "write_date": "2025-04-08 08:23:09",
+    "write_date": "2025-02-06 05:27:55",
     "x_sla_labels": "",
     "double_validation": false,
     "can_reset": false,
-    "is_annual": true,
+    "is_annual": false,
     "spend_advanced_salary": false,
     "advanced_salary_period": 30,
     "is_current_user": false,
@@ -305,7 +139,6 @@
     "attachment_required": false,
     "display_button_send": false,
     "substitute_employee_required": false,
-    "computed_duration": 7,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -328,22 +161,22 @@
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 7  يوم",
-    "__last_update": "2025-04-08 08:23:09"
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-02-06 05:27:55"
   },
   {
-    "id": 16818,
+    "id": 21929,
     "payslip_status": false,
     "report_note": false,
     "user_id": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "manager_id": [
       1526,
       "[1688] ايمن بن معتوق السفياني"
     ],
-    "notes": "test from api",
+    "notes": "",
     "number_of_days_temp": 0,
     "number_of_days": 0,
     "meeting_id": false,
@@ -353,15 +186,15 @@
     "holiday_type": "employee",
     "first_approver_id": false,
     "second_approver_id": false,
-    "name": "15021",
-    "date": "2025-02-02",
+    "name": "20112",
+    "date": "2025-01-18",
     "employee_id": [
       1711,
       "[1750] محمود  بن ناصر  البكر"
     ],
     "substitute_employee_id": [
-      10,
-      "[1010] فايز بن محمد الفايز"
+      517,
+      "[1417] رائد بن حمد رشيد"
     ],
     "department_id": [
       441,
@@ -379,181 +212,13 @@
       38,
       "12"
     ],
-    "raison": "other",
-    "date_from": "2030-08-04",
-    "date_to": "2030-08-04",
-    "duration": 1,
+    "raison": false,
+    "date_from": "2025-01-19",
+    "date_to": "2025-01-23",
+    "duration": 5,
     "holiday_status_id": [
-      18,
-      "إجازة وفاة"
-    ],
-    "with_advanced_salary": false,
-    "salary_number": 0,
-    "state": "hrm",
-    "holiday_cancellation": false,
-    "is_extension": false,
-    "extended_holiday_id": false,
-    "parent_id": false,
-    "extension_holidays_ids": [],
-    "extension_duration": 0,
-    "childbirth_date": false,
-    "sold_overtime": 0,
-    "sold_attendance": 0,
-    "death_person": "test",
-    "compensation_type": false,
-    "accompaniment_type": false,
-    "accompanied_child_age": 0,
-    "study_subject": false,
-    "city": false,
-    "country_ids": false,
-    "current_holiday_stock": 1,
-    "sport_participation_topic": false,
-    "birth_child_filename": false,
-    "hide_with_advanced_salary": true,
-    "token_compensation_stock": 0,
-    "payed_salary_advance": false,
-    "done_date": "",
-    "attachment_ids": [
-      158998
-    ],
-    "date_holidays_to": false,
-    "refuse_reason": "",
-    "active": true,
-    "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
-    "res_model": "hr.holidays",
-    "is_from_mobile": true,
-    "mobile_approvals_ids": [],
-    "website_message_ids": [],
-    "message_follower_ids": [
-      12122581,
-      12122582,
-      12122589,
-      12122590,
-      12122591,
-      12122592
-    ],
-    "message_ids": [
-      167874042,
-      167874035
-    ],
-    "message_last_post": false,
-    "create_uid": [
-      1336,
-      "asaedi"
-    ],
-    "create_date": "2025-02-02 12:10:37",
-    "write_uid": [
-      1336,
-      "asaedi"
-    ],
-    "write_date": "2025-02-02 12:10:37",
-    "x_sla_labels": "",
-    "double_validation": false,
-    "can_reset": false,
-    "is_annual": false,
-    "spend_advanced_salary": false,
-    "advanced_salary_period": 30,
-    "is_current_user": false,
-    "is_direct_manager": false,
-    "is_cut": false,
-    "is_cancelled": false,
-    "is_started": false,
-    "is_finished": false,
-    "is_extended": false,
-    "can_be_cut": true,
-    "can_be_cancelled": true,
-    "display_button_cancel": false,
-    "display_button_cut": false,
-    "display_button_extend": false,
-    "attachment_required": true,
-    "display_button_send": false,
-    "substitute_employee_required": false,
-    "computed_duration": 1,
-    "department_global_id": [
-      32,
-      "خدمات المنشآت / التقنية والحلول الرقمية"
-    ],
-    "sector_id": [
-      12,
-      "خدمات المنشآت"
-    ],
-    "message_is_follower": false,
-    "message_partner_ids": [
-      3945,
-      1951,
-      1037,
-      826,
-      3667,
-      3758
-    ],
-    "message_channel_ids": [],
-    "message_unread": false,
-    "message_unread_counter": 0,
-    "message_needaction": false,
-    "message_needaction_counter": 0,
-    "display_name": "محمود  بن ناصر  البكر - إجازة وفاة : 1  يوم",
-    "__last_update": "2025-02-02 12:10:37"
-  },
-  {
-    "id": 16757,
-    "payslip_status": false,
-    "report_note": false,
-    "user_id": [
-      1328,
-      "mbakr.uat"
-    ],
-    "manager_id": [
-      1526,
-      "[1688] ايمن بن معتوق السفياني"
-    ],
-    "notes": "test from api",
-    "number_of_days_temp": 0,
-    "number_of_days": 0,
-    "meeting_id": false,
-    "type": "remove",
-    "linked_request_ids": [],
-    "category_id": false,
-    "holiday_type": "employee",
-    "first_approver_id": false,
-    "second_approver_id": false,
-    "name": "14960",
-    "date": "2025-01-21",
-    "employee_id": [
-      1711,
-      "[1750] محمود  بن ناصر  البكر"
-    ],
-    "substitute_employee_id": [
-      10,
-      "[1010] فايز بن محمد الفايز"
-    ],
-    "department_id": [
-      441,
-      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
-    ],
-    "job_id": [
-      1785,
-      "قائد فريق إدارة الخدمات الرقمية"
-    ],
-    "grade_id": [
-      32,
-      "قائد فريق"
-    ],
-    "degree_id": [
-      38,
-      "12"
-    ],
-    "raison": "other",
-    "date_from": "2028-07-11",
-    "date_to": "2028-07-12",
-    "duration": 2,
-    "holiday_status_id": [
-      18,
-      "إجازة وفاة"
+      5,
+      "إجازة سنوية"
     ],
     "with_advanced_salary": false,
     "salary_number": 0,
@@ -567,60 +232,723 @@
     "childbirth_date": false,
     "sold_overtime": 0,
     "sold_attendance": 0,
-    "death_person": "test",
+    "death_person": false,
     "compensation_type": false,
     "accompaniment_type": false,
     "accompanied_child_age": 0,
     "study_subject": false,
     "city": false,
-    "country_ids": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 7.99999999999999,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2025-01-19 05:47:37",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      3538241,
+      3538242,
+      3538243,
+      3538244,
+      3538245,
+      3538246
+    ],
+    "message_ids": [
+      158524187,
+      158522092,
+      158521501,
+      158521500
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2025-01-18 18:36:46",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 5  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 21210,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "19424",
+    "date": "2024-12-04",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-12-05",
+    "date_to": "2024-12-05",
+    "duration": 1,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 5.0399999999999965,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-12-05 05:21:29",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      490861,
+      490862,
+      490863,
+      490864,
+      490865,
+      490866
+    ],
+    "message_ids": [
+      155404892,
+      155403802,
+      155403750,
+      155403749
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-12-04 21:40:13",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 20411,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "18637",
+    "date": "2024-10-09",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-10-16",
+    "date_to": "2024-10-17",
+    "duration": 2,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 0.8999999999999998,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-10-10 06:25:39",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      362873,
+      362874,
+      362875,
+      362876,
+      362877,
+      362878
+    ],
+    "message_ids": [
+      155176802,
+      155176574,
+      155176042,
+      155176041
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-10-09 15:00:56",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 2  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 20252,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "18494",
+    "date": "2024-09-28",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-10-02",
+    "date_to": "2024-10-09",
+    "duration": 8,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 5.059999999999995,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-09-29 05:35:25",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [
+      10452
+    ],
+    "message_follower_ids": [
+      357017,
+      357018,
+      357019,
+      357020,
+      357021,
+      357022
+    ],
+    "message_ids": [
+      155149591,
+      155148958,
+      155148953,
+      155148952
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-09-28 10:52:41",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 8  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 20251,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "18493",
+    "date": "2024-09-28",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-09-29",
+    "date_to": "2024-10-01",
+    "duration": 3,
+    "holiday_status_id": [
+      16,
+      "إجازة المولود"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": "2024-09-26",
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
     "current_holiday_stock": 3,
     "sport_participation_topic": false,
     "birth_child_filename": false,
     "hide_with_advanced_salary": true,
     "token_compensation_stock": 0,
     "payed_salary_advance": false,
-    "done_date": "2025-01-21 09:56:47",
+    "done_date": "2024-09-29 05:14:39",
     "attachment_ids": [
-      158483
+      169406
     ],
     "date_holidays_to": false,
     "refuse_reason": "",
     "active": true,
     "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
     "res_model": "hr.holidays",
-    "is_from_mobile": true,
-    "mobile_approvals_ids": [],
-    "website_message_ids": [],
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [
+      10451
+    ],
     "message_follower_ids": [
-      10962982,
-      10962984,
-      10962985,
-      10962986,
-      10962987,
-      10962988
+      357006,
+      357007,
+      357008,
+      357009,
+      357010,
+      357011
     ],
     "message_ids": [
-      166562813,
-      166562796,
-      166562793
+      155149559,
+      155148957,
+      155148951,
+      155148950
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
-      1336,
-      "asaedi"
+      1328,
+      "Mahmoud N. Albakr"
     ],
-    "create_date": "2025-01-21 09:56:16",
+    "create_date": "2024-09-28 10:50:30",
     "write_uid": [
-      1336,
-      "asaedi"
+      1693,
+      "Mubarak H. Alajmi"
     ],
-    "write_date": "2025-01-21 09:56:46",
+    "write_date": "2025-01-23 09:54:52",
     "x_sla_labels": "",
     "double_validation": false,
     "can_reset": false,
@@ -631,8 +959,8 @@
     "is_direct_manager": false,
     "is_cut": false,
     "is_cancelled": false,
-    "is_started": false,
-    "is_finished": false,
+    "is_started": true,
+    "is_finished": true,
     "is_extended": false,
     "can_be_cut": true,
     "can_be_cancelled": true,
@@ -642,7 +970,6 @@
     "attachment_required": true,
     "display_button_send": false,
     "substitute_employee_required": false,
-    "computed_duration": 2,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -665,22 +992,22 @@
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "محمود  بن ناصر  البكر - إجازة وفاة : 2  يوم",
-    "__last_update": "2025-01-21 09:56:46"
+    "display_name": "محمود  بن ناصر  البكر - إجازة المولود : 3  يوم",
+    "__last_update": "2025-01-23 09:54:52"
   },
   {
-    "id": 16756,
+    "id": 20233,
     "payslip_status": false,
     "report_note": false,
     "user_id": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "manager_id": [
       1526,
       "[1688] ايمن بن معتوق السفياني"
     ],
-    "notes": "test from api",
+    "notes": "",
     "number_of_days_temp": 0,
     "number_of_days": 0,
     "meeting_id": false,
@@ -690,15 +1017,180 @@
     "holiday_type": "employee",
     "first_approver_id": false,
     "second_approver_id": false,
-    "name": "14959",
-    "date": "2025-01-21",
+    "name": "18479",
+    "date": "2024-09-25",
     "employee_id": [
       1711,
       "[1750] محمود  بن ناصر  البكر"
     ],
     "substitute_employee_id": [
-      10,
-      "[1010] فايز بن محمد الفايز"
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-09-26",
+    "date_to": "2024-09-26",
+    "duration": 1,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 5.8799999999999955,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-09-26 07:54:46",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      356654,
+      356655,
+      356656,
+      356657,
+      356658,
+      356659
+    ],
+    "message_ids": [
+      155146939,
+      155146592,
+      155146569,
+      155146568
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-09-25 21:20:22",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 19926,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "18189",
+    "date": "2024-09-08",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
     ],
     "department_id": [
       441,
@@ -717,12 +1209,12 @@
       "12"
     ],
     "raison": "other",
-    "date_from": "2029-07-11",
-    "date_to": "2029-07-12",
-    "duration": 2,
+    "date_from": "2024-09-08",
+    "date_to": "2024-09-08",
+    "duration": 1,
     "holiday_status_id": [
-      18,
-      "إجازة وفاة"
+      5,
+      "إجازة سنوية"
     ],
     "with_advanced_salary": false,
     "salary_number": 0,
@@ -736,60 +1228,54 @@
     "childbirth_date": false,
     "sold_overtime": 0,
     "sold_attendance": 0,
-    "death_person": "test",
+    "death_person": "",
     "compensation_type": false,
     "accompaniment_type": false,
     "accompanied_child_age": 0,
     "study_subject": false,
     "city": false,
     "country_ids": false,
-    "current_holiday_stock": 5,
+    "current_holiday_stock": 5.259999999999998,
     "sport_participation_topic": false,
     "birth_child_filename": false,
     "hide_with_advanced_salary": true,
     "token_compensation_stock": 0,
     "payed_salary_advance": false,
-    "done_date": "2025-01-21 09:50:01",
-    "attachment_ids": [
-      158482
-    ],
+    "done_date": "2024-09-08 06:05:46",
+    "attachment_ids": [],
     "date_holidays_to": false,
     "refuse_reason": "",
     "active": true,
     "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
     "res_model": "hr.holidays",
     "is_from_mobile": true,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
-      10945067,
-      10945068,
-      10945069,
-      10945071,
-      10945072,
-      10945073
+      352318,
+      352319,
+      352320,
+      352321,
+      352322,
+      352323
     ],
     "message_ids": [
-      166562727,
-      166544878,
-      166544870
+      155112303,
+      155112286,
+      155112234,
+      155112232
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
-      1336,
-      "asaedi"
+      1328,
+      "Mahmoud N. Albakr"
     ],
-    "create_date": "2025-01-21 09:28:37",
+    "create_date": "2024-09-08 05:48:52",
     "write_uid": [
-      1336,
-      "asaedi"
+      1693,
+      "Mubarak H. Alajmi"
     ],
-    "write_date": "2025-01-21 09:50:00",
+    "write_date": "2025-01-23 09:54:52",
     "x_sla_labels": "",
     "double_validation": false,
     "can_reset": false,
@@ -800,18 +1286,17 @@
     "is_direct_manager": false,
     "is_cut": false,
     "is_cancelled": false,
-    "is_started": false,
-    "is_finished": false,
+    "is_started": true,
+    "is_finished": true,
     "is_extended": false,
-    "can_be_cut": true,
-    "can_be_cancelled": true,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
     "display_button_cancel": false,
     "display_button_cut": false,
     "display_button_extend": false,
-    "attachment_required": true,
+    "attachment_required": false,
     "display_button_send": false,
     "substitute_employee_required": false,
-    "computed_duration": 2,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -834,8 +1319,1165 @@
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "محمود  بن ناصر  البكر - إجازة وفاة : 2  يوم",
-    "__last_update": "2025-01-21 09:50:00"
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 19691,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "17965",
+    "date": "2024-08-24",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-08-25",
+    "date_to": "2024-08-27",
+    "duration": 3,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 18.4164383561644,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-08-25 05:42:58",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      344700,
+      344701,
+      344702,
+      344703,
+      344704,
+      344705
+    ],
+    "message_ids": [
+      155073120,
+      155073088,
+      155072700,
+      155072699
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-08-24 17:53:29",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 3  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 19528,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "17802",
+    "date": "2024-08-12",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-08-14",
+    "date_to": "2024-08-15",
+    "duration": 2,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 19.13424657534248,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-08-12 10:29:51",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      340266,
+      340267,
+      340268,
+      340269,
+      340270,
+      340271
+    ],
+    "message_ids": [
+      155051073,
+      155050938,
+      155047641,
+      155047635
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-08-12 07:19:17",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 2  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 18841,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "17133",
+    "date": "2024-06-23",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-06-23",
+    "date_to": "2024-06-23",
+    "duration": 1,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 15.20273972602741,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-06-23 11:57:02",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      328982,
+      328983,
+      328984,
+      328985,
+      328986,
+      328987
+    ],
+    "message_ids": [
+      154968905,
+      154968894,
+      154967971,
+      154967970
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-06-23 00:59:23",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 18287,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "16618",
+    "date": "2024-05-06",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-05-06",
+    "date_to": "2024-05-06",
+    "duration": 1,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 11.468493150684942,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-05-06 10:07:32",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      317687,
+      317688,
+      317689,
+      317690,
+      317691,
+      317692
+    ],
+    "message_ids": [
+      154883895,
+      154883881,
+      154883464,
+      154883463
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-05-06 06:44:06",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 18272,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "16603",
+    "date": "2024-05-05",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-05-05",
+    "date_to": "2024-05-05",
+    "duration": 1,
+    "holiday_status_id": [
+      7,
+      "إجازة مرضيّة"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 30.1,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-05-05 08:21:15",
+    "attachment_ids": [
+      159160
+    ],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      317296,
+      317297,
+      317298,
+      317299,
+      317300,
+      317301
+    ],
+    "message_ids": [
+      154882198,
+      154882192,
+      154882076,
+      154882075
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-05-05 07:25:42",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": true,
+    "can_be_cancelled": true,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": true,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة مرضيّة : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 18077,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "16418",
+    "date": "2024-04-18",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-04-18",
+    "date_to": "2024-04-18",
+    "duration": 1,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 10.693150684931517,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-04-18 04:44:42",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      313117,
+      313118,
+      313119,
+      313120,
+      313121,
+      313122
+    ],
+    "message_ids": [
+      154857617,
+      154857612,
+      154857569,
+      154857568
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-04-18 02:04:58",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
+  },
+  {
+    "id": 16840,
+    "payslip_status": false,
+    "report_note": false,
+    "user_id": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "manager_id": [
+      1526,
+      "[1688] ايمن بن معتوق السفياني"
+    ],
+    "notes": "",
+    "number_of_days_temp": 0,
+    "number_of_days": 0,
+    "meeting_id": false,
+    "type": "remove",
+    "linked_request_ids": [],
+    "category_id": false,
+    "holiday_type": "employee",
+    "first_approver_id": false,
+    "second_approver_id": false,
+    "name": "15262",
+    "date": "2024-01-09",
+    "employee_id": [
+      1711,
+      "[1750] محمود  بن ناصر  البكر"
+    ],
+    "substitute_employee_id": [
+      517,
+      "[1417] رائد بن حمد رشيد"
+    ],
+    "department_id": [
+      441,
+      "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+    ],
+    "job_id": [
+      1785,
+      "قائد فريق إدارة الخدمات الرقمية"
+    ],
+    "grade_id": [
+      32,
+      "قائد فريق"
+    ],
+    "degree_id": [
+      38,
+      "12"
+    ],
+    "raison": false,
+    "date_from": "2024-01-28",
+    "date_to": "2024-02-15",
+    "duration": 19,
+    "holiday_status_id": [
+      5,
+      "إجازة سنوية"
+    ],
+    "with_advanced_salary": false,
+    "salary_number": 0,
+    "state": "done",
+    "holiday_cancellation": false,
+    "is_extension": false,
+    "extended_holiday_id": false,
+    "parent_id": false,
+    "extension_holidays_ids": [],
+    "extension_duration": 0,
+    "childbirth_date": false,
+    "sold_overtime": 0,
+    "sold_attendance": 0,
+    "death_person": false,
+    "compensation_type": false,
+    "accompaniment_type": false,
+    "accompanied_child_age": 0,
+    "study_subject": false,
+    "city": false,
+    "country_ids": [
+      595,
+      "Bonaire, Sint Eustatius and Saba"
+    ],
+    "current_holiday_stock": 19.632876712328773,
+    "sport_participation_topic": false,
+    "birth_child_filename": false,
+    "hide_with_advanced_salary": true,
+    "token_compensation_stock": 0,
+    "payed_salary_advance": false,
+    "done_date": "2024-01-09 08:38:16",
+    "attachment_ids": [],
+    "date_holidays_to": false,
+    "refuse_reason": "",
+    "active": true,
+    "cancel_reason": false,
+    "res_model": "hr.holidays",
+    "is_from_mobile": false,
+    "mobile_approvals_ids": [],
+    "message_follower_ids": [
+      271507,
+      271508,
+      271509,
+      271510,
+      271511,
+      271512
+    ],
+    "message_ids": [
+      154670204,
+      154670198,
+      154670193,
+      154670192
+    ],
+    "message_last_post": false,
+    "website_message_ids": [],
+    "create_uid": [
+      1328,
+      "Mahmoud N. Albakr"
+    ],
+    "create_date": "2024-01-09 08:20:50",
+    "write_uid": [
+      1693,
+      "Mubarak H. Alajmi"
+    ],
+    "write_date": "2025-01-23 09:54:52",
+    "x_sla_labels": "",
+    "double_validation": false,
+    "can_reset": false,
+    "is_annual": false,
+    "spend_advanced_salary": false,
+    "advanced_salary_period": 30,
+    "is_current_user": false,
+    "is_direct_manager": false,
+    "is_cut": false,
+    "is_cancelled": false,
+    "is_started": true,
+    "is_finished": true,
+    "is_extended": false,
+    "can_be_cut": false,
+    "can_be_cancelled": false,
+    "display_button_cancel": false,
+    "display_button_cut": false,
+    "display_button_extend": false,
+    "attachment_required": false,
+    "display_button_send": false,
+    "substitute_employee_required": false,
+    "department_global_id": [
+      32,
+      "خدمات المنشآت / التقنية والحلول الرقمية"
+    ],
+    "sector_id": [
+      12,
+      "خدمات المنشآت"
+    ],
+    "message_is_follower": false,
+    "message_partner_ids": [
+      3945,
+      1951,
+      1037,
+      826,
+      3667,
+      3758
+    ],
+    "message_channel_ids": [],
+    "message_unread": false,
+    "message_unread_counter": 0,
+    "message_needaction": false,
+    "message_needaction_counter": 0,
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 19  يوم",
+    "__last_update": "2025-01-23 09:54:52"
   },
   {
     "id": 16197,
@@ -843,7 +2485,7 @@
     "report_note": false,
     "user_id": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "manager_id": [
       1526,
@@ -891,7 +2533,7 @@
     "duration": 1,
     "holiday_status_id": [
       5,
-      "إجازة سنوية #test"
+      "إجازة سنوية"
     ],
     "with_advanced_salary": false,
     "salary_number": 0,
@@ -927,15 +2569,9 @@
     "refuse_reason": "",
     "active": true,
     "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       259541,
       259542,
@@ -951,20 +2587,21 @@
       154588724
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-11-19 20:24:05",
     "write_uid": [
-      1484,
-      "rquwayfil.t.uat"
+      1693,
+      "Mubarak H. Alajmi"
     ],
-    "write_date": "2023-11-20 05:05:03",
+    "write_date": "2025-01-23 09:54:52",
     "x_sla_labels": "",
     "double_validation": false,
     "can_reset": false,
-    "is_annual": true,
+    "is_annual": false,
     "spend_advanced_salary": false,
     "advanced_salary_period": 30,
     "is_current_user": false,
@@ -982,7 +2619,6 @@
     "attachment_required": false,
     "display_button_send": false,
     "substitute_employee_required": false,
-    "computed_duration": 1,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -1005,8 +2641,8 @@
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 1  يوم",
-    "__last_update": "2023-11-20 05:05:03"
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
   },
   {
     "id": 15576,
@@ -1014,7 +2650,7 @@
     "report_note": false,
     "user_id": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "manager_id": [
       1526,
@@ -1062,7 +2698,7 @@
     "duration": 1,
     "holiday_status_id": [
       5,
-      "إجازة سنوية #test"
+      "إجازة سنوية"
     ],
     "with_advanced_salary": false,
     "salary_number": 0,
@@ -1098,15 +2734,9 @@
     "refuse_reason": "",
     "active": true,
     "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       241674,
       241675,
@@ -1122,20 +2752,21 @@
       74718902
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-09-26 13:14:52",
     "write_uid": [
-      1484,
-      "rquwayfil.t.uat"
+      1693,
+      "Mubarak H. Alajmi"
     ],
-    "write_date": "2023-09-27 05:19:12",
+    "write_date": "2025-01-23 09:54:52",
     "x_sla_labels": "",
     "double_validation": false,
     "can_reset": false,
-    "is_annual": true,
+    "is_annual": false,
     "spend_advanced_salary": false,
     "advanced_salary_period": 30,
     "is_current_user": false,
@@ -1153,7 +2784,6 @@
     "attachment_required": false,
     "display_button_send": false,
     "substitute_employee_required": false,
-    "computed_duration": 1,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -1176,8 +2806,8 @@
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 1  يوم",
-    "__last_update": "2023-09-27 05:19:12"
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 1  يوم",
+    "__last_update": "2025-01-23 09:54:52"
   },
   {
     "id": 14423,
@@ -1185,7 +2815,7 @@
     "report_note": false,
     "user_id": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "manager_id": [
       1526,
@@ -1233,7 +2863,7 @@
     "duration": 12,
     "holiday_status_id": [
       5,
-      "إجازة سنوية #test"
+      "إجازة سنوية"
     ],
     "with_advanced_salary": false,
     "salary_number": 0,
@@ -1269,15 +2899,9 @@
     "refuse_reason": "",
     "active": true,
     "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [],
-    "website_message_ids": [],
     "message_follower_ids": [
       220311,
       220312,
@@ -1293,20 +2917,21 @@
       21178777
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-06-06 07:33:18",
     "write_uid": [
-      653,
-      "nnabulsi.uat"
+      1693,
+      "Mubarak H. Alajmi"
     ],
-    "write_date": "2023-06-07 08:39:43",
+    "write_date": "2025-01-23 09:54:52",
     "x_sla_labels": "",
     "double_validation": false,
     "can_reset": false,
-    "is_annual": true,
+    "is_annual": false,
     "spend_advanced_salary": false,
     "advanced_salary_period": 30,
     "is_current_user": false,
@@ -1324,7 +2949,6 @@
     "attachment_required": false,
     "display_button_send": false,
     "substitute_employee_required": false,
-    "computed_duration": 12,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -1347,8 +2971,8 @@
     "message_unread_counter": 0,
     "message_needaction": false,
     "message_needaction_counter": 0,
-    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية #test : 12  يوم",
-    "__last_update": "2023-06-07 08:39:43"
+    "display_name": "محمود  بن ناصر  البكر - إجازة سنوية : 12  يوم",
+    "__last_update": "2025-01-23 09:54:52"
   },
   {
     "id": 13947,
@@ -1356,7 +2980,7 @@
     "report_note": false,
     "user_id": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "manager_id": [
       1526,
@@ -1440,17 +3064,11 @@
     "refuse_reason": "",
     "active": true,
     "cancel_reason": false,
-    "half_day": false,
-    "period_type": false,
-    "time_from": false,
-    "time_to": false,
-    "half_day_duration": 0,
     "res_model": "hr.holidays",
     "is_from_mobile": false,
     "mobile_approvals_ids": [
       6090
     ],
-    "website_message_ids": [],
     "message_follower_ids": [
       209497,
       209498,
@@ -1466,16 +3084,17 @@
       20927048
     ],
     "message_last_post": false,
+    "website_message_ids": [],
     "create_uid": [
       1328,
-      "mbakr.uat"
+      "Mahmoud N. Albakr"
     ],
     "create_date": "2023-04-13 07:51:44",
     "write_uid": [
-      653,
-      "nnabulsi.uat"
+      1693,
+      "Mubarak H. Alajmi"
     ],
-    "write_date": "2023-04-13 10:08:15",
+    "write_date": "2025-01-23 09:54:52",
     "x_sla_labels": "",
     "double_validation": false,
     "can_reset": false,
@@ -1497,7 +3116,6 @@
     "attachment_required": false,
     "display_button_send": false,
     "substitute_employee_required": false,
-    "computed_duration": 5,
     "department_global_id": [
       32,
       "خدمات المنشآت / التقنية والحلول الرقمية"
@@ -1521,6 +3139,6 @@
     "message_needaction": false,
     "message_needaction_counter": 0,
     "display_name": "محمود  بن ناصر  البكر - إجازة زواج : 5  يوم",
-    "__last_update": "2023-04-13 10:08:15"
+    "__last_update": "2025-01-23 09:54:52"
   }
 ]

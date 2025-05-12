@@ -6,243 +6,15 @@
     "status": "success",
     "data": [
       {
-        "id": 5195,
-        "number": "04790",
-        "order_date": "2025-04-13",
+        "id": 6034,
+        "number": "05625",
+        "order_date": "2025-04-28",
         "employee_id": [
           447,
           "[1401] حمد بن يوسف القشيميط"
         ],
         "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          14170522
-        ],
-        "message_ids": [
-          170686047,
-          170686046,
-          170686045
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-04-13 08:41:42",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-04-13 08:41:42",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-04-13 08:41:42"
-      },
-      {
-        "id": 5186,
-        "number": "04781",
-        "order_date": "2025-04-10",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "/web/content/161160?download=true&filename=Salary_Request_5186.pdf&access_token=25bce946-8273-4d9e-bce1-f7d7be987379",
-        "open_link": "/web/content/161160?filename=Salary_Request_5186.pdf&access_token=25bce946-8273-4d9e-bce1-f7d7be987379",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          14137517
-        ],
-        "message_ids": [
-          170618899,
-          170618898,
-          170618897
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-04-10 13:25:54",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-04-10 13:25:54",
-        "eng_destination": "",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-04-10 13:25:54"
-      },
-      {
-        "id": 5166,
-        "number": "04761",
-        "order_date": "2025-02-24",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "/web/content/160385?download=true&filename=Salary_Request_5166.pdf&access_token=5ed55a29-8913-45db-b643-7a8fba158909",
-        "open_link": "/web/content/160385?filename=Salary_Request_5166.pdf&access_token=5ed55a29-8913-45db-b643-7a8fba158909",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          13676447
-        ],
-        "message_ids": [
-          169660219,
-          169660218,
-          169660217
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-24 13:37:23",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-24 13:37:23",
-        "eng_destination": "",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-24 13:37:23"
-      },
-      {
-        "id": 5131,
-        "number": "04725",
-        "order_date": "2025-02-17",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          5,
+          38,
           "البنك الأهلي السعودي"
         ],
         "type": "salary_detail",
@@ -250,49 +22,49 @@
         "state": "done",
         "partner_id": false,
         "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
+          85,
+          "Salary Request RTL"
         ],
         "refuse_reason": false,
-        "notes": "اا",
+        "notes": "",
         "active": true,
         "account_status": "",
         "bank_id": [],
         "acc_number": "",
-        "download_link": "/web/content/160174?download=true&filename=Salary_Request_5131.pdf&access_token=e65f3664-f882-4e7b-822f-e914c2d7b190",
-        "open_link": "/web/content/160174?filename=Salary_Request_5131.pdf&access_token=e65f3664-f882-4e7b-822f-e914c2d7b190",
+        "download_link": "/web/content/180954?download=true&filename=Salary_Request_6034.pdf&access_token=54e952d1-6a65-498d-8e3c-7d0092f28b93",
+        "open_link": "/web/content/180954?filename=Salary_Request_6034.pdf&access_token=54e952d1-6a65-498d-8e3c-7d0092f28b93",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
-          13614349
+          6610234
         ],
         "message_ids": [
-          169528282,
-          169528281,
-          169528280
+          161784305,
+          161784304,
+          161784303
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           1,
-          "Khaled Alamri"
+          "Administrator"
         ],
-        "create_date": "2025-02-17 12:03:27",
+        "create_date": "2025-04-28 07:42:57",
         "write_uid": [
           1,
-          "Khaled Alamri"
+          "Administrator"
         ],
-        "write_date": "2025-02-17 12:03:27",
+        "write_date": "2025-04-28 07:42:57",
         "eng_destination": "Saudi National Bank",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "template_name": "Salary Request RTL",
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -308,103 +80,26 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-17 12:03:27"
+        "__last_update": "2025-04-28 07:42:57"
       },
       {
-        "id": 5128,
-        "number": "04722",
-        "order_date": "2025-02-17",
+        "id": 5312,
+        "number": "04904",
+        "order_date": "2024-08-26",
         "employee_id": [
           447,
           "[1401] حمد بن يوسف القشيميط"
         ],
         "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "/web/content/160171?download=true&filename=Salary_Request_5128.pdf&access_token=64d733dc-8b2c-4c8b-92de-6c9aa7f24826",
-        "open_link": "/web/content/160171?filename=Salary_Request_5128.pdf&access_token=64d733dc-8b2c-4c8b-92de-6c9aa7f24826",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          13614338
-        ],
-        "message_ids": [
-          169528212,
-          169528211,
-          169528210
-        ],
-        "message_last_post": false,
-        "create_uid": [
           1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-17 11:47:58",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-17 11:47:58",
-        "eng_destination": "",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-17 11:47:58"
-      },
-      {
-        "id": 5112,
-        "number": "04706",
-        "order_date": "2025-02-16",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          5,
-          "البنك الأهلي السعودي"
+          "من يهمه الأمر"
         ],
         "type": "salary_detail",
         "speech_lang": false,
         "state": "done",
         "partner_id": false,
         "template_id": [
-          176,
+          243,
           "خطاب تعريف بتفاصيل الراتب"
         ],
         "refuse_reason": false,
@@ -413,1746 +108,41 @@
         "account_status": "",
         "bank_id": [],
         "acc_number": "",
-        "download_link": "/web/content/160134?download=true&filename=Salary_Request_5112.pdf&access_token=d46cf661-797c-4ca3-bcfa-6698d585e18f",
-        "open_link": "/web/content/160134?filename=Salary_Request_5112.pdf&access_token=d46cf661-797c-4ca3-bcfa-6698d585e18f",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          13604821
-        ],
-        "message_ids": [
-          169508634,
-          169508633,
-          169508632
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-16 13:30:43",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-16 13:30:43",
-        "eng_destination": "Saudi National Bank",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-16 13:30:43"
-      },
-      {
-        "id": 5090,
-        "number": "04684",
-        "order_date": "2025-02-11",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          3,
-          "مصرف الراجحي"
-        ],
-        "type": "salary_detail",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "تجربة",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "/web/content/159868?download=true&filename=Salary_Request_5090.pdf&access_token=2532d16e-edf9-4ca4-882e-0e9944d68b28",
-        "open_link": "/web/content/159868?filename=Salary_Request_5090.pdf&access_token=2532d16e-edf9-4ca4-882e-0e9944d68b28",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          13103574
-        ],
-        "message_ids": [
-          168954294,
-          168954293,
-          168954292
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-11 08:59:54",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-11 08:59:54",
-        "eng_destination": "Alrajhi Bank",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-11 08:59:54"
-      },
-      {
-        "id": 5087,
-        "number": "04681",
-        "order_date": "2025-02-10",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          8,
-          "إلى من يهمه الأمر"
-        ],
-        "type": "salary_detail",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "/web/content/159854?download=true&filename=Salary_Request_5087.pdf&access_token=e970899f-76a8-45ea-b49b-a654b7992e64",
-        "open_link": "/web/content/159854?filename=Salary_Request_5087.pdf&access_token=e970899f-76a8-45ea-b49b-a654b7992e64",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          13019739
-        ],
-        "message_ids": [
-          168861018,
-          168861014,
-          168861012
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-10 13:12:32",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-10 13:12:32",
-        "eng_destination": "To Whom",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-10 13:12:32"
-      },
-      {
-        "id": 5059,
-        "number": "04653",
-        "order_date": "2025-02-06",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          4,
-          "مصرف الإنماء"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "test ",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
         "download_link": "",
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
-          12640524
+          345817
         ],
         "message_ids": [
-          168441898,
-          168441894,
-          168441892
+          155076654,
+          155076652,
+          155076651,
+          155076650
         ],
         "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-06 11:56:10",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-06 11:56:10",
-        "eng_destination": "Alinma Bank",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-06 11:56:10"
-      },
-      {
-        "id": 5044,
-        "number": "04638",
-        "order_date": "2025-02-05",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
         "website_message_ids": [],
-        "message_follower_ids": [
-          12544538
-        ],
-        "message_ids": [
-          168336273,
-          168336272,
-          168336271
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-05 13:05:10",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-05 13:05:10",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-05 13:05:10"
-      },
-      {
-        "id": 5040,
-        "number": "04634",
-        "order_date": "2025-02-04",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          3,
-          "مصرف الراجحي"
-        ],
-        "type": "salary_detail",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "تتت",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          12247130
-        ],
-        "message_ids": [
-          168020087,
-          168020086,
-          168020085
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-04 12:55:30",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-04 12:55:30",
-        "eng_destination": "Alrajhi Bank",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-04 12:55:30"
-      },
-      {
-        "id": 5039,
-        "number": "04633",
-        "order_date": "2025-02-04",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          3,
-          "مصرف الراجحي"
-        ],
-        "type": "salary_payslip",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "تتت",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          12247129
-        ],
-        "message_ids": [
-          168020084,
-          168020083,
-          168020082
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-04 12:55:22",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-04 12:55:22",
-        "eng_destination": "Alrajhi Bank",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-04 12:55:22"
-      },
-      {
-        "id": 5033,
-        "number": "04627",
-        "order_date": "2025-02-03",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          12197802
-        ],
-        "message_ids": [
-          167960613,
-          167960612,
-          167960611
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-02-03 12:36:04",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-02-03 12:36:04",
-        "eng_destination": "",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-02-03 12:36:04"
-      },
-      {
-        "id": 5009,
-        "number": "04603",
-        "order_date": "2025-01-26",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11423170
-        ],
-        "message_ids": [
-          167069329,
-          167069328
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-26 13:12:49",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-26 13:12:49",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-26 13:12:49"
-      },
-      {
-        "id": 5008,
-        "number": "04602",
-        "order_date": "2025-01-26",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11422491
-        ],
-        "message_ids": [
-          167068649,
-          167068648
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-26 13:06:15",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-26 13:06:15",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-26 13:06:15"
-      },
-      {
-        "id": 5007,
-        "number": "04601",
-        "order_date": "2025-01-26",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11410640
-        ],
-        "message_ids": [
-          167056348,
-          167056347
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-26 09:54:44",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-26 09:54:44",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-26 09:54:44"
-      },
-      {
-        "id": 5006,
-        "number": "04600",
-        "order_date": "2025-01-25",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11386961
-        ],
-        "message_ids": [
-          167023774,
-          167023773
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-25 17:54:53",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-25 17:54:53",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-25 17:54:53"
-      },
-      {
-        "id": 5005,
-        "number": "04599",
-        "order_date": "2025-01-25",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11386957
-        ],
-        "message_ids": [
-          167023769,
-          167023768
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-25 17:53:06",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-25 17:53:06",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-25 17:53:06"
-      },
-      {
-        "id": 5004,
-        "number": "04598",
-        "order_date": "2025-01-25",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11386953
-        ],
-        "message_ids": [
-          167023764,
-          167023763
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-25 17:50:39",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-25 17:50:39",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-25 17:50:39"
-      },
-      {
-        "id": 5003,
-        "number": "04597",
-        "order_date": "2025-01-23",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11348282
-        ],
-        "message_ids": [
-          166967032,
-          166967031,
-          166967030
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-23 10:57:37",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-23 10:58:07",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-23 10:58:07"
-      },
-      {
-        "id": 5002,
-        "number": "04596",
-        "order_date": "2025-01-22",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          3,
-          "مصرف الراجحي"
-        ],
-        "type": "salary_detail",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "رتت",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11198134
-        ],
-        "message_ids": [
-          166808300,
-          166808299
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-22 13:06:06",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-22 13:06:06",
-        "eng_destination": "Alrajhi Bank",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-22 13:06:06"
-      },
-      {
-        "id": 5001,
-        "number": "04595",
-        "order_date": "2025-01-21",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          11021839
-        ],
-        "message_ids": [
-          166621899,
-          166621898
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-21 12:49:27",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-21 12:49:27",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-21 12:49:27"
-      },
-      {
-        "id": 4966,
-        "number": "04559",
-        "order_date": "2025-01-07",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          9517940
-        ],
-        "message_ids": [
-          164980200,
-          164980195
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-07 09:47:20",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-07 09:47:20",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-07 09:47:20"
-      },
-      {
-        "id": 4961,
-        "number": "04554",
-        "order_date": "2025-01-06",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          9449759
-        ],
-        "message_ids": [
-          164903060,
-          164903059
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-06 09:25:27",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-06 09:25:27",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-06 09:25:27"
-      },
-      {
-        "id": 4960,
-        "number": "04553",
-        "order_date": "2025-01-06",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          9449758
-        ],
-        "message_ids": [
-          164903058,
-          164903057
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-06 09:25:24",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-06 09:25:24",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-06 09:25:24"
-      },
-      {
-        "id": 4959,
-        "number": "04552",
-        "order_date": "2025-01-06",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          9438246
-        ],
-        "message_ids": [
-          164891545,
-          164891543
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-06 09:08:11",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-06 09:08:11",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-06 09:08:11"
-      },
-      {
-        "id": 4958,
-        "number": "04551",
-        "order_date": "2025-01-05",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "total_salary",
-        "speech_lang": false,
-        "state": "draft",
-        "partner_id": false,
-        "template_id": [],
-        "refuse_reason": false,
-        "notes": "Test",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          9334487
-        ],
-        "message_ids": [
-          164779615,
-          164779614
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2025-01-05 19:31:41",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2025-01-05 19:31:41",
-        "eng_destination": "",
-        "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2025-01-05 19:31:41"
-      },
-      {
-        "id": 4811,
-        "number": "04404",
-        "order_date": "2024-10-30",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          4,
-          "مصرف الإنماء"
-        ],
-        "type": "salary_detail",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "ssssssssss",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          485009
-        ],
-        "message_ids": [
-          163632295,
-          155389558,
-          155389557,
-          155389556
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "create_date": "2024-10-30 11:24:21",
-        "write_uid": [
-          1,
-          "Khaled Alamri"
-        ],
-        "write_date": "2024-12-25 09:22:49",
-        "eng_destination": "Alinma Bank",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": true,
-        "message_partner_ids": [
-          3
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2024-12-25 09:22:49"
-      },
-      {
-        "id": 4745,
-        "number": "04337",
-        "order_date": "2024-04-02",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          5,
-          "البنك الأهلي السعودي"
-        ],
-        "type": "salary_detail",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "تجربة تعريف راتب",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          261545
-        ],
-        "message_ids": [
-          154685505,
-          154685504,
-          154685503,
-          154685502
-        ],
-        "message_last_post": false,
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
-        "create_date": "2024-04-02 09:58:03",
+        "create_date": "2024-08-26 12:54:30",
         "write_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
-        "write_date": "2024-04-02 10:42:10",
-        "eng_destination": "Saudi National Bank",
+        "write_date": "2024-08-26 12:54:30",
+        "eng_destination": "false",
         "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2168,85 +158,7 @@
         "message_needaction": false,
         "message_needaction_counter": 0,
         "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2024-04-02 10:42:10"
-      },
-      {
-        "id": 4744,
-        "number": "04336",
-        "order_date": "2024-04-02",
-        "employee_id": [
-          447,
-          "[1401] حمد بن يوسف القشيميط"
-        ],
-        "destination_id": [
-          2,
-          "مصرف الراجحي"
-        ],
-        "type": "salary_detail",
-        "speech_lang": false,
-        "state": "done",
-        "partner_id": false,
-        "template_id": [
-          176,
-          "خطاب تعريف بتفاصيل الراتب"
-        ],
-        "refuse_reason": false,
-        "notes": "تجربة اضافة مصرف بدون اعتماد",
-        "active": true,
-        "account_status": "",
-        "bank_id": [],
-        "acc_number": "",
-        "download_link": "",
-        "open_link": "",
-        "res_model": "salary.identification.request",
-        "is_from_mobile": false,
-        "website_message_ids": [],
-        "message_follower_ids": [
-          261540
-        ],
-        "message_ids": [
-          154685506,
-          154685487,
-          154685486,
-          154685485
-        ],
-        "message_last_post": false,
-        "create_uid": [
-          615,
-          "hqushaymit.uat"
-        ],
-        "create_date": "2024-04-02 09:46:34",
-        "write_uid": [
-          615,
-          "hqushaymit.uat"
-        ],
-        "write_date": "2024-04-02 10:26:36",
-        "eng_destination": "",
-        "template_name": "خطاب تعريف بتفاصيل الراتب",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
-        "allowance_mobile": 500,
-        "designation_mandated_amount": 0,
-        "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
-        ],
-        "sector_id": [
-          12,
-          "خدمات المنشآت"
-        ],
-        "message_is_follower": false,
-        "message_partner_ids": [
-          1003
-        ],
-        "message_channel_ids": [],
-        "message_unread": false,
-        "message_unread_counter": 0,
-        "message_needaction": false,
-        "message_needaction_counter": 0,
-        "display_name": "[1401] حمد بن يوسف القشيميط",
-        "__last_update": "2024-04-02 10:26:36"
+        "__last_update": "2024-08-26 12:54:30"
       },
       {
         "id": 4657,
@@ -2272,7 +184,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           243366
         ],
@@ -2283,26 +194,27 @@
           89584461
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2023-10-05 05:15:18",
         "write_uid": [
           1054,
-          "aashehri.uat"
+          "Ahmed A Alshehri"
         ],
         "write_date": "2023-11-07 22:11:23",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2344,7 +256,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           155762
         ],
@@ -2355,26 +266,27 @@
           19343036
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2022-08-07 08:12:41",
         "write_uid": [
           1054,
-          "aashehri.uat"
+          "Ahmed A Alshehri"
         ],
         "write_date": "2023-03-14 23:39:49",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2416,7 +328,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           69493
         ],
@@ -2427,26 +338,27 @@
           7943180
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2021-02-07 07:23:29",
         "write_uid": [
           1054,
-          "aashehri.uat"
+          "Ahmed A Alshehri"
         ],
         "write_date": "2022-04-18 17:40:02",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2488,7 +400,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           69492
         ],
@@ -2499,9 +410,10 @@
           7943106
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2021-02-07 07:22:18",
         "write_uid": [
@@ -2511,14 +423,14 @@
         "write_date": "2021-02-07 09:11:56",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2560,7 +472,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           69491
         ],
@@ -2571,9 +482,10 @@
           7942750
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2021-02-07 07:17:28",
         "write_uid": [
@@ -2583,14 +495,14 @@
         "write_date": "2021-02-07 09:11:50",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2632,7 +544,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           67198
         ],
@@ -2643,9 +554,10 @@
           7878805
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2021-01-07 08:49:20",
         "write_uid": [
@@ -2655,14 +567,14 @@
         "write_date": "2021-01-07 10:14:41",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2704,7 +616,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           67197
         ],
@@ -2715,9 +626,10 @@
           7878802
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2021-01-07 08:48:31",
         "write_uid": [
@@ -2727,14 +639,14 @@
         "write_date": "2021-01-07 10:14:45",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2776,7 +688,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           56755
         ],
@@ -2787,26 +698,27 @@
           7747566
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2020-08-30 06:39:22",
         "write_uid": [
           1054,
-          "aashehri.uat"
+          "Ahmed A Alshehri"
         ],
         "write_date": "2022-09-17 18:27:29",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2848,7 +760,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           56754
         ],
@@ -2859,9 +770,10 @@
           7747563
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2020-08-30 06:37:19",
         "write_uid": [
@@ -2871,14 +783,14 @@
         "write_date": "2020-08-30 12:04:35",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,
@@ -2920,7 +832,6 @@
         "open_link": "",
         "res_model": "salary.identification.request",
         "is_from_mobile": false,
-        "website_message_ids": [],
         "message_follower_ids": [
           48372
         ],
@@ -2931,9 +842,10 @@
           5632728
         ],
         "message_last_post": false,
+        "website_message_ids": [],
         "create_uid": [
           615,
-          "hqushaymit.uat"
+          "Hamad Y. Alqushaymit"
         ],
         "create_date": "2020-03-02 11:19:49",
         "write_uid": [
@@ -2943,14 +855,14 @@
         "write_date": "2020-03-03 13:37:02",
         "eng_destination": "",
         "template_name": "",
-        "basic_salary": 10000,
-        "allowance_housing": 2500,
-        "allowance_transportation": 1000,
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
         "allowance_mobile": 500,
         "designation_mandated_amount": 0,
         "department_global_id": [
-          445,
-          "خدمات المنشآت / خدمات المنشآت"
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
         ],
         "sector_id": [
           12,

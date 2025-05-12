@@ -1,0 +1,65 @@
+[
+  {
+    "name": "relative-relation",
+    "createUrl": null,
+    "url": "hr/medical/insurance/relative-relation",
+    "method": "POST",
+    "description": "Get relative relation requests",
+    "listRequestBody": {},
+    "createRequestBody": null
+  },
+  {
+    "name": "custody",
+    "url": "hr/custody",
+    "createUrl": "hr/custody/create",
+    "method": "POST",
+    "description": "Get custody requests",
+    "listRequestBody": {
+      "employee_id": 21
+    },
+    "detailsRequestBody": {
+      "id": 133
+    },
+    "createRequestBody": null
+  },
+  {
+    "name": "training",
+    "url": "hr/training",
+    "createUrl": "",
+    "method": "POST",
+    "description": "Get training requests",
+    "listRequestBody": {
+      "create_employee_id": 1722
+    },
+    "detailsRequestBody": {
+      "id": 160
+    },
+    "createRequestBody": null
+  },
+  {
+    "name": "request-details-workflow",
+    "url": "po/last_update",
+    "createUrl": null,
+    "method": "POST",
+    "description": "Get details workflow requests",
+    "listRequestBody": {
+      "res_model": "hr.authorization",
+      "res_id": 16439
+    },
+    "createRequestBody": null
+  },
+  {
+    "name": "medical-insurance",
+    "url": "hr/medical/insurance/read",
+    "createUrl": "hr/medical/insurance/create",
+    "method": "POST",
+    "description": "Get medical insurance requests",
+    "listRequestBody": {
+      "employee_id": 1722
+    },
+    "detailsRequestBody": {
+      "id": 456
+    },
+    "createRequestBody": null
+  }
+]
