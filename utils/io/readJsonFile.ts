@@ -9,6 +9,7 @@ interface ReadJsonFileArgs {
 export const readJsonFile = async ({ filePath }: ReadJsonFileArgs) => {
   const fileExists = await doesFileExist({ filePath });
   if (!fileExists) {
+    console.log({ filePath });
     throw new Error(
       `Error reading json file, file does not exist: ${filePath}`
     );

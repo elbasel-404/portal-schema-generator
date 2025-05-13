@@ -1,14 +1,18 @@
 
+vacation-types: createUrl not found
+
 remote-work: createRequestBody is empty: 
 
-permission: createRequestBody is empty: 
-
-request-details-workflow: createUrl not found
+change-bank-account: createRequestBody is empty: 
 
 request-create-workflow: createUrl not found
 
 salary-identification: createRequestBody is empty: 
 
-medical-insurance: createRequestBody is empty: 
+permission: createRequestBody is empty: 
 
-medical-insurance: ./json/medical-insurance/raw.create.json is empty: 
+bank-details: createUrl not found
+
+hr-letter-types: createUrl not found
+
+destination: createUrl not found
