@@ -10,7 +10,7 @@ const quicktypeJSON = async (
   typeName: string,
   jsonString: string
 ) => {
-  const jsonInput = jsonInputForTargetLanguage(targetLanguage);
+  const jsonInput = jsonInputForTargetLanguage("typescript-zod");
 
   // We could add multiple samples for the same desired
   // type, or many sources for other types.quicktypeJSON Here we're
@@ -25,7 +25,7 @@ const quicktypeJSON = async (
 
   return await quicktype({
     inputData,
-    lang: targetLanguage,
+    lang: "typescript-zod",
   });
 };
 

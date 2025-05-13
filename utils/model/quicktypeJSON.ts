@@ -4,7 +4,7 @@ export async function quicktypeJSON(
   targetLanguage: string | TargetLanguage,
   typeName: string,
   jsonString: string) {
-  const jsonInput = jsonInputForTargetLanguage(targetLanguage);
+  const jsonInput = jsonInputForTargetLanguage("json-schema");
 
   // We could add multiple samples for the same desired
   // type, or many sources for other types.quicktypeJSON Here we're
@@ -19,6 +19,6 @@ export async function quicktypeJSON(
 
   return await quicktype({
     inputData,
-    lang: targetLanguage,
+    lang: "json-schema",
   });
 }

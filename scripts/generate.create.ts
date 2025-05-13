@@ -4,13 +4,14 @@ import {
 } from "@constants/paths/logs";
 import endpoints from "@lib/endpoints.json";
 import { CreateErrorSchema } from "@schemas/CreateErrorSchema";
-import { CreateSucessSchema } from "@schemas/CreateSucessSchema";
+import { CreateSuccessSchema } from "@schemas/CreateSuccessSchema";
 import { getFetchHeaders, getFetchUrl } from "@utils/http";
 import { writeStringToFile } from "@utils/io";
 import { clearFileContents } from "@utils/io/clearFileContents";
 import { clearLogs } from "@utils/io/clearLogs";
 import { getLogger } from "@utils/io/getLogger";
 import { readJsonFile } from "@utils/io/readJsonFile";
+import { isEmptyObject } from "@utils/isEmptyObject";
 import { getModelZodSchema } from "@utils/model";
 
 type GenerateRequestBodySchemaArgs = {
@@ -58,7 +59,20 @@ const generateCreateRaw = async ({
     headers,
     body: formData,
   });
-  const responseJson = await response.json();
+  let responseJson = {};
+  try {
+    responseJson = await response.json();
+  } catch (error) {
+    // console.log(await response.text());
+    console.log(error);
+    console.log({
+      endpointName,
+      fetchUrl,
+      method,
+      headers,
+      formData,
+    });
+  }
   const filePath = `./json/${endpointName}/raw.create.json`;
   const data = JSON.stringify(responseJson, null, 2);
 
@@ -80,11 +94,14 @@ const allEndpoints = endpoints as Endpoint[];
 
 const processEndpoint = async (ep: Endpoint) => {
   const { createUrl, method, name, createRequestBody } = ep;
-  const requestBodySchemaFilePath = await generateRequestBodySchema({
+  console.log({
+    name,
     createRequestBody,
-    endpointName: name,
   });
-  console.log(requestBodySchemaFilePath);
+  console.log({
+    name,
+    createRequestBody,
+  });
 
   if (!createUrl) {
     await logger.error({
@@ -101,7 +118,15 @@ const processEndpoint = async (ep: Endpoint) => {
       data: `${name}, skipped..`,
       errorFilePath: "./scripts/generate.create.ts",
     });
+    return;
   }
+
+  const requestBodySchemaFilePath = await generateRequestBodySchema({
+    createRequestBody,
+    endpointName: name,
+  });
+  console.log(requestBodySchemaFilePath);
+
   const fetchURL = await getFetchUrl(createUrl);
   const { headers: detailsHeaders } = await getFetchHeaders();
   const headers = new Headers();
@@ -139,7 +164,7 @@ const processEndpoint = async (ep: Endpoint) => {
   const rawObject = rawDataArray[0];
   const isError = !!rawObject?.error;
 
-  const rawObjectSchema = isError ? CreateErrorSchema : CreateSucessSchema;
+  const rawObjectSchema = isError ? CreateErrorSchema : CreateSuccessSchema;
   const validatedData = rawObjectSchema.parse(rawObject);
   const validatedDataFilePath = `./json/${name}/data.create.json`;
   await writeStringToFile({
@@ -148,7 +173,7 @@ const processEndpoint = async (ep: Endpoint) => {
   });
 
   await logger.info({
-    title: `${name}: SUCCES`,
+    title: `${name}: SUCCESS`,
     data: rawObject,
   });
 };
