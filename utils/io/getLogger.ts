@@ -4,8 +4,8 @@ import {
   STATS_COUNTS_FILE_PATH,
   STATS_LOGFILES_FILE_PATH,
 } from "@constants/paths/logs";
-import { appendStringToFile, writeStringToFile } from "@utils/io";
 import type { LogFileName } from "@type/LogFileName";
+import { appendStringToFile, writeStringToFile } from "@utils/io";
 
 const loggedDataCount = {
   info: 0,
