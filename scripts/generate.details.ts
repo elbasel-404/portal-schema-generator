@@ -2,7 +2,7 @@
 import { ResponseSchema } from "@schemas/responseSchema";
 import { getFetchHeaders, getFetchUrl } from "@utils/http";
 import { writeStringToFile } from "@utils/io";
-import { getModelInterface, getModelZodSchema } from "@utils/model";
+import { getModelZodSchema } from "@utils/model";
 
 const SCHEMAS_DIR = "./schemas";
 const TYPES_DIR = "./types";
@@ -62,15 +62,15 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
     data: responseDataZodSchema,
   });
 
-  const responseDataInterface = await getModelInterface({
-    modelName: name,
-    jsonString: dataJsonString,
-  });
-  const responseDataInterfaceFilePath = `./${TYPES_DIR}/${name}/interface.ts`;
-  await writeStringToFile({
-    filePath: responseDataInterfaceFilePath,
-    data: responseDataInterface,
-  });
+  // const responseDataInterface = await getModelInterface({
+  //   modelName: name,
+  //   jsonString: dataJsonString,
+  // });
+  // const responseDataInterfaceFilePath = `./${TYPES_DIR}/${name}/interface.ts`;
+  // await writeStringToFile({
+  //   filePath: responseDataInterfaceFilePath,
+  //   data: responseDataInterface,
+  // });
 
   logger.info({
     data: {
@@ -81,7 +81,7 @@ endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
       responseJsonFilePath,
       dataJsonFilePath,
       responseDataZodSchemaFilePath,
-      responseDataInterfaceFilePath,
+      // responseDataInterfaceFilePath,
     },
   });
 });
