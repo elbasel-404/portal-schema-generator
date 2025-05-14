@@ -1,5 +1,19 @@
 [
   {
+    "name": "news",
+    "url": "po/read/portal-news",
+    "createUrl": null,
+    "method": "POST",
+    "description": "Get news",
+    "listRequestBody": {
+      "news_type": "news"
+    },
+    "detailsRequestBody": {
+      "news_type": "news"
+    },
+    "createRequestBody": null
+  },
+  {
     "name": "family-news",
     "url": "po/read/portal-news",
     "createUrl": null,
