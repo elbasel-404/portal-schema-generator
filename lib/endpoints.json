@@ -1,5 +1,19 @@
 [
   {
+    "name": "family-news",
+    "url": "po/read/portal-news",
+    "createUrl": null,
+    "method": "POST",
+    "description": "Get family news ",
+    "listRequestBody": {
+      "news_type": "family_news"
+    },
+    "detailsRequestBody": {
+      "news_type": "family_news"
+    },
+    "createRequestBody": null
+  },
+  {
     "name": "holiday",
     "url": "po/hr/holidays/request",
     "createUrl": "po/hr/holidays/request/create",
