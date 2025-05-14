@@ -1,5 +1,19 @@
 [
   {
+    "name": "ad-news",
+    "url": "po/read/portal-news",
+    "createUrl": null,
+    "method": "POST",
+    "description": "Get ad news",
+    "listRequestBody": {
+      "news_type": "ads"
+    },
+    "detailsRequestBody": {
+      "news_type": "ads"
+    },
+    "createRequestBody": null
+  },
+  {
     "name": "news",
     "url": "po/read/portal-news",
     "createUrl": null,
