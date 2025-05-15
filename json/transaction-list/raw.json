@@ -1,0 +1,2089 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "statusCode": 200,
+    "status": "success",
+    "data": [
+      {
+        "id": 20891,
+        "create_date": "2024-11-17 10:30:09",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2024-11-17",
+        "date_to": "2024-11-21",
+        "notes": false,
+        "attachment_ids": [
+          173593
+        ],
+        "death_person": false,
+        "substitute_employee_id": [
+          990,
+          "[1510] سليمان بن عبدالرحمن الطريف"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "19107",
+        "date": "2024-11-17",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 18793,
+        "create_date": "2024-06-11 12:51:31",
+        "duration": 33,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2024-07-07",
+        "date_to": "2024-08-08",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          990,
+          "[1510] سليمان بن عبدالرحمن الطريف"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "17087",
+        "date": "2024-06-11",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 18069,
+        "create_date": "2024-04-17 10:30:27",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2024-04-14",
+        "date_to": "2024-04-18",
+        "notes": false,
+        "attachment_ids": [
+          157731
+        ],
+        "death_person": false,
+        "substitute_employee_id": [
+          1068,
+          "[1522] عبدالله بن فواز المسعد"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "16413",
+        "date": "2024-04-17",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 14621,
+        "create_date": "2023-06-19 13:17:15",
+        "duration": 31,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2023-07-04",
+        "date_to": "2023-08-03",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          975,
+          "[1509] سعود بن خالد السبهان"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "13155",
+        "date": "2023-06-19",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 12533,
+        "create_date": "2022-11-15 14:46:57",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2022-11-27",
+        "date_to": "2022-12-01",
+        "notes": "",
+        "attachment_ids": [],
+        "death_person": "",
+        "substitute_employee_id": [
+          1068,
+          "[1522] عبدالله بن فواز المسعد"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "11146",
+        "date": "2022-11-15",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 11108,
+        "create_date": "2022-05-25 07:03:17",
+        "duration": 12,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2022-07-17",
+        "date_to": "2022-07-28",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          990,
+          "[1510] سليمان بن عبدالرحمن الطريف"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "09820",
+        "date": "2022-05-25",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 10048,
+        "create_date": "2022-01-29 15:59:14",
+        "duration": 8,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2022-01-31",
+        "date_to": "2022-02-07",
+        "notes": "",
+        "attachment_ids": [],
+        "death_person": "",
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "08826",
+        "date": "2022-01-29",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 9864,
+        "create_date": "2022-01-12 08:34:56",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2022-01-16",
+        "date_to": "2022-01-20",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          990,
+          "[1510] سليمان بن عبدالرحمن الطريف"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "08658",
+        "date": "2022-01-12",
+        "state": "cutoff",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 9390,
+        "create_date": "2021-12-03 14:48:59",
+        "duration": 7,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-12-05",
+        "date_to": "2021-12-09",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "08197",
+        "date": "2021-12-03",
+        "state": "cutoff",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 9264,
+        "create_date": "2021-11-23 10:15:59",
+        "duration": 8,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-11-25",
+        "date_to": "2021-12-02",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "08077",
+        "date": "2021-11-23",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 9164,
+        "create_date": "2021-11-13 16:10:20",
+        "duration": 4,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-11-15",
+        "date_to": "2021-11-18",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          399,
+          "[1373] رياض بن عبدالمحسن آل الشيخ"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "07977",
+        "date": "2021-11-13",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 8140,
+        "create_date": "2021-07-23 17:43:40",
+        "duration": 11,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-07-26",
+        "date_to": "2021-08-05",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "06986",
+        "date": "2021-07-23",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 8004,
+        "create_date": "2021-07-06 09:01:15",
+        "duration": 4,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-07-11",
+        "date_to": "2021-07-14",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          399,
+          "[1373] رياض بن عبدالمحسن آل الشيخ"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "06852",
+        "date": "2021-07-06",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 7987,
+        "create_date": "2021-07-04 06:40:16",
+        "duration": 1,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-07-05",
+        "date_to": "2021-07-05",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "06835",
+        "date": "2021-07-04",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 7522,
+        "create_date": "2021-05-02 09:36:44",
+        "duration": 4,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-05-03",
+        "date_to": "2021-05-06",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "06376",
+        "date": "2021-05-02",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 7271,
+        "create_date": "2021-04-05 08:19:01",
+        "duration": 3,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-05-18",
+        "date_to": "2021-05-20",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "06139",
+        "date": "2021-04-05",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 7239,
+        "create_date": "2021-04-03 17:45:53",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-04-11",
+        "date_to": "2021-04-15",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "06107",
+        "date": "2021-04-03",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 7156,
+        "create_date": "2021-03-25 12:32:42",
+        "duration": 2,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-03-28",
+        "date_to": "2021-03-29",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "06024",
+        "date": "2021-03-25",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 7001,
+        "create_date": "2021-03-17 06:18:16",
+        "duration": 1,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-03-18",
+        "date_to": "2021-03-18",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "05869",
+        "date": "2021-03-17",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 6476,
+        "create_date": "2021-01-27 06:52:25",
+        "duration": 2,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-01-26",
+        "date_to": "2021-01-27",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "05347",
+        "date": "2021-01-27",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 6278,
+        "create_date": "2020-12-31 10:52:51",
+        "duration": 7,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2021-01-03",
+        "date_to": "2021-01-07",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": false,
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "05149",
+        "date": "2020-12-31",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 6175,
+        "create_date": "2020-12-21 11:44:40",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2020-12-27",
+        "date_to": "2020-12-31",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "05048",
+        "date": "2020-12-21",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 5634,
+        "create_date": "2020-09-28 21:42:29",
+        "duration": 1,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2020-09-30",
+        "date_to": "2020-09-30",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "04507",
+        "date": "2020-09-28",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 5539,
+        "create_date": "2020-09-14 06:09:52",
+        "duration": 3,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2020-09-20",
+        "date_to": "2020-09-22",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          399,
+          "[1373] رياض بن عبدالمحسن آل الشيخ"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "04412",
+        "date": "2020-09-14",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 5448,
+        "create_date": "2020-08-27 08:56:57",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2020-08-30",
+        "date_to": "2020-09-03",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "04321",
+        "date": "2020-08-27",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 3863,
+        "create_date": "2019-10-31 11:37:50",
+        "duration": 2,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2019-12-04",
+        "date_to": "2019-12-05",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "02885",
+        "date": "2019-10-31",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 3540,
+        "create_date": "2019-08-25 09:32:56",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2019-09-08",
+        "date_to": "2019-09-12",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "02563",
+        "date": "2019-08-25",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 3283,
+        "create_date": "2019-07-02 13:25:05",
+        "duration": 5,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2019-07-07",
+        "date_to": "2019-07-11",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "02307",
+        "date": "2019-07-02",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 3089,
+        "create_date": "2019-05-27 10:20:54",
+        "duration": 2,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2019-05-28",
+        "date_to": "2019-05-29",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": false,
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "02113",
+        "date": "2019-05-27",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 2711,
+        "create_date": "2019-04-04 13:08:44",
+        "duration": 3,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2019-04-07",
+        "date_to": "2019-04-09",
+        "notes": false,
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": [
+          8,
+          "[1007] ماجد بن ناصر بونهيه"
+        ],
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "01735",
+        "date": "2019-04-04",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 2545,
+        "create_date": "2019-03-11 09:37:56",
+        "duration": 1,
+        "holiday_status_id": [
+          5,
+          "إجازة سنوية"
+        ],
+        "date_from": "2019-03-24",
+        "date_to": "2019-03-24",
+        "notes": "إجازة ",
+        "attachment_ids": [],
+        "death_person": false,
+        "substitute_employee_id": false,
+        "refuse_reason": false,
+        "childbirth_date": false,
+        "res_model": "hr.holidays",
+        "name": "01571",
+        "date": "2019-03-11",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "cancel_reason": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "إجازة",
+        "request_type_en": "holiday"
+      },
+      {
+        "id": 6029,
+        "create_date": "2023-04-25 04:52:48",
+        "date_from": "2023-04-26",
+        "date_to": "2023-04-27",
+        "description": "العمل عن بعد ",
+        "reason": false,
+        "name": "06029",
+        "write_date": "2023-04-26 06:13:43",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "res_model": "hr.distance.work",
+        "duration": 2,
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "request_type_ar": "عمل عن بعد",
+        "request_type_en": "distance_work"
+      },
+      {
+        "id": 4224,
+        "create_date": "2022-06-26 04:46:46",
+        "date_from": "2022-06-26",
+        "date_to": "2022-06-26",
+        "description": "حضور الاجتماعات الأسبوعية ومتابعة العمل اليومي..",
+        "reason": false,
+        "name": "04224",
+        "write_date": "2022-06-26 06:25:08",
+        "state": "done",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "res_model": "hr.distance.work",
+        "duration": 1,
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "request_type_ar": "عمل عن بعد",
+        "request_type_en": "distance_work"
+      },
+      {
+        "id": 6839,
+        "create_date": "2020-10-05 09:17:02",
+        "name": "عطل في مايكرفون اللابتوب وشاشة الكمبيوتر",
+        "priority": "3",
+        "ticket_type_id": [
+          29,
+          "شاشة كمبيوتر"
+        ],
+        "class_id": [
+          29,
+          "تقني"
+        ],
+        "location_id": [
+          5,
+          "الرياض - المبنى الرئيسي - الدور الثالث"
+        ],
+        "team_id": [
+          1,
+          "Support"
+        ],
+        "description": "المايك الخاص باللابتوب غير واضح أثناء الاجتماعات وشاشة الكمبيوتر المكتبي لا تعمل ",
+        "category_id": [
+          96,
+          "إصلاح"
+        ],
+        "attachment_ids": [],
+        "open_date": "2020-10-05",
+        "stage_id": [
+          3,
+          "تم حل الطلب"
+        ],
+        "res_model": "helpdesk.ticket",
+        "request_type_ar": "تذكرة دعم",
+        "request_type_en": "help_desk"
+      },
+      {
+        "id": 1579,
+        "create_date": "2019-03-28 06:03:45",
+        "name": "عطل في شبكة الانترنت",
+        "priority": "3",
+        "ticket_type_id": [
+          38,
+          "البريد الالكتروني"
+        ],
+        "class_id": [
+          29,
+          "تقني"
+        ],
+        "location_id": [
+          5,
+          "الرياض - المبنى الرئيسي - الدور الثالث"
+        ],
+        "team_id": [
+          1,
+          "Support"
+        ],
+        "description": "ما زلت أواجه مشكلة في الدخول لبريدي الالكتروني، نأمل حل المشكلة",
+        "category_id": [
+          96,
+          "إصلاح"
+        ],
+        "attachment_ids": [],
+        "open_date": "2019-03-28",
+        "stage_id": [
+          3,
+          "تم حل الطلب"
+        ],
+        "res_model": "helpdesk.ticket",
+        "request_type_ar": "تذكرة دعم",
+        "request_type_en": "help_desk"
+      },
+      {
+        "id": 1569,
+        "create_date": "2019-03-27 06:17:14",
+        "name": "عطل في شبكة الانترنت",
+        "priority": "3",
+        "ticket_type_id": [
+          29,
+          "شاشة كمبيوتر"
+        ],
+        "class_id": [
+          29,
+          "تقني"
+        ],
+        "location_id": [
+          5,
+          "الرياض - المبنى الرئيسي - الدور الثالث"
+        ],
+        "team_id": [
+          1,
+          "Support"
+        ],
+        "description": "أواجه عطل في شبكة الانترنت في الجهاز المكتبي، نأمل منكم اصلاحها",
+        "category_id": [
+          96,
+          "إصلاح"
+        ],
+        "attachment_ids": [],
+        "open_date": "2019-03-27",
+        "stage_id": [
+          3,
+          "تم حل الطلب"
+        ],
+        "res_model": "helpdesk.ticket",
+        "request_type_ar": "تذكرة دعم",
+        "request_type_en": "help_desk"
+      },
+      {
+        "id": 6952,
+        "create_date": "2020-10-18 09:44:37",
+        "name": "اضافة ارقام بمفضلة الهاتف",
+        "priority": "2",
+        "ticket_type_id": [
+          28,
+          "هاتف"
+        ],
+        "class_id": [
+          29,
+          "تقني"
+        ],
+        "location_id": [
+          5,
+          "الرياض - المبنى الرئيسي - الدور الثالث"
+        ],
+        "team_id": [
+          2,
+          "فريق صيانة الاجهزة"
+        ],
+        "description": "اضافة تحويلات بمفضلة الهاتف لتسهيل عملية الاتصال وهم كالتالي:\r\nسعادة المحافظ\r\nد.رياض آل الشيخ\r\nماجد بونهية\r\nسعد الربيعة\r\nمحمد السماري\r\nأروى الضبيعي\r\nTea Boy",
+        "category_id": [
+          97,
+          "طلب"
+        ],
+        "attachment_ids": [],
+        "open_date": "2020-10-18",
+        "stage_id": [
+          3,
+          "تم حل الطلب"
+        ],
+        "res_model": "helpdesk.ticket",
+        "request_type_ar": "تذكرة دعم",
+        "request_type_en": "help_desk"
+      },
+      {
+        "id": 7120,
+        "create_date": "2020-11-04 12:10:47",
+        "name": "Share my calendar",
+        "priority": "1",
+        "ticket_type_id": [
+          38,
+          "البريد الالكتروني"
+        ],
+        "class_id": [
+          29,
+          "تقني"
+        ],
+        "location_id": [
+          5,
+          "الرياض - المبنى الرئيسي - الدور الثالث"
+        ],
+        "team_id": [
+          1,
+          "Support"
+        ],
+        "description": "مشاركة جدولي full details مع الزميلة عبير العنزي بإدارة الشراكات",
+        "category_id": [
+          90,
+          "طلب"
+        ],
+        "attachment_ids": [],
+        "open_date": "2020-11-04",
+        "stage_id": [
+          3,
+          "تم حل الطلب"
+        ],
+        "res_model": "helpdesk.ticket",
+        "request_type_ar": "تذكرة دعم",
+        "request_type_en": "help_desk"
+      },
+      {
+        "id": 3140,
+        "number": "02732",
+        "order_date": "2022-03-03",
+        "state": "done",
+        "create_date": "2022-03-03 10:53:24",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": "",
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2784,
+        "number": "02372",
+        "order_date": "2021-10-11",
+        "state": "done",
+        "create_date": "2021-10-11 10:48:39",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_payslip",
+        "notes": "3 أشهر",
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2716,
+        "number": "02304",
+        "order_date": "2021-09-26",
+        "state": "done",
+        "create_date": "2021-09-26 08:04:29",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2698,
+        "number": "02286",
+        "order_date": "2021-09-21",
+        "state": "done",
+        "create_date": "2021-09-21 07:00:10",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "total_salary",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2697,
+        "number": "02285",
+        "order_date": "2021-09-21",
+        "state": "done",
+        "create_date": "2021-09-21 06:59:18",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2683,
+        "number": "02271",
+        "order_date": "2021-09-19",
+        "state": "done",
+        "create_date": "2021-09-19 06:35:36",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "total_salary",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2370,
+        "number": "01958",
+        "order_date": "2021-06-06",
+        "state": "done",
+        "create_date": "2021-06-06 08:33:25",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2368,
+        "number": "01956",
+        "order_date": "2021-06-06",
+        "state": "done",
+        "create_date": "2021-06-06 08:17:54",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "total_salary",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2253,
+        "number": "01841",
+        "order_date": "2021-04-17",
+        "state": "done",
+        "create_date": "2021-04-17 22:17:33",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 2053,
+        "number": "01641",
+        "order_date": "2021-01-28",
+        "state": "done",
+        "create_date": "2021-01-28 08:49:22",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1884,
+        "number": "01472",
+        "order_date": "2020-11-17",
+        "state": "done",
+        "create_date": "2020-11-17 08:33:36",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": [
+          118,
+          "خطاب تعريف بالراتب"
+        ],
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1805,
+        "number": "01393",
+        "order_date": "2020-09-30",
+        "state": "done",
+        "create_date": "2020-09-30 13:54:26",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1620,
+        "number": "01208",
+        "order_date": "2020-06-08",
+        "state": "done",
+        "create_date": "2020-06-08 07:28:38",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_detail",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1561,
+        "number": "01149",
+        "order_date": "2020-04-30",
+        "state": "done",
+        "create_date": "2020-04-30 11:43:36",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1376,
+        "number": "00964",
+        "order_date": "2020-01-09",
+        "state": "done",
+        "create_date": "2020-01-09 11:05:09",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1368,
+        "number": "00956",
+        "order_date": "2020-01-05",
+        "state": "done",
+        "create_date": "2020-01-05 15:51:21",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1316,
+        "number": "00904",
+        "order_date": "2019-12-03",
+        "state": "done",
+        "create_date": "2019-12-03 06:42:11",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1099,
+        "number": "00687",
+        "order_date": "2019-09-16",
+        "state": "done",
+        "create_date": "2019-09-16 12:57:47",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 1050,
+        "number": "00638",
+        "order_date": "2019-09-01",
+        "state": "done",
+        "create_date": "2019-09-01 06:09:14",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 987,
+        "number": "00575",
+        "order_date": "2019-08-04",
+        "state": "done",
+        "create_date": "2019-08-04 08:42:26",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 820,
+        "number": "00408",
+        "order_date": "2019-06-10",
+        "state": "done",
+        "create_date": "2019-06-10 06:29:20",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      },
+      {
+        "id": 787,
+        "number": "00375",
+        "order_date": "2019-05-16",
+        "state": "done",
+        "create_date": "2019-05-16 08:25:18",
+        "employee_id": [
+          305,
+          "[1316] سامي بن إبراهيم الحسيني"
+        ],
+        "destination_id": false,
+        "type": "salary_identification",
+        "notes": false,
+        "res_model": "salary.identification.request",
+        "download_link": false,
+        "open_link": false,
+        "refuse_reason": false,
+        "template_id": false,
+        "department_global_id": [
+          413,
+          "مكتب المحافظ / مكتب المحافظ"
+        ],
+        "sector_id": [
+          39,
+          "مكتب المحافظ"
+        ],
+        "request_type_ar": "طلب تعريف راتب",
+        "request_type_en": "salary_request"
+      }
+    ]
+  }
+}

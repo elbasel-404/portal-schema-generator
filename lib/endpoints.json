@@ -1,5 +1,20 @@
 [
   {
+    "name": "transaction-list",
+    "url": "po/read/retrieve-my-requests",
+    "createUrl": null,
+    "description": "get my request",
+    "method": "POST",
+    "listRequestBody": {
+      "employee_id": 305
+    },
+
+    "detailsRequestBody": {
+      "employee_id": 305
+    },
+    "createRequestBody": null
+  },
+  {
     "name": "ad-news",
     "url": "po/read/portal-news",
     "createUrl": null,
