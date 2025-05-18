@@ -1,70 +1,108 @@
 // scripts/generate.ts
+
+import endpoints from "@lib/endpoints.json";
 import { ResponseSchema } from "@schemas/responseSchema";
 import { getFetchHeaders, getFetchUrl } from "@utils/http";
 import { writeStringToFile } from "@utils/io";
 import { getModelZodSchema } from "@utils/model";
+import { mkdirSync } from "fs";
+import { dirname } from "path";
 
 const SCHEMAS_DIR = "./schemas";
-// const TYPES_DIR = "./types";
 const JSON_DIR = "./json";
 
-import endpoints from "@lib/endpoints.json";
-import { getLogger } from "@utils/io/getLogger";
+type Endpoint = {
+  name: string;
+  url: string;
+  method: string;
+  listRequestBody?: Record<string, any>;
+};
 
-const logger = getLogger({ logFileName: "generate" });
+const ensureDir = (path: string) => {
+  try {
+    mkdirSync(dirname(path), { recursive: true });
+  } catch (err) {
+    console.error("Failed to create directory:", err);
+  }
+};
 
-const fetchHeaders = await getFetchHeaders();
-endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
-  const fetchUrl = await getFetchUrl(url);
-  console.log(`fetching ${fetchUrl}`);
-  const response = await fetch(fetchUrl, {
-    method: method,
-    headers: fetchHeaders.headers,
-    body: JSON.stringify(listRequestBody),
-  });
+const main = async () => {
+  let successfulCount = 0;
+  let errorCount = 0;
+  const fetchHeaders = await getFetchHeaders();
 
-  // ! raw response
-  const responseJson = await response.json();
-  const responseJsonString = JSON.stringify(responseJson, null, 2);
+  for (const {
+    name,
+    url,
+    method,
+    listRequestBody,
+  } of endpoints as Endpoint[]) {
+    try {
+      const fetchUrl = await getFetchUrl(url);
+      console.log("\x1b[33m%s\x1b[0m", `fetching ${name}\n`);
+      // console.log(`url ${fetchUrl}`);
 
-  const responseJsonFilePath = `./${JSON_DIR}/${name}/raw.json`;
-  await writeStringToFile({
-    filePath: responseJsonFilePath,
-    data: responseJsonString,
-  });
+      const response = await fetch(fetchUrl, {
+        verbose: true,
+        method,
+        headers: fetchHeaders.headers,
+        body: listRequestBody ? JSON.stringify(listRequestBody) : undefined,
+      });
 
-  // ! validate raw response
-  const validatedResponseJson = ResponseSchema.parse(responseJson);
-  const { id, jsonrpc, result } = validatedResponseJson;
-  const {
-    statusCode: responseStatusCode,
-    status: responseStatus,
-    data: responseData,
-  } = result;
+      if (response.ok) {
+        successfulCount++;
+      } else {
+        errorCount++;
+      }
+      console.log(
+        "\x1b[34m%s\x1b[0m",
+        "------------------------------------------------------------"
+      );
 
-  // ! result json
-  const dataJsonString = JSON.stringify(responseData, null, 2);
-  const dataJsonFilePath = `./${JSON_DIR}/${name}/data.json`;
-  await writeStringToFile({
-    filePath: dataJsonFilePath,
-    data: dataJsonString,
-  });
+      // ! Parse JSON
+      const responseJson = await response.json();
+      const responseJsonString = JSON.stringify(responseJson, null, 2);
+      const responseJsonFilePath = `${JSON_DIR}/${name}/raw.json`;
+      ensureDir(responseJsonFilePath);
+      await writeStringToFile({
+        filePath: responseJsonFilePath,
+        data: responseJsonString,
+      });
 
-  //  ! zod schema
-  const responseDataZodSchema = await getModelZodSchema(name, dataJsonString);
-  const responseDataZodSchemaFilePath = `./${SCHEMAS_DIR}/${name}/schema.ts`;
-  await writeStringToFile({
-    filePath: responseDataZodSchemaFilePath,
-    data: responseDataZodSchema,
-  });
+      // ! validate response
+      const validatedResponseJson = ResponseSchema.parse(responseJson);
+      const { result } = validatedResponseJson;
+      const {
+        statusCode: responseStatusCode,
+        status: responseStatus,
+        data: responseData,
+      } = result;
 
-  logger.info({
-    data: {
-      name,
-      status: responseStatus,
-      statusCode: responseStatusCode,
-      numItems: responseData.length + " items ",
-      message: "success",
-    },
-  });
+      // ! Write data.json
+      const dataJsonString = JSON.stringify(responseData, null, 2);
+      const dataJsonFilePath = `${JSON_DIR}/${name}/data.json`;
+      ensureDir(dataJsonFilePath);
+      await writeStringToFile({
+        filePath: dataJsonFilePath,
+        data: dataJsonString,
+      });
+
+      // ! Generate and write Zod schema
+      const zodSchema = await getModelZodSchema(name, dataJsonString);
+      const zodSchemaFilePath = `${SCHEMAS_DIR}/${name}/schema.ts`;
+      ensureDir(zodSchemaFilePath);
+      await writeStringToFile({
+        filePath: zodSchemaFilePath,
+        data: zodSchema,
+      });
+    } catch (error) {
+      console.error(`\x1b[31mError processing ${name}:\x1b[0m`, error);
+    }
+  }
+  console.log("Fetched all endpoints");
+  console.log({ successfulCount, errorCount });
+};
+
+main().catch((err) => {
+  console.error("Fatal error in script:", err);
 });

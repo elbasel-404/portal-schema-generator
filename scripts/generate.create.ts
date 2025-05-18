@@ -6,200 +6,166 @@ import endpoints from "@lib/endpoints.json";
 import { CreateErrorSchema } from "@schemas/CreateErrorSchema";
 import { CreateSuccessSchema } from "@schemas/CreateSuccessSchema";
 import { getFetchHeaders, getFetchUrl } from "@utils/http";
-import { writeStringToFile } from "@utils/io";
-import { clearFileContents } from "@utils/io/clearFileContents";
-import { clearLogs } from "@utils/io/clearLogs";
+import {
+  writeStringToFile,
+  clearFileContents,
+  clearLogs,
+  readJsonFile,
+} from "@utils/io";
 import { getLogger } from "@utils/io/getLogger";
-import { readJsonFile } from "@utils/io/readJsonFile";
-import { isEmptyObject } from "@utils/isEmptyObject";
 import { getModelZodSchema } from "@utils/model";
 
-type GenerateRequestBodySchemaArgs = {
-  endpointName: string;
-  createRequestBody: object;
+type Endpoint = {
+  name: string;
+  method: string;
+  createUrl: string;
+  createRequestBody: Record<string, any>;
 };
-const generateRequestBodySchema = async ({
-  createRequestBody,
-  endpointName,
-}: GenerateRequestBodySchemaArgs) => {
-  const createRequestBodyJsonString = JSON.stringify(
-    createRequestBody,
-    null,
-    2
-  );
+
+const logger = getLogger({ logFileName: "generate.create" });
+const allEndpoints = endpoints as Endpoint[];
+
+/** Write Zod schema for request body */
+async function generateRequestBodySchema(endpointName: string, body: object) {
   const schema = await getModelZodSchema(
-    endpointName + "CreateRequestBody",
-    createRequestBodyJsonString
+    `${endpointName}CreateRequestBody`,
+    JSON.stringify(body, null, 2)
   );
 
   const filePath = `./schemas/${endpointName}/create.body.schema.ts`;
-
-  await writeStringToFile({
-    data: schema,
-    filePath,
-  });
+  await writeStringToFile({ filePath, data: schema });
   return filePath;
-};
+}
 
-const generateCreateRaw = async ({
+/** Fetch raw create response and save it */
+async function fetchAndSaveRawCreate({
   endpointName,
-  fetchUrl,
+  url,
   method,
   headers,
-  formData,
+  body,
 }: {
   endpointName: string;
-  fetchUrl: string;
+  url: string;
   method: string;
   headers: Headers;
-  formData: FormData;
-}) => {
-  const response = await fetch(fetchUrl, {
+  body: FormData;
+}) {
+  const response = await fetch(url, { method, headers, body });
+
+  let json = {};
+  try {
+    json = await response.json();
+  } catch (err) {
+    console.error(`Failed to parse JSON for ${endpointName}`, err);
+  }
+
+  const filePath = `./json/${endpointName}/raw.create.json`;
+  await writeStringToFile({ filePath, data: JSON.stringify(json, null, 2) });
+
+  return filePath;
+}
+
+/** Main processor for a single endpoint */
+async function processEndpoint(endpoint: Endpoint) {
+  const { name, createUrl, method, createRequestBody } = endpoint;
+
+  if (!createUrl) {
+    return logger.error({
+      title: `${name}: createUrl not found`,
+      data: "Skipped endpoint due to missing URL",
+      errorFilePath: "./scripts/generate.create.ts",
+    });
+  }
+
+  if (!createRequestBody) {
+    return logger.error({
+      title: `${name}: createRequestBody is missing`,
+      data: "Skipped endpoint due to missing request body",
+      errorFilePath: "./scripts/generate.create.ts",
+    });
+  }
+
+  console.log(`Processing ${name}...`);
+
+  const schemaPath = await generateRequestBodySchema(name, createRequestBody);
+  console.log(`Request schema written: ${schemaPath}`);
+
+  const fetchUrl = await getFetchUrl(createUrl);
+  const { headers: baseHeaders } = await getFetchHeaders();
+
+  const headers = new Headers({
+    Authorization: baseHeaders.Authorization,
+    "x-api-key": baseHeaders["x-api-key"],
+    Cookie: baseHeaders.Cookie,
+  });
+
+  const formData = new FormData();
+  for (const [key, value] of Object.entries(createRequestBody)) {
+    formData.append(key, value);
+  }
+
+  const rawPath = await fetchAndSaveRawCreate({
+    endpointName: name,
+    url: fetchUrl,
     method,
     headers,
     body: formData,
   });
-  let responseJson = {};
+
+  const rawData = await readJsonFile({ filePath: rawPath });
+  if (!rawData || !rawData.length) {
+    return logger.error({
+      title: `${name}: Empty response`,
+      data: "Raw data was empty",
+      errorFilePath: "./scripts/generate.create.ts",
+    });
+  }
+
+  const rawItem = rawData[0];
+  const schema = rawItem?.error ? CreateErrorSchema : CreateSuccessSchema;
+
   try {
-    responseJson = await response.json();
-  } catch (error) {
-    // console.log(await response.text());
-    console.log(error);
-    console.log({
-      endpointName,
-      fetchUrl,
-      method,
-      headers,
-      formData,
+    const validated = schema.parse(rawItem);
+    const dataPath = `./json/${name}/data.create.json`;
+    await writeStringToFile({
+      filePath: dataPath,
+      data: JSON.stringify(validated, null, 2),
     });
-  }
-  const filePath = `./json/${endpointName}/raw.create.json`;
-  const data = JSON.stringify(responseJson, null, 2);
 
-  await writeStringToFile({ filePath, data });
-  return filePath;
-};
-
-const logger = getLogger({
-  logFileName: "generate.create",
-});
-type Endpoint = {
-  createUrl: string;
-  method: string;
-  name: string;
-  createRequestBody: object;
-};
-
-const allEndpoints = endpoints as Endpoint[];
-
-const processEndpoint = async (ep: Endpoint) => {
-  const { createUrl, method, name, createRequestBody } = ep;
-  console.log({
-    name,
-    createRequestBody,
-  });
-  console.log({
-    name,
-    createRequestBody,
-  });
-
-  if (!createUrl) {
+    await logger.info({
+      title: `${name}: SUCCESS`,
+      data: validated,
+    });
+  } catch (validationError) {
     await logger.error({
-      title: `${name}: createUrl not found`,
-      data: `${name}: skipped..`,
+      title: `${name}: Validation failed`,
+      data: JSON.stringify(validationError),
       errorFilePath: "./scripts/generate.create.ts",
     });
-    return;
+  }
+}
+
+/** Sequentially process all endpoints */
+async function main() {
+  await clearFileContents(STATS_COUNTS_FILE_PATH);
+  await clearFileContents(STATS_LOGFILES_FILE_PATH);
+  await clearLogs();
+
+  for (const endpoint of allEndpoints) {
+    await processEndpoint(endpoint);
   }
 
-  if (!createRequestBody) {
-    await logger.error({
-      title: `${name}: createRequestBody is empty: `,
-      data: `${name}, skipped..`,
-      errorFilePath: "./scripts/generate.create.ts",
-    });
-    return;
+  console.log("Generated Files:");
+
+  const counts = await readJsonFile({ filePath: STATS_COUNTS_FILE_PATH });
+  console.log(counts);
+
+  const logs = await readJsonFile({ filePath: STATS_LOGFILES_FILE_PATH });
+  console.log("Log Files:");
+  for (const file of logs || []) {
+    console.log(file);
   }
+}
 
-  const requestBodySchemaFilePath = await generateRequestBodySchema({
-    createRequestBody,
-    endpointName: name,
-  });
-  console.log(requestBodySchemaFilePath);
-
-  const fetchURL = await getFetchUrl(createUrl);
-  const { headers: detailsHeaders } = await getFetchHeaders();
-  const headers = new Headers();
-  headers.append("Authorization", detailsHeaders.Authorization);
-  headers.append("x-api-key", detailsHeaders["x-api-key"]);
-  headers.append("Cookie", detailsHeaders.Cookie);
-
-  const formData = new FormData();
-  Object.entries(createRequestBody ?? {}).forEach(([key, value]) => {
-    formData.append(key, value);
-  });
-
-  const rawFilePath = await generateCreateRaw({
-    endpointName: name,
-    fetchUrl: fetchURL,
-    method,
-    headers,
-    formData,
-  });
-
-  console.log(rawFilePath);
-  const rawDataArray = await readJsonFile({
-    filePath: rawFilePath,
-  });
-
-  if (!rawDataArray) {
-    await logger.error({
-      title: `${name}: ${rawFilePath} is empty: `,
-      data: `${name} skipped..`,
-      errorFilePath: "./scripts/generate.create.ts",
-    });
-    return;
-  }
-
-  const rawObject = rawDataArray[0];
-  const isError = !!rawObject?.error;
-
-  const rawObjectSchema = isError ? CreateErrorSchema : CreateSuccessSchema;
-  const validatedData = rawObjectSchema.parse(rawObject);
-  const validatedDataFilePath = `./json/${name}/data.create.json`;
-  await writeStringToFile({
-    data: JSON.stringify(validatedData, null, 2),
-    filePath: validatedDataFilePath,
-  });
-
-  await logger.info({
-    title: `${name}: SUCCESS`,
-    data: rawObject,
-  });
-};
-
-await clearFileContents(STATS_COUNTS_FILE_PATH);
-await clearFileContents(STATS_LOGFILES_FILE_PATH);
-await clearLogs();
-
-const main = async () => {
-  await Promise.all(allEndpoints.map(processEndpoint));
-};
-
-console.log("Generated Files:");
 await main();
-
-const loggedDataCount = await readJsonFile({
-  filePath: STATS_COUNTS_FILE_PATH,
-});
-
-const logFiles = await readJsonFile({
-  filePath: STATS_LOGFILES_FILE_PATH,
-});
-
-console.log(loggedDataCount);
-
-console.log("Log Files:");
-logFiles.forEach(async (logFile: string) => {
-  console.log(logFile);
-});

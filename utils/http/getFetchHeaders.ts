@@ -28,6 +28,7 @@ export const getFetchHeaders = async () => {
     Authorization: `Bearer ${BEARER_TOKEN}`,
     "Content-Type": "application/json",
     Cookie: `session_id=${SESSION_ID}`,
+    "Accept-Encoding": "identity",
   };
   return { headers };
 };
