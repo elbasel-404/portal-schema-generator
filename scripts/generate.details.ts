@@ -99,7 +99,7 @@ const main = async () => {
       console.error(`\x1b[31mError processing ${name}:\x1b[0m`, error);
     }
   }
-  console.log("Fetched all endpoints");
+  console.log("\x1b[32m%s\x1b[0m", "Fetched all endpoints");
   console.log({ successfulCount, errorCount });
 };
 
