@@ -4,3 +4,6 @@ export { doesFileExist } from "./doesFileExist";
 export { writeStringToFile } from "./writeStringToFile";
 export { copyFileToAnotherLocation } from "./copyFileToAnotherLocation";
 export { deleteDirectory } from "./deleteDirectory";
+export { clearLogs } from "./clearLogs";
+export { readJsonFile } from "./readJsonFile";
+export { clearFileContents } from "./clearFileContents";
