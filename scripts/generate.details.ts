@@ -16,6 +16,7 @@ const logger = getLogger({ logFileName: "generate" });
 const fetchHeaders = await getFetchHeaders();
 endpoints.forEach(async ({ name, url, method, listRequestBody }) => {
   const fetchUrl = await getFetchUrl(url);
+  console.log(`fetching ${fetchUrl}`);
   const response = await fetch(fetchUrl, {
     method: method,
     headers: fetchHeaders.headers,
