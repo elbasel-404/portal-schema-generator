@@ -180,5 +180,14 @@
     "description": "Get bank details requests",
     "listRequestBody": {},
     "createRequestBody": null
+  },
+  {
+    "name": "profile",
+    "createUrl": null,
+    "url": "po/read/profile",
+    "method": "POST",
+    "description": "get employee profile",
+    "listRequestBody": {},
+    "createRequestBody": null
   }
 ]

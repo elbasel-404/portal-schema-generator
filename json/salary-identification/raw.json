@@ -6,6 +6,237 @@
     "status": "success",
     "data": [
       {
+        "id": 6064,
+        "number": "05655",
+        "order_date": "2025-05-19",
+        "employee_id": [
+          447,
+          "[1401] حمد بن يوسف القشيميط"
+        ],
+        "destination_id": [
+          38,
+          "البنك الأهلي السعودي"
+        ],
+        "type": "salary_detail",
+        "speech_lang": false,
+        "state": "done",
+        "partner_id": false,
+        "template_id": [
+          243,
+          "خطاب تعريف بتفاصيل الراتب"
+        ],
+        "refuse_reason": false,
+        "notes": "",
+        "active": true,
+        "account_status": "",
+        "bank_id": [],
+        "acc_number": "",
+        "download_link": "/web/content/181782?download=true&filename=Salary_Request_6064.pdf&access_token=0f6d9f68-e7e4-4f11-8d0a-540f0d6f0f90",
+        "open_link": "/web/content/181782?filename=Salary_Request_6064.pdf&access_token=0f6d9f68-e7e4-4f11-8d0a-540f0d6f0f90",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
+        "message_follower_ids": [
+          12954480
+        ],
+        "message_ids": [
+          168135374,
+          168135373,
+          168135372
+        ],
+        "message_last_post": false,
+        "website_message_ids": [],
+        "create_uid": [
+          1,
+          "Administrator"
+        ],
+        "create_date": "2025-05-19 14:31:02",
+        "write_uid": [
+          1,
+          "Administrator"
+        ],
+        "write_date": "2025-05-19 14:31:02",
+        "eng_destination": "Saudi National Bank",
+        "template_name": "خطاب تعريف بتفاصيل الراتب",
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
+        "allowance_mobile": 500,
+        "designation_mandated_amount": 0,
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ],
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "[1401] حمد بن يوسف القشيميط",
+        "__last_update": "2025-05-19 14:31:02"
+      },
+      {
+        "id": 6063,
+        "number": "05654",
+        "order_date": "2025-05-18",
+        "employee_id": [
+          447,
+          "[1401] حمد بن يوسف القشيميط"
+        ],
+        "destination_id": [
+          37,
+          "البنك السعودي الأول"
+        ],
+        "type": "salary_detail",
+        "speech_lang": false,
+        "state": "done",
+        "partner_id": false,
+        "template_id": [
+          243,
+          "خطاب تعريف بتفاصيل الراتب"
+        ],
+        "refuse_reason": false,
+        "notes": "",
+        "active": true,
+        "account_status": "",
+        "bank_id": [],
+        "acc_number": "",
+        "download_link": "/web/content/181729?download=true&filename=Salary_Request_6063.pdf&access_token=4eb521d8-3d00-4fab-9878-a10bb5db8251",
+        "open_link": "/web/content/181729?filename=Salary_Request_6063.pdf&access_token=4eb521d8-3d00-4fab-9878-a10bb5db8251",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
+        "message_follower_ids": [
+          12954466
+        ],
+        "message_ids": [
+          168135336,
+          168135335,
+          168135334
+        ],
+        "message_last_post": false,
+        "website_message_ids": [],
+        "create_uid": [
+          1,
+          "Administrator"
+        ],
+        "create_date": "2025-05-18 13:58:11",
+        "write_uid": [
+          1,
+          "Administrator"
+        ],
+        "write_date": "2025-05-18 13:58:11",
+        "eng_destination": "Saudi Awwal Bank",
+        "template_name": "خطاب تعريف بتفاصيل الراتب",
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
+        "allowance_mobile": 500,
+        "designation_mandated_amount": 0,
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ],
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "[1401] حمد بن يوسف القشيميط",
+        "__last_update": "2025-05-18 13:58:11"
+      },
+      {
+        "id": 6062,
+        "number": "05653",
+        "order_date": "2025-05-18",
+        "employee_id": [
+          447,
+          "[1401] حمد بن يوسف القشيميط"
+        ],
+        "destination_id": [
+          38,
+          "البنك الأهلي السعودي"
+        ],
+        "type": "salary_detail",
+        "speech_lang": false,
+        "state": "done",
+        "partner_id": false,
+        "template_id": [
+          243,
+          "خطاب تعريف بتفاصيل الراتب"
+        ],
+        "refuse_reason": false,
+        "notes": "",
+        "active": true,
+        "account_status": "",
+        "bank_id": [],
+        "acc_number": "",
+        "download_link": "/web/content/181728?download=true&filename=Salary_Request_6062.pdf&access_token=49a40a97-d68c-4498-aeef-f19c1c09c420",
+        "open_link": "/web/content/181728?filename=Salary_Request_6062.pdf&access_token=49a40a97-d68c-4498-aeef-f19c1c09c420",
+        "res_model": "salary.identification.request",
+        "is_from_mobile": false,
+        "message_follower_ids": [
+          12954465
+        ],
+        "message_ids": [
+          168135333,
+          168135332,
+          168135331
+        ],
+        "message_last_post": false,
+        "website_message_ids": [],
+        "create_uid": [
+          1,
+          "Administrator"
+        ],
+        "create_date": "2025-05-18 09:59:30",
+        "write_uid": [
+          1,
+          "Administrator"
+        ],
+        "write_date": "2025-05-18 09:59:30",
+        "eng_destination": "Saudi National Bank",
+        "template_name": "خطاب تعريف بتفاصيل الراتب",
+        "basic_salary": 17268.27,
+        "allowance_housing": 4317.0675,
+        "allowance_transportation": 1726.8270000000002,
+        "allowance_mobile": 500,
+        "designation_mandated_amount": 0,
+        "department_global_id": [
+          32,
+          "خدمات المنشآت / التقنية والحلول الرقمية"
+        ],
+        "sector_id": [
+          12,
+          "خدمات المنشآت"
+        ],
+        "message_is_follower": true,
+        "message_partner_ids": [
+          3
+        ],
+        "message_channel_ids": [],
+        "message_unread": false,
+        "message_unread_counter": 0,
+        "message_needaction": false,
+        "message_needaction_counter": 0,
+        "display_name": "[1401] حمد بن يوسف القشيميط",
+        "__last_update": "2025-05-18 09:59:30"
+      },
+      {
         "id": 6034,
         "number": "05625",
         "order_date": "2025-04-28",
