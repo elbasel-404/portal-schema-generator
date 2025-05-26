@@ -1,0 +1,35 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "statusCode": 200,
+    "status": "success",
+    "data": [
+      {
+        "id": 4,
+        "name": "ممتاز",
+        "display_name": "ممتاز"
+      },
+      {
+        "id": 5,
+        "name": "مؤهل بشكل عالي",
+        "display_name": "مؤهل بشكل عالي"
+      },
+      {
+        "id": 6,
+        "name": "مؤهل",
+        "display_name": "مؤهل"
+      },
+      {
+        "id": 7,
+        "name": "أقل من المستوى المطلوب",
+        "display_name": "أقل من المستوى المطلوب"
+      },
+      {
+        "id": 8,
+        "name": "ضعيف",
+        "display_name": "ضعيف"
+      }
+    ]
+  }
+}

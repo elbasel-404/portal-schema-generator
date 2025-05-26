@@ -1,0 +1,42 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "result": {
+    "statusCode": 200,
+    "status": "success",
+    "data": [
+      {
+        "id": 489,
+        "name": "00488",
+        "number": "1750",
+        "employee_id": [
+          1711,
+          "[1750] محمود  بن ناصر  البكر"
+        ],
+        "recommendation": "pass",
+        "date": "2023-05-30",
+        "date_hiring": "2023-02-02",
+        "date_probation_end": "2023-05-15",
+        "recruiter_date": false,
+        "attachment_ids": [],
+        "state": "done",
+        "notes": false,
+        "probation_line_ids": [],
+        "reason": false,
+        "set_to_draft_reason": false,
+        "workflow_user_ids": [],
+        "job_id": [
+          1785,
+          "قائد فريق إدارة الخدمات الرقمية"
+        ],
+        "department_id": [
+          441,
+          "خدمات المنشآت / التقنية والحلول الرقمية / الحلول الرقمية / إدارة الخدمات الرقمية"
+        ],
+        "can_submit": false,
+        "can_refuse": false,
+        "can_approve": false
+      }
+    ]
+  }
+}
