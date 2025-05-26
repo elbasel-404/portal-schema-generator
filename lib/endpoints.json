@@ -189,5 +189,62 @@
     "description": "get employee profile",
     "listRequestBody": {},
     "createRequestBody": null
+  },
+  {
+    "name": "recommendations",
+    "url": "po/hr/application/read",
+    "createUrl": null,
+    "method": "POST",
+    "description": "Get recommendations requests",
+    "listRequestBody": {
+      "employee_id": 1711
+    },
+    "detailsRequestBody": {
+      "id": 150
+    },
+    "createRequestBody": null
+  },
+  {
+    "name": "probation-evaluation",
+    "url": "po/hr/probation-evaluation",
+    "createUrl": "po/hr/probation-evaluation/create",
+    "method": "POST",
+    "description": "Get probation evaluation requests",
+    "listRequestBody": {
+      "employee_id": 1711
+    },
+    "detailsRequestBody": {
+      "id": 150
+    },
+    "createRequestBody":{
+      "employee_id": "1711",
+      "recommendation": "pass",
+      "question_id12": "12",
+      "answer_id12": "5",
+      "question_id13": "13",
+      "answer_id13": "5",
+      "question_id14": "14",
+      "answer_id14": "5",
+      "question_id15": "15",
+      "answer_id15": "5",
+      "question_id16": "16",
+      "answer_id16": "5",
+      "question_id17": "17",
+      "answer_id17": "5",
+      "question_id18": "18",
+      "answer_id18": "5",
+      "notes": "test from api",
+      "attachment_ids": []
+    }
+  },
+  {
+    "name": "probation-evaluation-employees",
+    "url": "po/hr/probation-evaluation/fields",
+    "createUrl": null,
+    "method": "POST",
+    "description": "Get probation evaluation requests for employees",
+    "listRequestBody": {
+      "field_name": "answers"
+    }
   }
 ]
