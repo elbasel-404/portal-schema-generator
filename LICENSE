@@ -1,0 +1,112 @@
+MIT License
+
+Copyright (c) 2024 Portal API Generator Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Third-Party Licenses
+
+This project includes the following third-party software:
+
+### quicktype-core
+- **License**: Apache License 2.0
+- **Copyright**: Copyright (c) Microsoft Corporation
+- **Homepage**: https://github.com/quicktype/quicktype
+- **Used for**: Code generation from JSON to TypeScript/Zod schemas
+
+### Zod
+- **License**: MIT License
+- **Copyright**: Copyright (c) 2020 Colin McDonnell
+- **Homepage**: https://github.com/colinhacks/zod
+- **Used for**: Runtime type validation and schema definition
+
+### TypeScript
+- **License**: Apache License 2.0
+- **Copyright**: Copyright (c) Microsoft Corporation
+- **Homepage**: https://github.com/microsoft/TypeScript
+- **Used for**: Type safety and compilation
+
+### Bun (Peer Dependency)
+- **License**: MIT License
+- **Copyright**: Copyright (c) Jarred Sumner
+- **Homepage**: https://github.com/oven-sh/bun
+- **Used for**: JavaScript runtime and package management
+
+---
+
+## License FAQ
+
+### Can I use this project commercially?
+Yes, the MIT license allows commercial use without restrictions.
+
+### Do I need to include the license in my project?
+If you distribute this software or substantial portions of it, you must include the original copyright notice and license.
+
+### Can I modify the code?
+Yes, you can modify the code for any purpose, including commercial projects.
+
+### What are my obligations?
+You must include the copyright notice and license text when distributing the software.
+
+### Can I patent features I add?
+Yes, but the original code remains under MIT license.
+
+---
+
+## Contribution License Agreement
+
+By contributing to this project, you agree that your contributions will be licensed under the same MIT License that covers the project. This ensures that the project remains free and open source.
+
+### What this means:
+- Your contributions become part of the open source project
+- Others can use your contributions under the MIT license
+- You retain copyright to your contributions
+- You grant the project rights to use your contributions
+
+---
+
+## Attribution
+
+If you use this project, attribution is appreciated but not required. You can attribute by:
+
+- Mentioning "Portal API Generator" in your project documentation
+- Linking to this repository: https://github.com/elbasel42/portal-api-gen
+- Including this project in your dependencies acknowledgments
+
+Example attribution:
+```
+This project uses Portal API Generator (https://github.com/elbasel42/portal-api-gen)
+for generating type-safe API schemas.
+```
+
+---
+
+## Disclaimer
+
+This software is provided "as is" without warranty of any kind. The authors are not responsible for any damages or issues that may arise from using this software.
+
+For production use, please:
+- Test thoroughly in your environment
+- Review the generated code
+- Implement appropriate error handling
+- Follow security best practices
+
+---
+
+*Last updated: January 2024*
