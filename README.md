@@ -9,6 +9,7 @@ The main entrypoint is the endpoints.json file which the tools pulls the data fr
 
 ---
 
+Please note that the below documentation has been generated using AI, expect a margin of error, however stable for the most part.
 
 A TypeScript utility for generating type-safe API schemas and interfaces from portal endpoints. This tool automatically generates Zod schemas and TypeScript types from JSON API responses, ensuring type safety and reducing boilerplate code in portal applications.
 
