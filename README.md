@@ -1,4 +1,14 @@
 # Portal API Generator
+This project was built to ensure type safety across api calls, improve developer experience and accelerate mainstream development.
+
+To work on [https://github.com/elbasel-404/Internal-Portal](Internal Portal) developers had to manually execute api calls using postman and parse responses/map fields by hand.
+
+A time consuming and error prone way of api discovery, to facilitate runtime validation and troubleshooting this project was made as a companion tool that automatically calls the pre-defined api endpoints with sane default, cache them as json files to ease exploration, generate zod schemas and typescript interfaces.
+
+The main entrypoint is the endpoints.json file which the tools pulls the data from, editing that file and then running the generate command will generate all needed files for smoother integration and type safety.
+
+---
+
 
 A TypeScript utility for generating type-safe API schemas and interfaces from portal endpoints. This tool automatically generates Zod schemas and TypeScript types from JSON API responses, ensuring type safety and reducing boilerplate code in portal applications.
 
