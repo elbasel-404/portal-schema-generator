@@ -1,7 +1,7 @@
 # Portal API Generator
 This project was built to ensure type safety across api calls, improve developer experience and accelerate mainstream development.
 
-To work on [https://github.com/elbasel-404/Internal-Portal](Internal Portal) developers had to manually execute api calls using postman and parse responses/map fields by hand.
+To work on [https://github.com/elbasel-404/Internal-Portal](Internal-Portal) developers had to manually execute api calls using postman and parse responses/map fields by hand.
 
 A time consuming and error prone way of api discovery, to facilitate runtime validation and troubleshooting this project was made as a companion tool that automatically calls the pre-defined api endpoints with sane default, cache them as json files to ease exploration, generate zod schemas and typescript interfaces.
 
