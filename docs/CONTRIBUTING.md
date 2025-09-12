@@ -303,17 +303,3 @@ import type from '@type/interface';
 import constant from '@constants/config';
 ```
 
-## 📞 Getting Help
-
-- **Discussions**: Use GitHub Discussions for questions
-- **Issues**: Create an issue for bugs or feature requests
-- **Email**: [Contact information if available]
-
-## 🙏 Recognition
-
-Contributors will be recognized in:
-- README.md contributors section
-- Release notes for significant contributions
-- GitHub contributors graph
-
-Thank you for contributing to Portal API Generator! 🎉
