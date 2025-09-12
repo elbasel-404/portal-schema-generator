@@ -138,10 +138,6 @@ import { getModelInterface } from '@utils/model';
 const interface = await getModelInterface('UserData', jsonData);
 ```
 
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md) for details.
-
 ### Development Setup
 
 1. Fork the repository
@@ -157,10 +153,6 @@ We welcome contributions! Please see our [Contributing Guide](./CONTRIBUTING.md)
 - Add JSDoc comments for public APIs
 - Use path aliases defined in `tsconfig.json`
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -175,9 +167,3 @@ A: Check your API token and endpoint permissions
 A: Verify the JSON response format is valid
 
 For more help, see our [Troubleshooting Guide](./docs/TROUBLESHOOTING.md).
-
-## 📞 Support
-
-- 📧 Email: [project-email]
-- 🐛 Issues: [GitHub Issues](https://github.com/elbasel42/portal-api-gen/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/elbasel42/portal-api-gen/discussions)
